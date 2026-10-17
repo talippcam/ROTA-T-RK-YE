@@ -1,0 +1,263 @@
+{% load static %}
+
+<!doctype html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{% block title %}Rota Türkiye | Tatil herkesin hakkı{% endblock %}</title>
+
+    <meta 
+        name="description" 
+        content="{% block description %}Türkiye'nin şehirlerini, tatil yerlerini, gezi rotalarını ve yerel lezzetlerini keşfet.{% endblock %}"
+    >
+
+    <meta 
+        name="keywords" 
+        content="Türkiye gezi rehberi, tatil yerleri, gezilecek yerler, şehir rehberi, gezi rotaları"
+    >
+
+    <meta name="author" content="Rota Türkiye">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'travel/style.css' %}">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-white shadow-sm">
+    <div class="container">
+
+        <a class="navbar-brand logo-brand" href="{% url 'home' %}">
+            <span class="logo-title">Rota Türkiye</span>
+            <span class="logo-subtitle">Tatil herkesin hakkı</span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'home' %}">Anasayfa</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'sehirler' %}">Şehirler</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a 
+                        class="nav-link dropdown-toggle" 
+                        href="#" 
+                        role="button" 
+                        data-bs-toggle="dropdown"
+                    >
+                        Keşfet
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                Gezi Rotaları
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="{% url 'gezi_paylasimlari' %}">
+                                Gezi Paylaşımları
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'hakkimizda' %}">Hakkımızda</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link contact-nav-link" href="{% url 'iletisim' %}">
+                        📞 İletişim
+                    </a>
+                </li>
+            </ul>
+
+            <div class="d-flex gap-2 ms-lg-4 align-items-center">
+
+                <div class="dropdown">
+                    <button class="btn btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                        🌐 Dil
+                    </button>
+
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Türkçe</a></li>
+                        <li><a class="dropdown-item disabled" href="#">English - Yakında</a></li>
+                        <li><a class="dropdown-item disabled" href="#">Deutsch - Yakında</a></li>
+                        <li><a class="dropdown-item disabled" href="#">Русский - Yakında</a></li>
+                        <li><a class="dropdown-item disabled" href="#">العربية - Yakında</a></li>
+                    </ul>
+                </div>
+
+                <form class="d-flex search-form" method="get" action="{% url 'arama' %}">
+                    <input 
+                        class="form-control me-2" 
+                        type="search" 
+                        name="q" 
+                        placeholder="Şehir ara..."
+                    >
+
+                    <button class="btn btn-outline-primary" type="submit">
+                        🔍 Ara
+                    </button>
+                </form>
+
+                {% if user.is_authenticated %}
+                <div class="dropdown user-menu">
+                    <button class="btn btn-primary dropdown-toggle user-dropdown-btn" type="button" data-bs-toggle="dropdown">
+                        {% if user.profil.fotograf %}
+                            <img src="{{ user.profil.fotograf.url }}" class="navbar-profile-img" alt="{{ user.username }}">
+                        {% else %}
+                            👤
+                        {% endif %}
+
+                        <span>{{ user.username }}</span>
+                    </button>
+
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li>
+                            <a class="dropdown-item" href="{% url 'profilim' %}">
+                                👤 Profilim
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="{% url 'favorilerim' %}">
+                                ❤️ Favorilerim
+                            </a>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="{% url 'rotalarim' %}">
+                                🧭 Rotalarım
+                            </a>
+                            <li>
+                            <a class="dropdown-item" href="{% url 'paylasimlarim' %}">
+                                📷 Paylaşımlarım
+                            </a>
+                        </li>
+                        </li>
+
+                        <li><hr class="dropdown-divider"></li>
+
+                        <li>
+                            <a class="dropdown-item text-danger" href="{% url 'cikis_yap' %}">
+                                Çıkış Yap
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                {% else %}
+                <a href="{% url 'giris_yap' %}" class="btn btn-primary">
+                    👤 Giriş Yap
+                </a>
+                {% endif %}
+
+            </div>
+        </div>
+    </div>
+</nav>
+
+{% if messages %}
+<div class="toast-message-wrapper">
+    {% for message in messages %}
+    <div class="toast-message alert alert-{{ message.tags }} fade show" role="alert">
+        {{ message }}
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+
+{% block content %}
+{% endblock %}
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <h3>Rota Türkiye</h3>
+                <p>
+                    Türkiye'nin şehirlerini, tatil rotalarını, plajlarını ve yerel deneyimlerini
+                    keşfetmek için hazırlanmış gezi rehberi platformu.
+                </p>
+            </div>
+
+            <div class="col-md-2">
+                <h4>Menü</h4>
+                <a href="{% url 'home' %}">Anasayfa</a>
+                <a href="{% url 'sehirler' %}">Şehirler</a>
+                <a href="{% url 'gezi_paylasimlari' %}">Gezi Paylaşımları</a>
+                <a href="{% url 'hakkimizda' %}">Hakkımızda</a>
+                <a href="{% url 'gizlilik_politikasi' %}">Gizlilik Politikası</a>
+                <a href="{% url 'kullanim_sartlari' %}">Kullanım Şartları</a>
+                <a href="{% url 'cerez_politikasi' %}">Çerez Politikası</a>
+            </div>
+
+            <div class="col-md-3">
+                <h4>Kullanıcı</h4>
+
+                {% if user.is_authenticated %}
+                <a href="{% url 'profilim' %}">Profilim</a>
+                <a href="{% url 'favorilerim' %}">Favorilerim</a>
+                <a href="{% url 'rotalarim' %}">Rotalarım</a>
+                <a href="{% url 'paylasimlarim' %}">Paylaşımlarım</a>
+                {% else %}
+                <a href="{% url 'giris_yap' %}">Giriş Yap</a>
+                <a href="{% url 'kayit_ol' %}">Kayıt Ol</a>
+                {% endif %}
+            </div>
+
+            <div class="col-md-3">
+                <h4>İletişim</h4>
+                <p class="footer-contact">
+                    Öneri, reklam ve iş birliği için bizimle iletişime geçebilirsin.
+                </p>
+                <a href="{% url 'iletisim' %}" class="footer-contact-link">
+                    📞 İletişime Geç
+                </a>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <span>© 2026 Rota Türkiye</span>
+            <span>Tatil herkesin hakkı.</span>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    setTimeout(function () {
+        const messages = document.querySelectorAll(".toast-message");
+
+        messages.forEach(function (message) {
+            message.style.opacity = "0";
+            message.style.transform = "scale(0.96)";
+            message.style.transition = "0.35s ease";
+
+            setTimeout(function () {
+                message.remove();
+            }, 400);
+        });
+    }, 3000);
+</script>
+
+</body>
+</html>

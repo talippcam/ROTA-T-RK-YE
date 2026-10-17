@@ -1,0 +1,1454 @@
+/* Genel */
+html {
+    scroll-behavior: smooth;
+}
+
+[id] {
+    scroll-margin-top: 130px;
+}
+
+body {
+    background: #ffffff;
+    color: #111827;
+}
+
+/* Navbar */
+.navbar .nav-link {
+    font-size: 17px;
+    font-weight: 800;
+    color: #0d6efd !important;
+    padding: 10px 14px !important;
+}
+
+.navbar .nav-link:hover {
+    color: #084298 !important;
+}
+
+.logo-brand {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start;
+    line-height: 1.1;
+    text-decoration: none;
+}
+
+.logo-title {
+    display: block;
+    font-size: 24px;
+    font-weight: 900;
+    color: #0d6efd;
+}
+
+.logo-subtitle {
+    display: block;
+    margin-top: 3px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #6c757d;
+}
+
+.logo-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    margin-right: 8px;
+    border-radius: 50%;
+    background: #0d6efd;
+    color: white;
+    font-size: 17px;
+}
+
+/* Anasayfa Hero */
+.hero-section {
+    min-height: 520px;
+    background-image:
+        linear-gradient(rgba(0, 36, 61, 0.65), rgba(0, 36, 61, 0.65)),
+        url("/static/travel/images/sehir-fotograflari/kumsal.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-overlay {
+    min-height: 520px;
+    display: flex;
+    align-items: center;
+}
+
+.min-vh-75 {
+    min-height: 75vh;
+}
+
+.hero-search {
+    max-width: 650px;
+    display: flex;
+    gap: 10px;
+    background: white;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.hero-search input {
+    border: none;
+    box-shadow: none;
+}
+
+.hero-search input:focus {
+    box-shadow: none;
+}
+
+@media (max-width: 768px) {
+    .hero-search {
+        flex-direction: column;
+    }
+}
+
+/* İlçe / Şehir Hero */
+.city-hero {
+    min-height: 560px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.city-hero-content {
+    max-width: 760px;
+}
+
+.city-hero h1 {
+    font-size: clamp(42px, 6vw, 72px);
+    font-weight: 900;
+    line-height: 1.05;
+}
+
+.city-hero p {
+    max-width: 680px;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.86);
+}
+
+.hero-actions {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+    margin-top: 28px;
+}
+
+/* Kategori Menü */
+.category-nav-section {
+    background: #ffffff;
+    border-bottom: 1px solid #e5e7eb;
+    position: sticky;
+    top: 72px;
+    z-index: 50;
+}
+
+.category-nav {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding: 14px 0;
+}
+
+.category-nav a {
+    white-space: nowrap;
+    text-decoration: none;
+    background: #e7f1ff;
+    color: #0d6efd;
+    font-weight: 800;
+    padding: 10px 16px;
+    border-radius: 999px;
+    border: 1px solid #b6d4fe;
+    transition: 0.2s ease;
+}
+
+.category-nav a:hover {
+    background: #0d6efd;
+    color: white;
+}
+
+/* Kartlar */
+.card {
+    border: 0;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 10px 26px rgba(15, 23, 42, 0.08);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 40px rgba(15, 23, 42, 0.16);
+}
+
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.card-title {
+    font-weight: 800;
+    color: #0d6efd;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: #4b5563;
+    line-height: 1.65;
+}
+
+.card-body .btn {
+    margin-top: auto;
+    border-radius: 999px;
+    font-weight: 600;
+}
+
+section.py-5 h2 {
+    font-size: 32px;
+    font-weight: 900;
+    color: #111827;
+}
+
+/* Anasayfa Özellik Kutuları */
+.feature-box {
+    height: 100%;
+    padding: 28px;
+    border-radius: 16px;
+    background: #ffffff;
+    border: 1px solid #e9ecef;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.feature-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
+}
+
+.feature-icon {
+    width: 58px;
+    height: 58px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #e7f1ff;
+    font-size: 26px;
+}
+
+/* Bilgi Kutuları */
+.info-pill,
+.info-box {
+    padding: 14px 16px;
+    border-radius: 12px;
+    background: #f8fafc;
+    border: 1px solid #e9ecef;
+    font-weight: 600;
+}
+
+.info-pill {
+    background: #e7f1ff !important;
+    border: 1px solid #b6d4fe !important;
+    color: #0d6efd !important;
+    font-weight: 800 !important;
+    padding: 16px 18px !important;
+    border-radius: 14px !important;
+}
+
+.info-pill:hover {
+    background: #0d6efd !important;
+    color: #ffffff !important;
+    transform: translateY(-3px);
+    transition: 0.25s ease;
+}
+
+.info-box {
+    min-height: 58px;
+}
+
+/* Rehber Kartları */
+.guide-card {
+    height: 100%;
+    padding: 28px;
+    border-radius: 16px;
+    background: #f8fafc;
+    border: 1px solid #e9ecef;
+}
+
+.guide-card h3 {
+    font-size: 22px;
+    font-weight: 800;
+    color: #0d6efd;
+}
+
+.guide-card p {
+    margin-bottom: 0;
+    color: #555;
+    line-height: 1.7;
+}
+
+/* Hızlı Bilgi */
+.city-quick-info {
+    margin-top: -44px;
+    position: relative;
+    z-index: 5;
+}
+
+.quick-info-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+
+.quick-info-card {
+    padding: 22px;
+    border-radius: 16px;
+    background: white;
+    border: 1px solid #e9ecef;
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
+}
+
+.quick-info-card span {
+    display: block;
+    color: #6c757d;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.quick-info-card strong {
+    display: block;
+    color: #0d6efd;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+@media (max-width: 768px) {
+    .quick-info-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .quick-info-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Rota */
+.route-timeline {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 18px !important;
+}
+
+.route-step {
+    display: flex !important;
+    align-items: flex-start !important;
+    gap: 18px !important;
+    padding: 22px !important;
+    border-radius: 16px !important;
+    background: #ffffff !important;
+    border: 1px solid #dbeafe !important;
+    box-shadow: 0 10px 24px rgba(13, 110, 253, 0.08) !important;
+}
+
+.route-time {
+    min-width: 72px !important;
+    height: 40px !important;
+    border-radius: 999px !important;
+    background: #0d6efd !important;
+    color: white !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-weight: 800 !important;
+}
+
+.route-content h5 {
+    color: #0d6efd !important;
+    font-weight: 800 !important;
+    margin-bottom: 8px !important;
+}
+
+.route-content p {
+    color: #4b5563 !important;
+    line-height: 1.7 !important;
+    margin-bottom: 0 !important;
+}
+
+/* Accordion */
+.accordion-item {
+    border: 1px solid #b6d4fe !important;
+}
+
+.accordion-button {
+    background: #e7f1ff !important;
+    color: #0d6efd !important;
+    font-weight: 800 !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background: #0d6efd !important;
+    color: #ffffff !important;
+}
+
+.accordion-button:focus {
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+.accordion-body {
+    background: #ffffff !important;
+    color: #374151 !important;
+    line-height: 1.7;
+}
+
+/* Mobil */
+@media (max-width: 768px) {
+    .city-hero {
+        min-height: 480px;
+    }
+
+    .city-hero h1 {
+        font-size: 42px;
+    }
+
+    .city-hero p {
+        font-size: 17px;
+    }
+
+    .card-img-top {
+        height: 200px;
+    }
+
+    section.py-5 h2 {
+        font-size: 26px;
+    }
+
+    .route-step {
+        flex-direction: column;
+    }
+}
+
+/* İlçe detay sayfası modern görünüm */
+
+.category-nav-section {
+    background: #ffffff;
+    border-bottom: 1px solid #e5e7eb;
+    position: sticky;
+    top: 70px;
+    z-index: 50;
+}
+
+.category-nav {
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+    padding: 14px 0;
+}
+
+.category-nav a {
+    text-decoration: none;
+    white-space: nowrap;
+    background: #e7f1ff;
+    color: #0d6efd;
+    font-weight: 800;
+    padding: 10px 18px;
+    border-radius: 999px;
+    border: 1px solid #b6d4fe;
+}
+
+.category-nav a:hover {
+    background: #0d6efd;
+    color: white;
+}
+
+.card {
+    border: none;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 10px 28px rgba(15, 23, 42, 0.10);
+    transition: 0.25s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 42px rgba(15, 23, 42, 0.18);
+}
+
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-title {
+    color: #0d6efd;
+    font-weight: 800;
+}
+
+.card-text {
+    color: #4b5563;
+    line-height: 1.65;
+}
+
+section.py-5 h2 {
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 26px;
+}
+
+.info-box,
+.info-pill {
+    background: #f8fafc;
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    padding: 16px 18px;
+    font-weight: 700;
+}
+
+.route-step {
+    background: #ffffff;
+    border: 1px solid #dbeafe;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 16px;
+    box-shadow: 0 8px 22px rgba(13, 110, 253, 0.08);
+}
+
+.route-time {
+    display: inline-block;
+    background: #0d6efd;
+    color: white;
+    font-weight: 800;
+    padding: 8px 14px;
+    border-radius: 999px;
+    margin-bottom: 10px;
+}
+
+.route-step h5 {
+    color: #0d6efd;
+    font-weight: 800;
+}
+
+.accordion-button {
+    background: #e7f1ff;
+    color: #0d6efd;
+    font-weight: 800;
+}
+
+.accordion-button:not(.collapsed) {
+    background: #0d6efd;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+[id] {
+    scroll-margin-top: 130px;
+}
+
+
+/* İlçe tanıtım kutuları */
+
+.detail-highlight-box {
+    height: 100%;
+    background: #f8fbff;
+    border: 1px solid #dbeafe;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 12px 30px rgba(13, 110, 253, 0.08);
+}
+
+.detail-highlight-box h2 {
+    color: #0d6efd;
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+
+.detail-highlight-box p {
+    color: #4b5563;
+    font-size: 16px;
+    line-height: 1.75;
+}
+
+.suitable-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.suitable-list span {
+    background: #ffffff;
+    color: #0d6efd;
+    border: 1px solid #b6d4fe;
+    border-radius: 999px;
+    padding: 10px 16px;
+    font-weight: 800;
+}
+
+
+/* Bölüm başlıklarını güçlendirme */
+
+.section-title-modern {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 32px;
+    font-weight: 900;
+    color: #111827;
+    margin-bottom: 28px;
+}
+
+.section-title-modern::before {
+    content: "";
+    width: 8px;
+    height: 34px;
+    border-radius: 999px;
+    background: #0d6efd;
+}
+
+.section-subtitle {
+    max-width: 720px;
+    color: #6b7280;
+    font-size: 17px;
+    line-height: 1.7;
+    margin-top: -14px;
+    margin-bottom: 28px;
+}
+
+/* Kart üst renk çizgisi */
+
+.card {
+    position: relative;
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    inset: 0 0 auto 0;
+    height: 5px;
+    background: #0d6efd;
+    z-index: 2;
+}
+
+.card:hover::before {
+    height: 7px;
+}
+
+.search-badge {
+    display: inline-block;
+    background: #e7f1ff;
+    color: #0d6efd;
+    border: 1px solid #b6d4fe;
+    border-radius: 999px;
+    padding: 6px 12px;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.auth-section {
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f8fafc;
+    padding: 60px 16px;
+}
+
+.auth-card {
+    width: 100%;
+    max-width: 430px;
+    background: white;
+    border-radius: 20px;
+    padding: 34px;
+    box-shadow: 0 18px 45px rgba(15, 23, 42, 0.12);
+}
+
+.auth-card h1 {
+    font-weight: 900;
+    color: #0d6efd;
+    margin-bottom: 10px;
+}
+
+.auth-card p {
+    color: #6b7280;
+    margin-bottom: 24px;
+}
+
+.auth-card form p {
+    margin-bottom: 16px;
+}
+
+.auth-card label {
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.auth-card input {
+    width: 100%;
+    border: 1px solid #d1d5db;
+    border-radius: 12px;
+    padding: 10px 12px;
+}
+
+.auth-link {
+    margin-top: 18px;
+    text-align: center;
+    color: #6b7280;
+}
+
+.auth-link a {
+    color: #0d6efd;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.comment-form-card,
+.comment-card {
+    background: white;
+    border-radius: 18px;
+    border: 1px solid #e5e7eb;
+    padding: 24px;
+    box-shadow: 0 10px 26px rgba(15, 23, 42, 0.08);
+}
+
+.comment-form-card h4 {
+    color: #0d6efd;
+    font-weight: 900;
+    margin-bottom: 18px;
+}
+
+.comment-card h5 {
+    color: #0d6efd;
+    font-weight: 800;
+    margin-top: 14px;
+}
+
+.comment-card p {
+    color: #4b5563;
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+}
+
+.comment-header span {
+    color: #6b7280;
+    font-size: 14px;
+}
+
+
+.dropdown-menu {
+    border: none;
+    border-radius: 14px;
+    box-shadow: 0 14px 35px rgba(15, 23, 42, 0.16);
+    padding: 10px;
+}
+
+.dropdown-item {
+    border-radius: 10px;
+    font-weight: 700;
+    padding: 9px 12px;
+}
+
+.dropdown-item:hover {
+    background: #e7f1ff;
+    color: #0d6efd;
+}
+
+.search-form input {
+    width: 170px;
+}
+
+.favorite-heart-area {
+    position: absolute;
+    top: 110px;
+    right: 40px;
+    z-index: 20;
+}
+
+.favorite-heart-btn {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background: white;
+    color: #dc3545;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: none;
+    font-size: 22px;
+    box-shadow: 0 12px 30px rgba(15, 23, 42, 0.22);
+}
+
+.favorite-heart-btn:hover {
+    transform: scale(1.08);
+}
+
+.favorite-heart-btn.active {
+    cursor: default;
+}
+
+.city-hero {
+    position: relative;
+}
+
+
+.toast-message-wrapper {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    width: min(420px, 90%);
+    text-align: center;
+}
+
+.toast-message {
+    border: none;
+    border-radius: 18px;
+    padding: 18px 22px;
+    font-size: 17px;
+    font-weight: 800;
+    box-shadow: 0 20px 50px rgba(15, 23, 42, 0.22);
+}
+
+
+.about-hero {
+    padding: 110px 0;
+    background:
+        linear-gradient(rgba(0, 38, 75, 0.72), rgba(0, 38, 75, 0.72)),
+        url("/static/travel/images/sehir-fotograflari/kumsal.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.about-badge {
+    display: inline-block;
+    background: #ffc107;
+    color: #111827;
+    font-weight: 900;
+    padding: 8px 14px;
+    border-radius: 999px;
+    margin-bottom: 18px;
+}
+
+.about-hero h1 {
+    font-size: clamp(42px, 6vw, 72px);
+    font-weight: 900;
+    max-width: 760px;
+}
+
+.about-hero p {
+    max-width: 780px;
+    font-size: 20px;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.88);
+}
+
+.about-text {
+    color: #4b5563;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.about-card,
+.about-feature {
+    height: 100%;
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 20px;
+    padding: 28px;
+    box-shadow: 0 14px 34px rgba(15, 23, 42, 0.08);
+}
+
+.about-card h3,
+.about-feature h3 {
+    color: #0d6efd;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+
+.about-card ul {
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+.about-card li {
+    margin-bottom: 10px;
+    color: #4b5563;
+    font-weight: 600;
+}
+
+.about-feature p {
+    color: #4b5563;
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+
+.contact-hero {
+    padding: 100px 0;
+    background:
+        linear-gradient(rgba(0, 38, 75, 0.72), rgba(0, 38, 75, 0.72)),
+        url("/static/travel/images/sehir-fotograflari/kumsal.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.contact-hero h1 {
+    font-size: clamp(42px, 6vw, 68px);
+    font-weight: 900;
+}
+
+.contact-hero p {
+    max-width: 720px;
+    font-size: 20px;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.88);
+}
+
+.contact-info-card,
+.contact-form-card {
+    height: 100%;
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 14px 34px rgba(15, 23, 42, 0.08);
+}
+
+.contact-info-card h3,
+.contact-form-card h2 {
+    color: #0d6efd;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+
+.contact-info-card p {
+    color: #4b5563;
+    line-height: 1.75;
+}
+
+.contact-line {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    background: #f8fafc;
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    padding: 14px 16px;
+    margin-top: 12px;
+}
+
+.contact-line strong {
+    color: #111827;
+}
+
+.contact-line span {
+    color: #0d6efd;
+    font-weight: 700;
+}
+
+.contact-form-card label {
+    font-weight: 800;
+    margin-bottom: 6px;
+}
+
+.contact-form-card input,
+.contact-form-card textarea {
+    border-radius: 12px;
+}
+
+.contact-nav-link {
+    color: #0d6efd !important;
+    font-weight: 900 !important;
+}
+
+
+@media print {
+    nav,
+    .navbar,
+    .toast-message-wrapper,
+    .contact-form-card,
+    .btn,
+    form {
+        display: none !important;
+    }
+
+    body {
+        background: white !important;
+        color: black !important;
+    }
+
+    section {
+        padding: 20px 0 !important;
+    }
+
+    .route-step {
+        box-shadow: none !important;
+        border: 1px solid #ddd !important;
+        page-break-inside: avoid;
+    }
+
+    .route-time {
+        background: #000 !important;
+        color: #fff !important;
+    }
+
+    .route-content h5 {
+        color: #000 !important;
+    }
+}
+
+
+.search-form input {
+    width: 160px;
+}
+
+.navbar .nav-link {
+    white-space: nowrap;
+}
+
+.contact-nav-link {
+    color: #0d6efd !important;
+    font-weight: 900 !important;
+}
+
+.share-comments {
+    border-top: 1px solid #e5e7eb;
+    padding-top: 14px;
+}
+
+.share-comments h6 {
+    color: #111827;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.share-comment {
+    background: #f8fafc;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 10px 12px;
+    margin-bottom: 8px;
+}
+
+.share-comment strong {
+    color: #0d6efd;
+    font-size: 14px;
+}
+
+.share-comment p {
+    margin: 4px 0 0;
+    color: #4b5563;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.travel-share-card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 22px;
+    overflow: hidden;
+    box-shadow: 0 14px 36px rgba(15, 23, 42, 0.10);
+    transition: 0.25s ease;
+}
+
+.travel-share-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 46px rgba(15, 23, 42, 0.16);
+}
+
+.travel-share-img {
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+    display: block;
+}
+
+.travel-share-body {
+    padding: 22px;
+}
+
+.travel-share-body .card-title {
+    font-size: 22px;
+    font-weight: 900;
+    color: #111827;
+}
+
+.travel-share-body .card-text {
+    color: #4b5563;
+    line-height: 1.7;
+}
+
+.travel-share-body .search-badge {
+    background: #e7f1ff;
+    color: #0d6efd;
+    border: 1px solid #b6d4fe;
+}
+
+.travel-share-body .btn {
+    border-radius: 999px;
+    font-weight: 800;
+}
+
+.share-comments textarea {
+    border-radius: 14px;
+    resize: none;
+}
+
+.share-comment {
+    background: #f8fafc;
+}
+
+.share-detail-img {
+    width: 100%;
+    max-height: 680px;
+    object-fit: cover;
+    border-radius: 24px;
+    box-shadow: 0 18px 45px rgba(15, 23, 42, 0.14);
+}
+
+.share-detail-panel {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 24px;
+    padding: 28px;
+    box-shadow: 0 14px 36px rgba(15, 23, 42, 0.10);
+    position: sticky;
+    top: 100px;
+}
+
+.share-detail-panel h2 {
+    color: #111827;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+
+.share-detail-panel p {
+    color: #4b5563;
+    line-height: 1.75;
+}
+
+
+.share-filter-clean {
+    display: flex;
+    align-items: center;
+}
+
+.share-filter-dropdown {
+    min-width: 240px;
+    border: 1px solid #dbeafe;
+    background: white;
+    color: #111827;
+    border-radius: 14px;
+    padding: 11px 14px;
+    font-weight: 800;
+    box-shadow: 0 8px 20px rgba(15, 23, 42, 0.06);
+    outline: none;
+}
+
+.share-filter-dropdown:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 4px rgba(13, 110, 253, 0.12);
+}
+
+
+.profile-hero {
+    padding: 90px 0;
+    background: linear-gradient(135deg, #e7f1ff, #ffffff);
+    border-bottom: 1px solid #dbeafe;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.profile-avatar {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    background: #0d6efd;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 42px;
+    font-weight: 900;
+    box-shadow: 0 16px 35px rgba(13, 110, 253, 0.24);
+}
+
+.profile-header h1 {
+    margin-top: 12px;
+    font-size: clamp(38px, 5vw, 64px);
+    font-weight: 900;
+    color: #111827;
+}
+
+.profile-header p {
+    max-width: 720px;
+    color: #4b5563;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.profile-stat-card {
+    height: 100%;
+    background: white;
+    border: 1px solid #dbeafe;
+    border-radius: 22px;
+    padding: 28px;
+    text-align: center;
+    box-shadow: 0 14px 34px rgba(15, 23, 42, 0.08);
+}
+
+.profile-stat-card span {
+    display: block;
+    color: #0d6efd;
+    font-size: 42px;
+    font-weight: 900;
+}
+
+.profile-stat-card strong {
+    color: #111827;
+    font-size: 18px;
+}
+
+.profile-avatar-img {
+    width: 110px !important;
+    height: 110px !important;
+    min-width: 110px;
+    min-height: 110px;
+    max-width: 110px;
+    max-height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    box-shadow: 0 16px 35px rgba(13, 110, 253, 0.24);
+    border: 4px solid white;
+}
+
+.profile-edit-preview {
+    width: 120px !important;
+    height: 120px !important;
+    min-width: 120px;
+    min-height: 120px;
+    max-width: 120px;
+    max-height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 20px;
+    border: 4px solid #e7f1ff;
+}
+
+.user-dropdown-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.navbar-profile-img {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid rgba(255, 255, 255, 0.75);
+}
+
+.site-footer {
+    background: #0f172a;
+    color: white;
+    padding: 60px 0 24px;
+    margin-top: 60px;
+}
+
+.site-footer h3 {
+    color: white;
+    font-size: 26px;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+
+.site-footer h4 {
+    color: white;
+    font-size: 17px;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+
+.site-footer p {
+    color: #cbd5e1;
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+.site-footer a {
+    display: block;
+    color: #cbd5e1;
+    text-decoration: none;
+    margin-bottom: 9px;
+    font-weight: 600;
+}
+
+.site-footer a:hover {
+    color: #60a5fa;
+}
+
+.footer-contact-link {
+    display: inline-block !important;
+    background: #0d6efd;
+    color: white !important;
+    padding: 10px 16px;
+    border-radius: 999px;
+    margin-top: 14px;
+    font-weight: 800 !important;
+}
+
+.footer-contact-link:hover {
+    background: #0b5ed7;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    margin-top: 38px;
+    padding-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+    color: #94a3b8;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.city-category-card {
+    height: 100%;
+    background: white;
+    border: 1px solid #dbeafe;
+    border-radius: 22px;
+    padding: 26px;
+    box-shadow: 0 14px 34px rgba(15, 23, 42, 0.08);
+}
+
+.city-category-card h3 {
+    color: #0d6efd;
+    font-weight: 900;
+    margin-bottom: 12px;
+}
+
+.city-category-card p {
+    color: #4b5563;
+    line-height: 1.7;
+}
+
+.city-category-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 18px;
+}
+
+.city-category-links a {
+    text-decoration: none;
+    background: #e7f1ff;
+    color: #0d6efd;
+    border: 1px solid #b6d4fe;
+    border-radius: 999px;
+    padding: 8px 13px;
+    font-weight: 800;
+}
+
+.city-category-links a:hover {
+    background: #0d6efd;
+    color: white;
+}
+
+.city-quick-info {
+    margin-top: -38px;
+    position: relative;
+    z-index: 5;
+}
+
+.quick-info-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+
+.quick-info-card {
+    background: white;
+    border: 1px solid #dbeafe;
+    border-radius: 18px;
+    padding: 22px;
+    box-shadow: 0 14px 34px rgba(15, 23, 42, 0.10);
+}
+
+.quick-info-card span {
+    display: block;
+    color: #6b7280;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.quick-info-card strong {
+    color: #0d6efd;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+@media (max-width: 768px) {
+    .quick-info-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .quick-info-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.ad-box {
+    width: 100%;
+    min-height: 90px;
+    border: 1px dashed #b8c7dd;
+    background: #f8fbff;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #64748b;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.ad-box-top {
+    min-height: 100px;
+}

@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<section class="py-5 bg-light">
+    <div class="container text-center">
+        <h1 class="fw-bold">Şehirler</h1>
+        {% if arama %}
+<p class="text-muted mt-3">
+    "{{ arama }}" için arama sonuçları
+</p>
+{% else %}
+<p class="text-muted mt-3">
+    Türkiye'nin popüler gezi ve tatil şehirlerini keşfet.
+</p>
+{% endif %}
+        <p class="text-muted mt-3">
+            Türkiye'nin gezi ve tatil şehirlerini keşfet.
+        </p>
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container">
+
+        <div class="text-center mb-5">
+            <span class="badge bg-primary-subtle text-primary mb-3">
+                Türkiye Rehberi
+            </span>
+
+            <h2 class="fw-bold">
+                Tüm Şehirler
+            </h2>
+
+            <p class="text-muted mx-auto" style="max-width: 650px;">
+                Türkiye'nin 81 ilini gezilecek yerleri, tatil rotaları ve şehir rehberleriyle keşfet.
+            </p>
+        </div>
+
+        <div class="row g-4">
+
+            {% for sehir in sehirler %}
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100">
+                    <img 
+                        src="{% static 'travel/images/sehir-fotograflari/' %}{{ sehir.resim }}" 
+                        class="card-img-top" 
+                        alt="{{ sehir.isim }}"
+                    >
+
+                    <div class="card-body">
+                        <h5 class="card-title">{{ sehir.isim }}</h5>
+
+                        <p class="card-text">
+                            {{ sehir.kisa_aciklama }}
+                        </p>
+
+                        <a href="{% url 'sehir_detay' sehir.slug %}" class="btn btn-primary">
+                            {{ sehir.isim }} Rehberi
+                        </a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+
+        </div>
+    </div>
+</section>
+
+{% endblock %}

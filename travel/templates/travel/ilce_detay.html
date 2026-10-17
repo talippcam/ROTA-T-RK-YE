@@ -1,0 +1,636 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}{{ ilce.isim }} Gezi Rehberi | {{ sehir.isim }} | Rota Türkiye{% endblock %}
+
+{% block description %}{{ ilce.isim }} gezilecek yerler, plajlar, tarihi noktalar, yemek önerileri ve 1 günlük gezi rotası. {{ sehir.isim }} {{ ilce.isim }} rehberi.{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <div class="ad-box ad-box-top">
+        <span>Reklam Alanı</span>
+    </div>
+</div>
+
+<section
+    class="city-hero"
+    style="background-image: linear-gradient(rgba(0, 30, 55, 0.65), rgba(0, 30, 55, 0.65)), url('/static/travel/images/ilce-fotograflari/{{ ilce.resim }}');"
+>
+    <div class="container">
+        <div class="city-hero-content">
+            <span class="badge bg-warning text-dark mb-3">
+                {{ sehir.isim }} / {{ ilce.isim }}
+            </span>
+
+            <h1>{{ ilce.isim }} Gezi Rehberi</h1>
+
+            <div class="favorite-heart-area">
+            {% if favoride_mi %}
+            <a href="{% url 'favori_cikar' sehir_slug ilce.slug %}" class="favorite-heart-btn active" title="Favorilerden çıkar">
+                ❤️
+            </a>
+            {% else %}
+            <a href="{% url 'favori_ekle' sehir_slug ilce.slug %}" class="favorite-heart-btn" title="Favorilere ekle">
+                🤍
+            </a>
+            {% endif %}
+</div>
+
+            <p>{{ ilce.aciklama }}</p>
+            <div class="rating-box mt-4">
+    <div class="rating-average">
+        {% if ortalama_puan %}
+            ⭐ {{ ortalama_puan|floatformat:1 }} / 5
+        {% else %}
+            ⭐ Henüz puan yok
+        {% endif %}
+    </div>
+
+    {% if user.is_authenticated %}
+    <form method="post" action="{% url 'puan_ver' sehir_slug ilce.slug %}" class="rating-form">
+        {% csrf_token %}
+
+        {% for i in "12345" %}
+        <button 
+            type="submit" 
+            name="puan" 
+            value="{{ i }}"
+            class="rating-star {% if kullanici_puani and kullanici_puani.puan|stringformat:'s' == i %}active{% endif %}"
+        >
+            ★
+        </button>
+        {% endfor %}
+    </form>
+    {% else %}
+    <a href="{% url 'giris_yap' %}" class="text-white fw-bold">
+        Puan vermek için giriş yap
+    </a>
+    {% endif %}
+</div>
+
+            <a href="{% url 'sehir_detay' sehir_slug %}" class="btn btn-outline-light btn-lg mt-3">
+                {{ sehir.isim }} Rehberine Dön
+            </a>
+        </div>
+    </div>
+</section>
+<section class="py-5 bg-white">
+    <div class="container">
+
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="detail-highlight-box">
+                    <h2>Neden Gitmeli?</h2>
+                    <p>
+                        {{ ilce.isim }}, doğal güzellikleri, tarihi dokusu, sahil alanları ve gezi noktalarıyla
+                        hem kısa geziler hem de detaylı tatil planları için güçlü bir seçenektir.
+                    </p>
+                    <p>
+                        Burada deniz, kültür, yürüyüş, fotoğraf ve yeme içme deneyimlerini aynı rota içinde
+                        birleştirebilirsin.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="detail-highlight-box">
+                    <h2>Kimler İçin Uygun?</h2>
+
+                    <div class="suitable-list">
+                        {% if ilce.kimler_icin_uygun %}
+                            {% for kisi in ilce.kimler_icin_uygun %}
+                            <span>{{ kisi }}</span>
+                            {% endfor %}
+                        {% else %}
+                            <span>İlk kez gelenler</span>
+                            <span>Kısa rota arayanlar</span>
+                            <span>Fotoğraf sevenler</span>
+                        {% endif %}
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section class="category-nav-section">
+    <div class="container">
+        <div class="category-nav">
+            {% if ilce.gezilecek_yerler %}
+            <a href="#gezilecek-yerler">Gezilecek Yerler</a>
+            {% endif %}
+
+            {% if ilce.plajlar %}
+            <a href="#plajlar">Plajlar</a>
+            {% endif %}
+
+            {% if ilce.dogal_guzellikler %}
+            <a href="#dogal-guzellikler">Doğal Güzellikler</a>
+            {% endif %}
+
+            {% if ilce.tarihi_yerler %}
+            <a href="#tarihi-yerler">Tarihi Yerler</a>
+            {% endif %}
+
+            {% if ilce.muzeler %}
+            <a href="#muzeler">Müzeler</a>
+            {% endif %}
+
+            {% if ilce.aktiviteler %}
+            <a href="#aktiviteler">Aktiviteler</a>
+            {% endif %}
+
+            {% if ilce.ekstrem_sporlar %}
+            <a href="#ekstrem-sporlar">Ekstrem Sporlar</a>
+            {% endif %}
+
+            {% if ilce.yemek_nerede %}
+            <a href="#yemek">Yeme İçme</a>
+            {% endif %}
+
+            {% if ilce.rota_1_gun %}
+            <a href="#rota">1 Günlük Rota</a>
+            {% endif %}
+
+            {% if ilce.sss %}
+            <a href="#sss">SSS</a>
+            {% endif %}
+        </div>
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container">
+        {% if ilce.gezilecek_yerler %}
+<div class="mb-5" id="gezilecek-yerler">
+    <h2 class="section-title-modern">Gezilecek Yerler</h2>
+<p class="section-subtitle">
+    {{ ilce.isim }} içinde öne çıkan gezi noktalarını, tarihi alanları ve görülmesi gereken yerleri keşfet.
+</p>
+
+    <div class="row g-4">
+        {% for item in ilce.gezilecek_yerler %}
+        <div class="col-md-4">
+            <div class="card shadow-sm h-100">
+
+                {% if item.resim %}
+                <img 
+                    src="/static/travel/images/ilce-fotograflari/{{ item.resim }}" 
+                    class="card-img-top" 
+                    alt="{{ item.baslik}}"
+                >
+                {% endif %}
+
+                <div class="card-body">
+                    <h5 class="card-title fw-bold mb-2">
+    {{ item.baslik }}
+</h5>
+                    <p class="card-text">
+                        {{ item.aciklama }}
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}
+
+        {% if ilce.muzeler %}
+        <div class="mb-5" id="muzeler">
+            <h2 class="section-title-modern">Müzeler</h2>
+<p class="section-subtitle">
+    Kültür, sanat ve tarih meraklıları için {{ ilce.isim }} çevresinde öne çıkan müzeler.
+</p>
+
+            <div class="row g-4">
+                {% for item in ilce.muzeler %}
+                <div class="col-md-4">
+                    <div class="card shadow-sm h-100">
+                        {% if item.resim %}
+                        <img
+                            src="/static/travel/images/ilce-fotograflari/{{ item.resim }}"
+                            class="card-img-top"
+                            alt="{{ item.baslik }}"
+                        >
+                        {% endif %}
+
+                        <div class="card-body">
+                            <h5 class="card-title">{{ item.baslik }}</h5>
+                            <p class="card-text">{{ item.aciklama }}</p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+       {% if ilce.tarihi_yerler %}
+<div class="mb-5" id="tarihi-yerler">
+    <h2 class="section-title-modern">Tarihi Yerler</h2>
+<p class="section-subtitle">
+    Bölgenin geçmişini, antik dönem izlerini ve kültürel mirasını yakından görmek isteyenler için.
+</p>
+
+    <div class="row g-4">
+        {% for item in ilce.tarihi_yerler %}
+        <div class="col-md-4">
+            <div class="card shadow-sm h-100">
+
+                {% if item.resim %}
+                <img 
+                    src="/static/travel/images/ilce-fotograflari/{{ item.resim }}" 
+                    class="card-img-top" 
+                    alt="{{ item.baslik }}"
+                >
+                {% endif %}
+
+                <div class="card-body">
+                    <h5 class="card-title">{{ item.baslik }}</h5>
+
+                    <p class="card-text">
+                        {{ item.aciklama }}
+                    </p>
+
+                    {% if item.tarihi_onemi %}
+                    <div class="mt-3 p-3 rounded bg-light border">
+                        <h6 class="fw-bold text-primary mb-2">
+                            Tarihi Önemi
+                        </h6>
+                        <p class="card-text mb-0">
+                            {{ item.tarihi_onemi }}
+                        </p>
+                    </div>
+                    {% endif %}
+                </div>
+
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}
+        {% if ilce.plajlar %}
+        <div class="mb-5" id="plajlar">
+            <h2 class="section-title-modern">Plajlar</h2>
+<p class="section-subtitle">
+    Denize girmek, sahilde yürümek ve manzaralı koyları keşfetmek isteyenler için öne çıkan plajlar.
+</p>
+
+            <div class="row g-4">
+                {% for item in ilce.plajlar %}
+                <div class="col-md-4">
+                    <div class="card shadow-sm h-100">
+                        {% if item.resim %}
+                        <img
+                            src="/static/travel/images/ilce-fotograflari/{{ item.resim }}"
+                            class="card-img-top"
+                            alt="{{ item.baslik }}"
+                        >
+                        {% endif %}
+
+                        <div class="card-body">
+                            <h5 class="card-title">{{ item.baslik }}</h5>
+                            <p class="card-text">{{ item.aciklama }}</p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        {% if ilce.dogal_guzellikler %}
+        <div class="mb-5" id="dogal-guzellikler">
+            <h2 class="fw-bold mb-4">{{ ilce.isim }} Doğal Güzellikleri</h2>
+
+            <div class="row g-4">
+                {% for item in ilce.dogal_guzellikler %}
+                <div class="col-md-4">
+                    <div class="card shadow-sm h-100">
+                        {% if item.resim %}
+                        <img
+                            src="/static/travel/images/ilce-fotograflari/{{ item.resim }}"
+                            class="card-img-top"
+                            alt="{{ item.baslik }}"
+                        >
+                        {% endif %}
+
+                        <div class="card-body">
+                            <h5 class="card-title">{{ item.baslik }}</h5>
+                            <p class="card-text">{{ item.aciklama }}</p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+
+        {% if ilce.aktiviteler %}
+        <div class="mb-5" id="aktiviteler">
+            <h2 class="fw-bold mb-4">{{ ilce.isim }} Aktiviteleri</h2>
+
+            <div class="row g-4">
+                {% for item in ilce.aktiviteler %}
+                <div class="col-md-4">
+                    <div class="card shadow-sm h-100">
+                        {% if item.resim %}
+                        <img 
+                            src="/static/travel/images/ilce-fotograflari/{{ item.resim }}" 
+                            class="card-img-top" 
+                            alt="{{ item.baslik }}"
+                        >
+                        {% endif %}
+
+                        <div class="card-body">
+                            <h5 class="card-title">{{ item.baslik }}</h5>
+
+                            <p class="text-primary fw-bold mb-2">
+                                {{ item.konum }}
+                            </p>
+
+                            <p class="card-text">{{ item.aciklama }}</p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+        {% if ilce.ekstrem_sporlar %}
+<div class="mb-5" id="ekstrem-sporlar">
+    <h2 class="fw-bold mb-4">{{ ilce.isim }} Ekstrem Sporlar</h2>
+
+    <div class="row g-4">
+        {% for item in ilce.ekstrem_sporlar %}
+        <div class="col-md-4">
+            <div class="card shadow-sm h-100">
+
+                {% if item.resim %}
+                <img 
+                    src="/static/travel/images/ilce-fotograflari/{{ item.resim }}" 
+                    class="card-img-top" 
+                    alt="{{ item.baslik }}"
+                >
+                {% endif %}
+
+                <div class="card-body">
+                    <h5 class="card-title">{{ item.baslik }}</h5>
+
+                    {% if item.konum %}
+                    <p class="text-primary fw-bold mb-2">
+                        {{ item.konum }}
+                    </p>
+                    {% endif %}
+
+                    <p class="card-text">
+                        {{ item.aciklama }}
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}
+
+
+{% if ilce.ne_yenir %}
+<div class="mb-5" id="ne-yenir">
+    <h2 class="section-title-modern">Ne Yenir?</h2>
+    <p class="section-subtitle">
+        {{ ilce.isim }} gezisinde öne çıkan yöresel lezzetler ve denenebilecek tatlar.
+    </p>
+
+    <div class="row g-4">
+        {% for yemek in ilce.ne_yenir %}
+        <div class="col-md-4">
+            <div class="info-box h-100">
+                <h5 class="fw-bold text-primary">
+                    {{ yemek.baslik }}
+                </h5>
+
+                <p class="mb-0">
+                    {{ yemek.aciklama }}
+                </p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}
+
+        {% if ilce.yemek_nerede %}
+<div class="mb-5" id="yemek">
+    <h2 class="fw-bold mb-4">
+        {{ ilce.isim }} Yemek İçin Nereye Gidilir?
+    </h2>
+
+    <div class="row g-4">
+        {% for item in ilce.yemek_nerede %}
+        <div class="col-md-6">
+            <div class="card shadow-sm h-100">
+                <div class="card-body d-flex flex-column">
+
+                    <h5 class="card-title fw-bold text-dark mb-2">
+                        {{ item.isim }}
+                    </h5>
+
+                    {% if item.konum %}
+                    <p class="text-muted mb-3">
+                        {{ item.konum }}
+                    </p>
+                    {% endif %}
+
+                    {% if item.aciklama %}
+                    <p class="card-text mb-3">
+                        {{ item.aciklama }}
+                    </p>
+                    {% endif %}
+
+                    {% if item.harita %}
+                    <a
+                        href="{{ item.harita }}"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-outline-primary mt-auto"
+                    >
+                        Google Haritalar'da Aç
+                    </a>
+                    {% elif item.konum %}
+                    <a
+                        href="https://www.google.com/maps/search/?api=1&query={{ item.isim|add:' '|add:item.konum|urlencode }}"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-outline-primary mt-auto"
+                    >
+                        Google Haritalar'da Aç
+                    </a>
+                    {% endif %}
+
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}
+
+        {% if ilce.rota_1_gun %}
+        <div class="mb-5" id="rota">
+            <h2 class="fw-bold mb-4">{{ ilce.isim }} 1 Günlük Gezi Rotası</h2>
+
+            <div class="route-timeline">
+                {% for item in ilce.rota_1_gun %}
+                <div class="route-step">
+                    <span class="route-time">{{ item.saat }}</span>
+
+                    <div class="route-content">
+                        <h5>{{ item.baslik }}</h5>
+                        <p>{{ item.aciklama }}</p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        {% if ilce.yakindaki_yerler %}
+        <div class="mb-5">
+            <h2 class="fw-bold mb-4">{{ ilce.isim }} Yakınındaki Yerler</h2>
+
+            <div class="row g-3">
+                {% for yer in ilce.yakindaki_yerler %}
+                <div class="col-md-4">
+                    <div class="info-pill">{{ yer }}</div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        {% if ilce.kimler_icin_uygun %}
+        <div class="mb-5">
+            <h2 class="fw-bold mb-4">Kimler İçin Uygun?</h2>
+
+            <div class="row g-3">
+                {% for item in ilce.kimler_icin_uygun %}
+                <div class="col-md-4">
+                    <div class="info-pill">{{ item }}</div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        {% if ilce.sss %}
+        <div class="mb-5" id="sss">
+            <h2 class="fw-bold mb-4">Sık Sorulan Sorular</h2>
+
+            <div class="accordion" id="ilceFaq">
+                {% for item in ilce.sss %}
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq{{ forloop.counter }}"
+                        >
+                            {{ item.soru }}
+                        </button>
+                    </h2>
+
+                    <div
+                        id="faq{{ forloop.counter }}"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#ilceFaq"
+                    >
+                        <div class="accordion-body">
+                            {{ item.cevap }}
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+    </div>
+</section>
+
+<section class="py-5 bg-light" id="yorumlar">
+    <div class="container">
+        <h2 class="section-title-modern">Yorumlar</h2>
+        <p class="section-subtitle">
+            {{ ilce.isim }} hakkında deneyimini paylaş veya diğer kullanıcıların yorumlarını oku.
+        </p>
+
+        {% if user.is_authenticated %}
+        <div class="comment-form-card mb-4">
+            <h4>Yorum Yaz</h4>
+
+            <form method="post">
+                {% csrf_token %}
+
+                <input 
+                    type="text" 
+                    name="baslik" 
+                    class="form-control mb-3" 
+                    placeholder="Yorum başlığı"
+                >
+
+                <textarea 
+                    name="yorum" 
+                    class="form-control mb-3" 
+                    rows="4" 
+                    placeholder="Deneyimini yaz..."
+                    required
+                ></textarea>
+
+                <button type="submit" class="btn btn-primary">
+                    Yorumu Gönder
+                </button>
+            </form>
+        </div>
+        {% else %}
+        <div class="alert alert-info">
+            Yorum yapmak için 
+            <a href="{% url 'giris_yap' %}">giriş yap</a>.
+        </div>
+        {% endif %}
+
+        {% if yorumlar %}
+        <div class="row g-4">
+            {% for yorum in yorumlar %}
+            <div class="col-md-6">
+                <div class="comment-card">
+                    <div class="comment-header">
+                        <strong>{{ yorum.kullanici.username }}</strong>
+                        <span>{{ yorum.olusturma_tarihi|date:"d.m.Y" }}</span>
+                    </div>
+
+                    {% if yorum.baslik %}
+                    <h5>{{ yorum.baslik }}</h5>
+                    {% endif %}
+
+                    <p>{{ yorum.yorum }}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <p class="text-muted">
+            Henüz yorum yapılmamış. İlk yorumu sen yazabilirsin.
+        </p>
+        {% endif %}
+    </div>
+</section>
+
+{% endblock %}

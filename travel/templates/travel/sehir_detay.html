@@ -1,0 +1,136 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<section 
+    class="city-hero" 
+    style="background-image: linear-gradient(rgba(0, 30, 55, 0.65), rgba(0, 30, 55, 0.65)), url('/static/travel/images/sehir-fotograflari/{{ sehir.resim }}');"
+>
+    <div class="container">
+        <div class="city-hero-content">
+
+            <span class="badge bg-warning text-dark mb-3">
+                {{ sehir.bolge }} Bölgesi
+            </span>
+
+            <h1>
+                {{ sehir.isim }} Gezi Rehberi
+            </h1>
+
+            <p>
+                {{ sehir.kisa_aciklama }}
+            </p>
+
+        </div>
+    </div>
+</section>
+
+<section class="city-quick-info">
+    <div class="container">
+        <div class="quick-info-grid">
+            <div class="quick-info-card">
+                <span>Bölge</span>
+                <strong>{{ sehir.bolge }}</strong>
+            </div>
+
+            <div class="quick-info-card">
+                <span>En İyi Dönem</span>
+                <strong>{{ sehir.en_iyi_donem|default:"Nisan - Ekim" }}</strong>
+            </div>
+
+            <div class="quick-info-card">
+                <span>Öne Çıkan</span>
+                <strong>{{ sehir.one_cikan|default:"Deniz + Tarih + Doğa" }}</strong>
+            </div>
+
+            <div class="quick-info-card">
+                <span>İlçe Sayısı</span>
+                <strong>{{ sehir.ilceler|length }}</strong>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% if sehir.ilce_kategorileri %}
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="section-title-modern">Antalya'yı Nasıl Keşfetmeli?</h2>
+        <p class="section-subtitle">
+            İlçeleri tatil tarzına göre ayırarak sana en uygun rotayı daha kolay seçebilirsin.
+        </p>
+
+        <div class="row g-4">
+            {% for kategori in sehir.ilce_kategorileri %}
+            <div class="col-md-6">
+                <div class="city-category-card">
+                    <h3>{{ kategori.baslik }}</h3>
+                    <p>{{ kategori.aciklama }}</p>
+
+                    <div class="city-category-links">
+                        {% for ilce_slug in kategori.ilceler %}
+                            {% for ilce in sehir.ilceler %}
+                                {% if ilce.slug == ilce_slug %}
+                                <a href="{% url 'ilce_detay' slug ilce.slug %}">
+                                    {{ ilce.isim }}
+                                </a>
+                                {% endif %}
+                            {% endfor %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endif %}
+
+<section class="py-5">
+    <div class="container">
+
+        {% if sehir.ilceler %}
+        <div class="text-center mb-5">
+            <span class="badge bg-primary-subtle text-primary mb-3">
+                İlçe Rehberi
+            </span>
+
+            <h2 class="fw-bold">
+                {{ sehir.isim }} İlçeleri
+            </h2>
+
+            <p class="text-muted mx-auto" style="max-width: 700px;">
+                {{ sehir.isim }} ilçelerini keşfet, her ilçenin öne çıkan yerlerini ve gezi önerilerini incele.
+            </p>
+        </div>
+
+        <div class="row g-4">
+            {% for ilce in sehir.ilceler %}
+            <div class="col-md-6">
+                <div class="card shadow-sm h-100">
+                    {% if ilce.resim %}
+                    <img 
+                        src="/static/travel/images/ilce-fotograflari/{{ ilce.resim }}" 
+                        class="card-img-top" 
+                        alt="{{ ilce.isim }}"
+                    >
+                    {% endif %}
+
+                    <div class="card-body">
+                        <h5 class="card-title">{{ ilce.isim }}</h5>
+                        <p class="card-text">{{ ilce.aciklama }}</p>
+
+                        <a href="{% url 'ilce_detay' slug ilce.slug %}" class="btn btn-outline-primary mt-3">
+                            {{ ilce.isim }} Rehberi
+                        </a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+    </div>
+</section>
+
+{% endblock %}

@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section class="auth-section">
+    <div class="auth-card">
+        <h1>Gezi Paylaş</h1>
+        <p>Gezdiğin yerleri fotoğraf ve açıklamayla paylaş.</p>
+
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+
+            <label>Başlık</label>
+            <input 
+                type="text" 
+                name="baslik" 
+                class="form-control mb-3" 
+                placeholder="Örn: Kaputaş'ta gün batımı"
+                required
+            >
+
+            <label>Şehir</label>
+            <select name="sehir_slug" class="form-control mb-3" required>
+                <option value="">Şehir seç</option>
+
+                {% for slug, sehir in sehirler.items %}
+                <option value="{{ slug }}">
+                    {{ sehir.isim }}
+                </option>
+                {% endfor %}
+            </select>
+
+            <label>Açıklama</label>
+            <textarea 
+                name="aciklama" 
+                class="form-control mb-3" 
+                rows="4" 
+                placeholder="Deneyimini yaz..."
+                required
+            ></textarea>
+
+            <label>Fotoğraf</label>
+            <input 
+                type="file" 
+                name="fotograf" 
+                class="form-control mb-3" 
+                accept="image/*"
+                required
+            >
+
+            <button type="submit" class="btn btn-primary w-100">
+                Paylaş
+            </button>
+        </form>
+    </div>
+</section>
+
+{% endblock %}

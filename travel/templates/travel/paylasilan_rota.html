@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section class="py-5 bg-light">
+    <div class="container">
+        <span class="search-badge">Paylaşılan Rota</span>
+
+        <h1 class="fw-bold mt-3">
+            {{ rota.baslik }}
+        </h1>
+
+        <p class="text-muted">
+            {{ rota.aciklama|default:"Bu rota için açıklama eklenmedi." }}
+        </p>
+
+        <button onclick="window.print()" class="btn btn-primary">
+            PDF Olarak Kaydet
+        </button>
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container">
+        <h2 class="section-title-modern">Rota Durakları</h2>
+
+        {% if duraklar %}
+        <div class="route-timeline">
+            {% for durak in duraklar %}
+            <div class="route-step">
+                <div class="route-time">
+                    {{ durak.sira }}
+                </div>
+
+                <div class="route-content">
+                    <h5>{{ durak.yer_adi }}</h5>
+                    <p>
+                        {{ durak.notlar|default:"Bu durak için not eklenmedi." }}
+                    </p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <div class="alert alert-info">
+            Bu rotada henüz durak yok.
+        </div>
+        {% endif %}
+    </div>
+</section>
+
+{% endblock %}

@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section class="py-5 bg-light">
+    <div class="container">
+        <h1 class="fw-bold">Favorilerim</h1>
+        <p class="text-muted">
+            Kaydettiğin şehirleri, ilçeleri ve gezi noktalarını burada görebilirsin.
+        </p>
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container">
+
+        {% if favoriler %}
+        <div class="row g-4">
+            {% for favori in favoriler %}
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <span class="search-badge">
+                            {{ favori.yer_turu }}
+                        </span>
+
+                        <h5 class="card-title mt-3">
+                            {{ favori.yer_baslik }}
+                        </h5>
+
+                        <p class="text-muted">
+                            {{ favori.eklenme_tarihi|date:"d.m.Y" }} tarihinde eklendi.
+                        </p>
+
+                    <div class="d-flex gap-2">
+                        <a href="/sehir/{{ favori.sehir_slug }}/ilce/{{ favori.ilce_slug }}/" class="btn btn-primary">
+                            Sayfaya Git
+                        </a>
+
+                        <a href="{% url 'favorilerimden_cikar' favori.id %}" class="btn btn-outline-danger">
+                            Kaldır
+                        </a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <div class="alert alert-info">
+            Henüz favori eklemedin.
+        </div>
+        {% endif %}
+
+    </div>
+</section>
+
+{% endblock %}

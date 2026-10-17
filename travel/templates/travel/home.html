@@ -1,0 +1,153 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<section 
+    class="home-hero"
+    style="background-image: linear-gradient(rgba(0, 30, 55, 0.60), rgba(0, 30, 55, 0.60)), url('/static/travel/images/sehir-fotograflari/antalya.jpg');"
+>
+>
+    <div class="container">
+        <div class="home-hero-content text-white">
+            <span class="badge bg-warning text-dark mb-3">Türkiye Gezi Rehberi</span>
+
+            <h1 class="fw-bold">
+                Türkiye'nin En Güzel Tatil Yerlerini Keşfet
+            </h1>
+
+            <p class="mt-3">
+                Şehir şehir gezi rotaları, plajlar, tarihi yerler, doğal güzellikler ve yeme içme önerileriyle kendi tatil planını oluştur.
+            </p>
+
+            <div class="d-flex flex-wrap gap-3 mt-4">
+                <a href="{% url 'sehirler' %}" class="btn btn-primary btn-lg">
+                    Şehirleri Keşfet
+                </a>
+
+                <a href="#populer-sehirler" class="btn btn-outline-light btn-lg">
+                    Popüler Şehirler
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="row g-4 text-center">
+
+            <div class="col-md-4">
+                <div class="feature-box h-100">
+                    <h5 class="fw-bold text-primary">Detaylı Şehir Rehberleri</h5>
+                    <p class="mb-0 text-muted">
+                        Her şehir için gezilecek yerler, ilçeler, plajlar ve tarihi noktalar.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="feature-box h-100">
+                    <h5 class="fw-bold text-primary">Hazır Gezi Rotaları</h5>
+                    <p class="mb-0 text-muted">
+                        1 günlük veya birkaç günlük rota planlarıyla zamandan tasarruf et.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="feature-box h-100">
+                    <h5 class="fw-bold text-primary">Yeme İçme Önerileri</h5>
+                    <p class="mb-0 text-muted">
+                        Yerel lezzetleri ve öne çıkan restoranları kolayca keşfet.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="py-5" id="populer-sehirler">
+    <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <div>
+                <h2 class="fw-bold mb-1">Popüler Şehirler</h2>
+                <p class="text-muted mb-0">
+                    Türkiye'de tatil ve gezi için en çok ilgi gören şehirler.
+                </p>
+            </div>
+
+            <a href="{% url 'sehirler' %}" class="btn btn-outline-primary">
+                Tüm Şehirler
+            </a>
+        </div>
+
+        <div class="row g-4">
+            {% for sehir in populer_sehirler %}
+            <div class="col-md-3">
+                <a href="{% url 'sehir_detay' sehir.slug %}" class="text-decoration-none">
+                    <div class="card shadow-sm h-100 city-card">
+
+                        <img 
+                            src="{% static 'travel/images/sehir-fotograflari/' %}{{ sehir.resim }}" 
+                            class="card-img-top" 
+                            alt="{{ sehir.isim }}"
+                        >
+
+                        <div class="card-body">
+                            <span class="text-muted small">{{ sehir.bolge }}</span>
+                            <h5 class="card-title mt-1">{{ sehir.isim }}</h5>
+                            <p class="card-text">
+                                {{ sehir.aciklama }}
+                            </p>
+
+                            <span class="btn btn-primary mt-auto">
+                                Keşfet
+                            </span>
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+
+    </div>
+</section>
+
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="row align-items-center g-4">
+
+            <div class="col-md-6">
+                <h2 class="fw-bold">Tatil Planını Daha Kolay Yap</h2>
+                <p class="text-muted mt-3">
+                    Rota Türkiye ile şehirleri, ilçeleri, plajları, tarihi yerleri ve yemek duraklarını tek yerde toplayarak kullanıcıya sade ama dolu bir gezi rehberi sunuyoruz.
+                </p>
+
+                <a href="{% url 'sehirler' %}" class="btn btn-primary mt-3">
+                    Rehberleri Gör
+                </a>
+            </div>
+
+            <div class="col-md-6">
+                <div class="info-panel">
+                    <h5 class="fw-bold text-primary">Sitede Neler Olacak?</h5>
+
+                    <ul class="mb-0">
+                        <li>81 il için detaylı gezi rehberi</li>
+                        <li>İlçe ilçe gezilecek yerler</li>
+                        <li>Plajlar, koylar ve doğal güzellikler</li>
+                        <li>Yeme içme ve restoran önerileri</li>
+                        <li>1 günlük ve hafta sonu gezi rotaları</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+{% endblock %}

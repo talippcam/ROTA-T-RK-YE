@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section class="auth-section">
+    <div class="auth-card">
+        <h1>Yeni Rota Oluştur</h1>
+        <p>Gezmek istediğin yerler için kendi planını oluştur.</p>
+
+        <form method="post">
+            {% csrf_token %}
+
+            <label>Rota Başlığı</label>
+            <input 
+                type="text" 
+                name="baslik" 
+                class="form-control mb-3" 
+                placeholder="Örn: 2 Günlük Antalya Rotası"
+                required
+            >
+
+            <label>Şehir</label>
+            <select name="sehir_slug" class="form-control mb-3" required>
+                <option value="">Şehir seç</option>
+
+                {% for slug, sehir in sehirler.items %}
+                <option value="{{ slug }}">
+                    {{ sehir.isim }}
+                </option>
+                {% endfor %}
+            </select>
+
+            <label>Açıklama</label>
+            <textarea 
+                name="aciklama" 
+                class="form-control mb-3" 
+                rows="4" 
+                placeholder="Rotan hakkında kısa açıklama yaz..."
+            ></textarea>
+
+            <button type="submit" class="btn btn-primary w-100">
+                Rotayı Oluştur
+            </button>
+        </form>
+    </div>
+</section>
+
+{% endblock %}

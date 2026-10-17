@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section class="contact-hero">
+    <div class="container">
+        <span class="about-badge">İletişim</span>
+        <h1>Bize ulaş.</h1>
+        <p>
+            Öneri, iş birliği, reklam veya içerik taleplerin için bizimle iletişime geçebilirsin.
+        </p>
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container">
+        <div class="row g-4">
+
+            <div class="col-md-5">
+                <h2 class="section-title-modern">İletişim Bilgileri</h2>
+
+                <div class="contact-info-card">
+                    <h3>Rota Türkiye</h3>
+                    <p>
+                        Türkiye'nin şehirlerini, tatil rotalarını ve keşfedilecek yerlerini
+                        daha erişilebilir hale getiren gezi rehberi platformu.
+                    </p>
+
+                    <div class="contact-line">
+                        <strong>E-mail:</strong>
+                        <span>info@rotaturkiye.com</span>
+                    </div>
+
+                    <div class="contact-line">
+                        <strong>Konu:</strong>
+                        <span>Reklam, öneri, iş birliği ve destek</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-7">
+                <div class="contact-form-card">
+                    <h2>Mesaj Gönder</h2>
+
+                    <form method="post">
+                        {% csrf_token %}
+
+                        <label>Adın</label>
+                        <input type="text" name="ad" class="form-control mb-3" required>
+
+                        <label>E-mail</label>
+                        <input type="email" name="email" class="form-control mb-3" required>
+
+                        <label>Konu</label>
+                        <input type="text" name="konu" class="form-control mb-3" required>
+
+                        <label>Mesajın</label>
+                        <textarea name="mesaj" class="form-control mb-3" rows="5" required></textarea>
+
+                        <button type="submit" class="btn btn-primary">
+                            Mesajı Gönder
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+{% endblock %}

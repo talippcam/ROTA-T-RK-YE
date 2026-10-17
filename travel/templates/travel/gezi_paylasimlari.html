@@ -1,0 +1,126 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section class="py-5 bg-light">
+    <div class="container d-flex justify-content-between align-items-center flex-wrap gap-3">
+        <div>
+            <h1 class="fw-bold">Gezi Paylaşımları</h1>
+            <p class="text-muted">
+                Kullanıcıların paylaştığı gezi fotoğrafları ve deneyimleri.
+            </p>
+        </div>
+
+        {% if user.is_authenticated %}
+        <a href="{% url 'gezi_paylas' %}" class="btn btn-primary">
+            Paylaşım Yap
+        </a>
+        {% else %}
+        <a href="{% url 'giris_yap' %}" class="btn btn-primary">
+            Paylaşım yapmak için giriş yap
+        </a>
+        {% endif %}
+    </div>
+</section>
+
+<div class="share-filter-clean mt-4">
+    <form method="get" class="d-flex gap-2 flex-wrap align-items-center">
+        <select name="sehir" class="share-filter-dropdown" onchange="this.form.submit()">
+            <option value="">Tüm şehirler</option>
+
+            {% for slug, sehir in sehirler.items %}
+            <option value="{{ slug }}" {% if secilen_sehir == slug %}selected{% endif %}>
+                {{ sehir.isim }}
+            </option>
+            {% endfor %}
+        </select>
+
+        {% if secilen_sehir %}
+        <a href="{% url 'gezi_paylasimlari' %}" class="btn btn-outline-secondary">
+            Filtreyi Temizle
+        </a>
+        {% endif %}
+    </form>
+</div>
+
+<section class="py-5">
+    <div class="container">
+
+        {% if paylasimlar %}
+        <div class="row g-4">
+            {% for paylasim in paylasimlar %}
+            <div class="col-md-4">
+                <div class="travel-share-card h-100">
+                    <img src="{{ paylasim.fotograf.url }}" class="travel-share-img" alt="{{ paylasim.baslik }}">
+
+                <div class="travel-share-body">
+                    <span class="search-badge">
+                        {{ paylasim.sehir_slug }}
+                    </span>
+
+                    <h5 class="card-title mt-3">
+                        {{ paylasim.baslik }}
+                    </h5>
+
+                    <p class="card-text">
+                        {{ paylasim.aciklama }}
+                    </p>
+
+                    <p class="text-muted small mb-2">
+                        {{ paylasim.olusturma_tarihi|timesince }} önce paylaşıldı
+                    </p>
+
+                    <a href="{% url 'gezi_paylasim_detay' paylasim.id %}" class="btn btn-outline-primary w-100 mt-3">
+                        Detayları Gör
+                    </a>
+
+                    <div class="d-flex justify-content-between align-items-center mt-3">
+                        <span class="fw-bold text-muted">
+                            {{ paylasim.begeniler.count }} beğeni
+                        </span>
+
+                        {% if user.is_authenticated %}
+                            {% if paylasim.id in begenilen_paylasimlar %}
+                            <a href="{% url 'gezi_paylasim_begen' paylasim.id %}" class="btn btn-sm btn-danger">
+                                ❤️ Beğendin
+                            </a>
+                            {% else %}
+                            <a href="{% url 'gezi_paylasim_begen' paylasim.id %}" class="btn btn-sm btn-outline-danger">
+                                🤍 Beğen
+                            </a>
+                            {% endif %}
+                        {% else %}
+                        <a href="{% url 'giris_yap' %}" class="btn btn-sm btn-outline-primary">
+                            Beğenmek için giriş yap
+                        </a>
+                        {% endif %}
+                    </div>
+
+                    {% if user.is_authenticated and paylasim.kullanici == user %}
+                    <div class="mt-3">
+                       <a 
+                        href="{% url 'gezi_paylasim_sil' paylasim.id %}" 
+                        class="btn btn-sm btn-outline-danger w-100"
+                        onclick="return confirm('Bu paylaşımı silmek istediğine emin misin?');"
+                    >
+                        Paylaşımı Kaldır
+                    </a>
+                    </div>
+                    {% endif %}
+
+                                </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                        {% else %}
+                        <div class="alert alert-info">
+                            Henüz paylaşım yok. İlk paylaşımı sen yapabilirsin.
+                        </div>
+                        {% endif %}
+
+                    </div>
+</section>
+
+{% endblock %}

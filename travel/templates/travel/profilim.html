@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section class="profile-hero">
+    <div class="container">
+        <div class="profile-header">
+            {% if profil.fotograf %}
+            <img src="{{ profil.fotograf.url }}" class="profile-avatar-img" alt="{{ user.username }}">
+            {% else %}
+            <div class="profile-avatar">
+                {{ user.username|first|upper }}
+            </div>
+            {% endif %}
+            <div>
+                <span class="search-badge">Profilim</span>
+                <h1>{{ user.username }}</h1>
+                <p>
+                    Rota Türkiye hesabındaki paylaşımlarını, rotalarını ve favorilerini buradan takip edebilirsin.
+                </p>
+                <a href="{% url 'profil_duzenle' %}" class="btn btn-primary mt-3">
+                    Profili Düzenle
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container">
+
+        <div class="row g-4 mb-5">
+            <div class="col-md-4">
+                <div class="profile-stat-card">
+                    <span>{{ paylasim_sayisi }}</span>
+                    <strong>Paylaşım</strong>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="profile-stat-card">
+                    <span>{{ rota_sayisi }}</span>
+                    <strong>Rota</strong>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="profile-stat-card">
+                    <span>{{ favori_sayisi }}</span>
+                    <strong>Favori</strong>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-between align-items-center flex-wrap gap-3 mb-4">
+            <h2 class="section-title-modern mb-0">Son Paylaşımlarım</h2>
+
+            <a href="{% url 'paylasimlarim' %}" class="btn btn-outline-primary">
+                Tümünü Gör
+            </a>
+        </div>
+
+        {% if son_paylasimlar %}
+        <div class="row g-4">
+            {% for paylasim in son_paylasimlar %}
+            <div class="col-md-4">
+                <div class="travel-share-card h-100">
+                    <img src="{{ paylasim.fotograf.url }}" class="travel-share-img" alt="{{ paylasim.baslik }}">
+
+                    <div class="travel-share-body">
+                        <span class="search-badge">
+                            {{ paylasim.sehir_slug }}
+                        </span>
+
+                        <h5 class="card-title mt-3">
+                            {{ paylasim.baslik }}
+                        </h5>
+
+                        <p class="card-text">
+                            {{ paylasim.aciklama|truncatewords:16 }}
+                        </p>
+
+                        <a href="{% url 'gezi_paylasim_detay' paylasim.id %}" class="btn btn-outline-primary w-100">
+                            Detay
+                        </a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <div class="alert alert-info">
+            Henüz paylaşım yapmadın.
+        </div>
+        {% endif %}
+
+    </div>
+</section>
+
+{% endblock %}

@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section class="py-5 bg-light">
+    <div class="container d-flex justify-content-between align-items-center flex-wrap gap-3">
+        <div>
+            <h1 class="fw-bold">Rotalarım</h1>
+            <p class="text-muted">
+                Kendi oluşturduğun gezi planlarını burada görebilirsin.
+            </p>
+        </div>
+
+        <a href="{% url 'rota_olustur' %}" class="btn btn-primary">
+            Yeni Rota Oluştur
+        </a>
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container">
+
+        {% if rotalar %}
+        <div class="row g-4">
+            {% for rota in rotalar %}
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <span class="search-badge">
+                            {{ rota.sehir_slug }}
+                        </span>
+
+                        <h5 class="card-title mt-3">
+                            {{ rota.baslik }}
+                        </h5>
+
+                        <p class="card-text">
+                            {{ rota.aciklama|default:"Bu rota için açıklama eklenmedi." }}
+                        </p>
+
+                        <p class="text-muted">
+                            {{ rota.olusturma_tarihi|date:"d.m.Y" }}
+                        </p>
+                        <div class="d-flex gap-2">
+                            <a href="{% url 'rota_detay' rota.id %}" class="btn btn-primary">
+                                Durakları Yönet
+                            </a>
+
+                            <a href="{% url 'rota_duzenle' rota.id %}" class="btn btn-outline-primary">
+                                Düzenle
+                            </a>
+
+                            <a href="{% url 'rota_sil' rota.id %}" class="btn btn-outline-danger">
+                                Sil
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <div class="alert alert-info">
+            Henüz rota oluşturmadın.
+        </div>
+        {% endif %}
+
+    </div>
+</section>
+
+{% endblock %}

@@ -1,0 +1,169 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section class="py-5 bg-light">
+    <div class="container">
+        <h1 class="fw-bold">{{ rota.baslik }}</h1>
+        <p class="text-muted">
+            {{ rota.aciklama|default:"Bu rota için açıklama eklenmedi." }}
+        </p>
+
+<div class="d-flex gap-2 flex-wrap">
+    <a href="{% url 'rotalarim' %}" class="btn btn-outline-primary">
+        Rotalarıma Dön
+    </a>
+
+    <button onclick="window.print()" class="btn btn-primary">
+        PDF Olarak Kaydet
+    </button>
+
+    <a href="{% url 'paylasilan_rota' rota.paylasim_kodu %}" class="btn btn-outline-success" target="_blank">
+        Paylaşım Linkini Aç
+    </a>
+
+    <button 
+        type="button" 
+        class="btn btn-success"
+        onclick="copyShareLink()"
+    >
+        Paylaşım Linkini Kopyala
+    </button>
+</div>
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container">
+        <div class="row g-4">
+
+            <div class="col-md-5">
+                <div class="contact-form-card">
+                    <h2>Durak Ekle</h2>
+
+                    <form method="post">
+                        {% csrf_token %}
+
+                        <label>Sıra</label>
+                        <input 
+                            type="number" 
+                            name="sira" 
+                            class="form-control mb-3" 
+                            value="1" 
+                            min="1"
+                        >
+
+                        <label>Yer Adı</label>
+                        <input 
+                            type="text" 
+                            name="yer_adi" 
+                            class="form-control mb-3" 
+                            placeholder="Örn: Kaleiçi"
+                            required
+                        >
+
+                        <label>Not</label>
+                        <textarea 
+                            name="notlar" 
+                            class="form-control mb-3" 
+                            rows="4" 
+                            placeholder="Bu durak hakkında not yaz..."
+                        ></textarea>
+
+                        <button type="submit" class="btn btn-primary">
+                            Durağı Ekle
+                        </button>
+                    </form>
+
+                    {% if favoriler %}
+<hr>
+
+<h2>Favorilerimden Ekle</h2>
+
+<form method="post">
+    {% csrf_token %}
+
+    <label>Favori Seç</label>
+    <select name="favori_id" class="form-control mb-3" required>
+        <option value="">Favori seç</option>
+
+        {% for favori in favoriler %}
+        <option value="{{ favori.id }}">
+            {{ favori.yer_baslik }} - {{ favori.yer_turu }}
+        </option>
+        {% endfor %}
+    </select>
+
+    <label>Sıra</label>
+    <input 
+        type="number" 
+        name="sira" 
+        class="form-control mb-3" 
+        value="1" 
+        min="1"
+    >
+
+    <button type="submit" class="btn btn-outline-primary">
+        Favoriden Rotaya Ekle
+    </button>
+</form>
+{% endif %}
+                </div>
+            </div>
+
+            <div class="col-md-7">
+                <h2 class="section-title-modern">Rota Durakları</h2>
+
+                {% if duraklar %}
+                <div class="route-timeline">
+                    {% for durak in duraklar %}
+                    <div class="route-step">
+                        <div class="route-time">
+                            {{ durak.sira }}
+                        </div>
+
+                <div class="route-content">
+                    <div class="d-flex justify-content-between align-items-start gap-3">
+                        <div>
+                            <h5>{{ durak.yer_adi }}</h5>
+                            <p>
+                                {{ durak.notlar|default:"Bu durak için not eklenmedi." }}
+                            </p>
+                        </div>
+
+                       <div class="d-flex gap-2">
+                        <a href="{% url 'durak_duzenle' durak.id %}" class="btn btn-sm btn-outline-primary">
+                            Düzenle
+                        </a>
+
+                        <a href="{% url 'durak_sil' durak.id %}" class="btn btn-sm btn-outline-danger">
+                            Sil
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% else %}
+                <div class="alert alert-info">
+                    Bu rotaya henüz durak eklenmedi.
+                </div>
+                {% endif %}
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<script>
+    function copyShareLink() {
+        const link = "{{ request.scheme }}://{{ request.get_host }}{% url 'paylasilan_rota' rota.paylasim_kodu %}";
+
+        navigator.clipboard.writeText(link).then(function () {
+            alert("Paylaşım linki kopyalandı.");
+        });
+    }
+</script>
+{% endblock %}

@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<section class="py-5 bg-light">
+    <div class="container">
+        <h1 class="fw-bold">Arama Sonuçları</h1>
+
+        {% if q %}
+        <p class="text-muted">
+            "{{ q }}" için bulunan sonuçlar
+        </p>
+        {% else %}
+        <p class="text-muted">
+            Arama yapmak için bir kelime yaz.
+        </p>
+        {% endif %}
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container">
+
+        {% if sonuclar %}
+        <div class="row g-4">
+            {% for sonuc in sonuclar %}
+            <div class="col-md-4">
+                <a href="{{ sonuc.url }}" class="text-decoration-none">
+                    <div class="card h-100 shadow-sm">
+
+                        {% if sonuc.resim %}
+                        <img src="{% static sonuc.resim %}" class="card-img-top" alt="{{ sonuc.baslik }}">
+                        {% endif %}
+
+                        <div class="card-body">
+                            <span class="search-badge">{{ sonuc.tur }}</span>
+
+                            <h5 class="card-title mt-3">
+                                {{ sonuc.baslik }}
+                            </h5>
+
+                            <p class="card-text">
+                                {{ sonuc.aciklama|truncatewords:22 }}
+                            </p>
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+            {% if q %}
+            <div class="alert alert-warning">
+                "{{ q }}" için sonuç bulunamadı.
+            </div>
+            {% endif %}
+        {% endif %}
+
+    </div>
+</section>
+
+{% endblock %}

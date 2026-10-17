@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section class="auth-section">
+    <div class="auth-card">
+        <h1>Giriş Yap</h1>
+        <p>Favorilerini, yorumlarını ve rotalarını yönetmek için giriş yap.</p>
+
+        <form method="post">
+            {% csrf_token %}
+
+            {{ form.as_p }}
+
+            <button type="submit" class="btn btn-primary w-100">
+                Giriş Yap
+            </button>
+        </form>
+
+        <div class="auth-link">
+            Hesabın yok mu?
+            <a href="{% url 'kayit_ol' %}">Kayıt Ol</a>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
