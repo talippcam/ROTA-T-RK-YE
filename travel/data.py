@@ -70025,14 +70025,4071 @@ SEHIRLER = {
     "bolge": "Marmara",
     "resim": "bursa.jpg",
     "aciklama": "Bursa; Osmanlı'nın ilk başkentlerinden biri olarak tarihi camileri, hanları, Uludağ, Cumalıkızık, kaplıcaları ve İskender kebabıyla öne çıkan güçlü bir kültür ve doğa şehridir.",
-    "ilceler": []
+    "ilceler": [{
+  "slug": "bursa-osmangazi",
+  "isim": "Osmangazi",
+  "bolge": "Bursa",
+  "resim": "bursa-osmangazi/osmangazi_genel.jpg",
+  "aciklama": "Bursa'nın tarihî merkezi Osmangazi; hanları, çarşıları, surları, müzeleri ve İnkaya Çınarı ile dolu bir gezi sunar. Tarihî merkez yürüyerek gezilebilir; Çekirge ve İnkaya durakları için ayrıca ulaşım planlamak gerekir.",
+  "onerilen_sure": "1-2 gün",
+  "en_iyi_donem": "İlkbahar ve sonbahar",
+  "one_cikan": [
+    "Koza Han",
+    "Tophane Saat Kulesi",
+    "Irgandı Köprüsü",
+    "Muradiye Türbeleri",
+    "İnkaya Çınarı"
+  ],
+  "kimler_icin_uygun": [
+    "Tarih meraklıları",
+    "Kültür gezginleri",
+    "Aileler",
+    "Yemek keşfetmeyi sevenler"
+  ],
+  "gezilecek_yerler": [
+    {
+      "baslik": "Koza Han",
+      "resim": "bursa-osmangazi/koza_han.jpg",
+      "aciklama": "Bursa'nın ipek ticareti geçmişini taşıyan tarihî han. Avlusunda mola verip üst kattaki dükkânları gezebilirsiniz."
+    },
+    {
+      "baslik": "Tophane Saat Kulesi",
+      "resim": "bursa-osmangazi/tophane_saat_kulesi.jpg",
+      "aciklama": "Şehre yukarıdan bakan Tophane'deki kule ve çevresi, Bursa manzarası için önemli bir duraktır."
+    },
+    {
+      "baslik": "Osman Gazi ve Orhan Gazi Türbeleri",
+      "resim": "bursa-osmangazi/osman_orhan_gazi_turbeleri.jpg",
+      "aciklama": "Tophane'de bulunan iki türbe, Osmanlı'nın kuruluş tarihini yerinde görmek isteyenler için Saat Kulesi gezisiyle birleştirilebilir."
+    },
+    {
+      "baslik": "Irgandı Köprüsü",
+      "resim": "bursa-osmangazi/irgandi_koprusu.jpg",
+      "aciklama": "Üzerinde dükkânlar bulunan tarihî çarşı köprüsünde geleneksel el sanatları atölyelerini görebilirsiniz."
+    },
+    {
+      "baslik": "Panorama 1326 Bursa Fetih Müzesi",
+      "resim": "bursa-osmangazi/panorama_1326.jpg",
+      "aciklama": "Bursa'nın fethini panoramik anlatımla sunan müze. Pazartesi kapalı olduğundan gezi gününü buna göre seçin."
+    },
+    {
+      "baslik": "Bursa Kent Müzesi",
+      "resim": "bursa-osmangazi/bursa_kent_muzesi.jpg",
+      "aciklama": "Bursa'nın kent yaşamını, tarihini ve kültürünü sergiler üzerinden tanıyabileceğiniz merkezî müze."
+    },
+    {
+      "baslik": "Muradiye Türbeleri",
+      "resim": "bursa-osmangazi/muradiye_turbeleri.jpg",
+      "aciklama": "Osmanlı hanedan üyelerine ait türbelerin bulunduğu tarihî alan; çini ve kalem işi bezemeleriyle dikkat çeker."
+    },
+    {
+      "baslik": "Zindankapı",
+      "resim": "bursa-osmangazi/zindankapi.jpg",
+      "aciklama": "Bursa surlarının restore edilmiş kapı ve zindan bölümü. Tarihî yapıyı ve sergileri ziyaret edebilirsiniz."
+    },
+    {
+      "baslik": "Bursa Surları ve Saltanat Kapı",
+      "resim": "bursa-osmangazi/bursa_surlari_saltanat_kapi.jpg",
+      "aciklama": "Hisar bölgesindeki sur izlerini ve kentin eski girişlerinden Saltanat Kapı'yı yürüyerek inceleyin."
+    },
+    {
+      "baslik": "Kapalı Çarşı",
+      "resim": "bursa-osmangazi/kapali_carsi.jpg",
+      "aciklama": "Tarihî ticaret merkezindeki dükkânları ve çarşı dokusunu keşfetmek için Koza Han'la birlikte gezilebilir."
+    },
+    {
+      "baslik": "İpek Han",
+      "resim": "bursa-osmangazi/ipek_han.jpg",
+      "aciklama": "Hanlar Bölgesi'nin tarihî yapılarından biri. Koza Han çevresindeki yürüyüşe eklenebilir."
+    },
+    {
+      "baslik": "Somuncu Baba Evi, Fırını ve Kültür Merkezi",
+      "resim": "bursa-osmangazi/somuncu_baba_evi.jpg",
+      "aciklama": "Somuncu Baba'nın hatırasını yaşatan kültür durağı; tarihî merkezden Tophane yönüne yürürken ziyaret edilebilir."
+    },
+    {
+      "baslik": "Bursa Atatürk Evi Müzesi",
+      "resim": "bursa-osmangazi/ataturk_evi_muzesi.jpg",
+      "aciklama": "Çekirge'deki köşkte Atatürk'ün Bursa ziyaretlerine ilişkin odaları ve eşyaları görebilirsiniz. Pazartesi kapalıdır."
+    },
+    {
+      "baslik": "Tarihî İnkaya Çınarı",
+      "resim": "bursa-osmangazi/inkaya_cinari.jpg",
+      "aciklama": "Uludağ yolu üzerindeki anıt çınar, gölgesinde dinlenmek ve fotoğraf çekmek için ilçe merkezinden ayrı bir duraktır."
+    },
+    {
+      "baslik": "Erdem Saker Botanik Parkı",
+      "resim": "bursa-osmangazi/erdem_saker_botanik_parki.jpg",
+      "aciklama": "Soğanlı'daki geniş botanik parkta yürüyüş yapabilir, bitki düzenlemelerini ve bahçeleri gezebilirsiniz."
+    }
+  ],
+  "dogal_guzellikler": [
+    {
+      "baslik": "Tarihî İnkaya Çınarı",
+      "resim": "bursa-osmangazi/inkaya_cinari.jpg",
+      "aciklama": "Osmangazi'nin en tanınan anıt ağaçlarından biridir."
+    },
+    {
+      "baslik": "Erdem Saker Botanik Parkı",
+      "resim": "bursa-osmangazi/erdem_saker_botanik_parki.jpg",
+      "aciklama": "Şehir içinde yürüyüş ve açık havada dinlenme için geniş bir yeşil alan."
+    }
+  ],
+  "tarihi_yerler": [
+    {
+      "baslik": "Koza Han",
+      "resim": "bursa-osmangazi/koza_han.jpg",
+      "aciklama": "Bursa'nın tarihî ipek ticaretiyle özdeşleşen hanı."
+    },
+    {
+      "baslik": "Irgandı Köprüsü",
+      "resim": "bursa-osmangazi/irgandi_koprusu.jpg",
+      "aciklama": "Dükkânlı yapısıyla öne çıkan tarihî köprü."
+    },
+    {
+      "baslik": "Muradiye Türbeleri",
+      "resim": "bursa-osmangazi/muradiye_turbeleri.jpg",
+      "aciklama": "Osmanlı döneminden kalan türbeler topluluğu."
+    },
+    {
+      "baslik": "Bursa Surları ve Saltanat Kapı",
+      "resim": "bursa-osmangazi/bursa_surlari_saltanat_kapi.jpg",
+      "aciklama": "Bursa'nın eski kent dokusunu gösteren sur ve kapı kalıntıları."
+    }
+  ],
+  "plajlar": [],
+  "muzeler": [
+    {
+      "baslik": "Panorama 1326 Bursa Fetih Müzesi",
+      "resim": "bursa-osmangazi/panorama_1326.jpg",
+      "aciklama": "Bursa'nın fethini anlatan panoramik müze."
+    },
+    {
+      "baslik": "Bursa Kent Müzesi",
+      "resim": "bursa-osmangazi/bursa_kent_muzesi.jpg",
+      "aciklama": "Bursa'nın tarih ve kent kültürünü anlatan müze."
+    },
+    {
+      "baslik": "Bursa Atatürk Evi Müzesi",
+      "resim": "bursa-osmangazi/ataturk_evi_muzesi.jpg",
+      "aciklama": "Atatürk'ün Bursa ziyaretlerinde kullandığı köşkteki müze."
+    }
+  ],
+  "aktiviteler": [
+    {
+      "baslik": "Hanlar Bölgesi'nde yürüyüş",
+      "konum": "Koza Han ve çevresi, Osmangazi/Bursa",
+      "aciklama": "Hanları ve çarşıları birbirine bağlayan sokakları yürüyerek keşfedin."
+    },
+    {
+      "baslik": "Tophane'de manzara izleme",
+      "konum": "Tophane, Osmangazi/Bursa",
+      "aciklama": "Saat Kulesi çevresinden Bursa manzarasını seyredin."
+    },
+    {
+      "baslik": "Yerel lezzetleri deneme",
+      "konum": "Tarihî merkez, Osmangazi/Bursa",
+      "aciklama": "Bursa kebabı, pideli köfte ve tahinli pide için mola verin."
+    }
+  ],
+  "neler_yapilir": [
+    "Koza Han ve çevresindeki hanları yürüyerek gez.",
+    "Tophane'de Saat Kulesi'ni ve türbeleri gör.",
+    "Irgandı Köprüsü'ndeki el sanatları dükkânlarına bak.",
+    "Panorama 1326 ve Bursa Kent Müzesi'ni ziyaret et.",
+    "Bursa kebabı veya pideli köfte ye.",
+    "Vaktin varsa Çekirge'deki Atatürk Evi'ne ve İnkaya Çınarı'na git."
+  ],
+  "ne_yenir": [
+    {
+      "baslik": "Bursa Kebabı",
+      "aciklama": "Döner etinin pide, domates sosu, yoğurt ve tereyağıyla sunulduğu Bursa klasiği."
+    },
+    {
+      "baslik": "Pideli Köfte",
+      "aciklama": "Pide üzerindeki köftenin sos ve tereyağıyla servis edildiği yerel yemek."
+    },
+    {
+      "baslik": "Cantık",
+      "aciklama": "Kıymalı iç harçla hazırlanan Bursa'ya özgü küçük pide."
+    },
+    {
+      "baslik": "Tahinli Pide",
+      "aciklama": "Tahinli, tatlı hamur işi; özellikle kahvaltı veya ara öğün için tercih edilir."
+    },
+    {
+      "baslik": "Kestane Şekeri",
+      "aciklama": "Bursa ile özdeşleşen kestane tatlısı."
+    },
+    {
+      "baslik": "Süt Helvası",
+      "aciklama": "Üzeri fırında kızartılan, Bursa mutfağının sütlü tatlısı."
+    }
+  ],
+  "yemek_nerede": [
+    {
+      "baslik": "Kebapçı Hüseyin Usta",
+      "konum": "Alacamescit Mahallesi, Tuzpazarı Sokak No:16/B, Osmangazi/Bursa",
+      "aciklama": "Bursa kebabı için tarihî çarşı yakınındaki seçenek."
+    },
+    {
+      "baslik": "Kayhan Köftecisi",
+      "konum": "Kayhan Mahallesi, Kayhan Caddesi No:5-7, Osmangazi/Bursa",
+      "aciklama": "Pideli köfte için Kayhan'daki seçenek."
+    },
+    {
+      "baslik": "Kebapçı İskender İskenderoğlu",
+      "konum": "Kayhan Mahallesi, Keresteciler Caddesi, Meridyen AVM No:7/21-112, Osmangazi/Bursa",
+      "aciklama": "Bursa kebabı için işletmenin resmî sitesinde listelenen şube."
+    }
+  ],
+  "rota_1_gun": [
+    {
+      "saat": "09:00",
+      "baslik": "Panorama 1326 Bursa Fetih Müzesi",
+      "aciklama": "Geziye Bursa'nın kuruluş hikâyesiyle başla. Pazartesi için başka bir durak seç."
+    },
+    {
+      "saat": "10:30",
+      "baslik": "Irgandı Köprüsü",
+      "aciklama": "Köprüdeki el sanatları dükkânlarını gez."
+    },
+    {
+      "saat": "11:30",
+      "baslik": "Koza Han ve tarihî çarşı",
+      "aciklama": "Koza Han, İpek Han ve Kapalı Çarşı çevresinde yürü."
+    },
+    {
+      "saat": "13:00",
+      "baslik": "Öğle yemeği",
+      "aciklama": "Bursa kebabı veya pideli köfte dene."
+    },
+    {
+      "saat": "14:30",
+      "baslik": "Bursa Kent Müzesi",
+      "aciklama": "Kentin tarihini ve kültürünü anlatan sergileri gez."
+    },
+    {
+      "saat": "15:30",
+      "baslik": "Tophane ve Bursa surları",
+      "aciklama": "Saat Kulesi'ni, türbeleri ve sur izlerini gör."
+    },
+    {
+      "saat": "17:00",
+      "baslik": "Muradiye Türbeleri",
+      "aciklama": "Günü Muradiye'de tamamla. İnkaya Çınarı'nı daha rahat gezmek için ayrı bir yarım güne bırak."
+    }
+  ],
+  "sss": [
+    {
+      "soru": "Osmangazi'yi gezmek için kaç gün gerekir?",
+      "cevap": "Tarihî merkez için bir gün yeterli olabilir; Çekirge, İnkaya Çınarı ve parkları da görmek için iki gün daha rahattır."
+    },
+    {
+      "soru": "Osmangazi'de araba gerekli mi?",
+      "cevap": "Hanlar Bölgesi, müzeler ve Tophane yürüyüşle gezilebilir. İnkaya Çınarı ve Botanik Parkı için araç veya toplu taşıma planlamak gerekir."
+    },
+    {
+      "soru": "Pazartesi müzeler açık mı?",
+      "cevap": "Panorama 1326 ve Bursa Atatürk Evi Müzesi pazartesi kapalıdır. Diğer müzelerin güncel saatlerini ziyaret öncesi kontrol edin."
+    },
+    {
+      "soru": "Bursa Arkeoloji Müzesi neden listede yok?",
+      "cevap": "Kültür ve Turizm Bakanlığı'nın güncel sayfasında müze geçici olarak ziyarete kapalı görünüyor."
+    }
+  ]
+},{
+  "slug": "bursa-yildirim",
+  "isim": "Yıldırım",
+  "bolge": "Bursa",
+  "resim": "bursa-yildirim/yildirim_genel.jpg",
+  "aciklama": "Yıldırım; UNESCO Dünya Mirası kapsamındaki Cumalıkızık, Yeşil Türbe, tarihî türbeler, müzeler ve Uludağ eteklerindeki Küreklidere Şelalesi ile öne çıkan Bursa ilçesidir. Tarihî duraklar ile doğa gezisini ayrı zaman dilimlerine ayırmak daha rahattır.",
+  "onerilen_sure": "1-2 gün",
+  "en_iyi_donem": "İlkbahar ve sonbahar",
+  "one_cikan": [
+    "Cumalıkızık",
+    "Yeşil Türbe",
+    "Tofaş Anadolu Arabaları Müzesi",
+    "Küreklidere Şelalesi"
+  ],
+  "kimler_icin_uygun": [
+    "Tarih meraklıları",
+    "Müze gezmeyi sevenler",
+    "Aileler",
+    "Doğa yürüyüşçüleri"
+  ],
+  "gezilecek_yerler": [
+    {
+      "baslik": "Cumalıkızık",
+      "resim": "bursa-yildirim/cumalikizik.jpg",
+      "aciklama": "UNESCO Dünya Mirası kapsamındaki tarihî yerleşimde taş sokakları ve geleneksel Bursa evlerini yürüyerek keşfedin. Hafta sonları yoğun olabildiği için erken gitmek iyi olur."
+    },
+    {
+      "baslik": "Cumalıkızık Köyü Müzesi",
+      "resim": "bursa-yildirim/cumalikizik_koyu_muzesi.jpg",
+      "aciklama": "Cumalıkızık'ın günlük yaşamını, geleneklerini ve geçmişini anlatan küçük müze."
+    },
+    {
+      "baslik": "Yeşil Türbe",
+      "resim": "bursa-yildirim/yesil_turbe.jpg",
+      "aciklama": "Çelebi Mehmed'in türbesi; dış cephesindeki çiniler ve iç bezemeleriyle Bursa'nın simge yapılarından biridir."
+    },
+    {
+      "baslik": "Bursa Türk-İslam Eserleri Müzesi",
+      "resim": "bursa-yildirim/turk_islam_eserleri_muzesi.jpg",
+      "aciklama": "Yeşil Medrese'deki müzede çini, seramik, metal işçiliği ve geleneksel el sanatlarından eserler sergilenir."
+    },
+    {
+      "baslik": "Tofaş Anadolu Arabaları Müzesi",
+      "resim": "bursa-yildirim/tofas_anadolu_arabalari_muzesi.jpg",
+      "aciklama": "Anadolu'da tekerlekli taşıtların gelişimini gösteren koleksiyonu gezebilirsiniz. Müze pazartesi kapalıdır."
+    },
+    {
+      "baslik": "Hünkâr Köşkü Müzesi",
+      "resim": "bursa-yildirim/hunkar_kosku_muzesi.jpg",
+      "aciklama": "Tarihî köşk ve bahçesi, Bursa manzarasıyla birlikte gezilebilir. Müze pazartesi kapalıdır."
+    },
+    {
+      "baslik": "Yıldırım Bayezid Türbesi",
+      "resim": "bursa-yildirim/yildirim_bayezid_turbesi.jpg",
+      "aciklama": "İlçeye adını veren Osmanlı hükümdarının tarihî türbesi."
+    },
+    {
+      "baslik": "Emir Sultan Türbesi",
+      "resim": "bursa-yildirim/emir_sultan_turbesi.jpg",
+      "aciklama": "Emir Sultan'ın türbesi, Bursa'nın önemli tarihî ziyaret noktalarından biridir."
+    },
+    {
+      "baslik": "Küreklidere Şelalesi",
+      "resim": "bursa-yildirim/kureklidere_selalesi.jpg",
+      "aciklama": "Hamamlıkızık yönündeki ormanlık alanda bulunan şelale. Yol ve patika koşullarını kontrol ederek, uygun ayakkabıyla gidin."
+    },
+    {
+      "baslik": "Balaban Orman Parkı",
+      "resim": "bursa-yildirim/balaban_orman_parki.jpg",
+      "aciklama": "Açık havada yürüyüş ve dinlenme için düzenlenmiş geniş orman parkı."
+    }
+  ],
+  "dogal_guzellikler": [
+    {
+      "baslik": "Küreklidere Şelalesi",
+      "resim": "bursa-yildirim/kureklidere_selalesi.jpg",
+      "aciklama": "Orman yürüyüşüyle birleştirilebilen doğal şelale."
+    },
+    {
+      "baslik": "Balaban Orman Parkı",
+      "resim": "bursa-yildirim/balaban_orman_parki.jpg",
+      "aciklama": "Doğada kısa bir mola ve yürüyüş için uygun park."
+    }
+  ],
+  "tarihi_yerler": [
+    {
+      "baslik": "Cumalıkızık",
+      "resim": "bursa-yildirim/cumalikizik.jpg",
+      "aciklama": "Osmanlı döneminden kalan mimari dokusuyla korunan UNESCO mirası."
+    },
+    {
+      "baslik": "Yeşil Türbe",
+      "resim": "bursa-yildirim/yesil_turbe.jpg",
+      "aciklama": "Çinileriyle tanınan Çelebi Mehmed Türbesi."
+    },
+    {
+      "baslik": "Yıldırım Bayezid Türbesi",
+      "resim": "bursa-yildirim/yildirim_bayezid_turbesi.jpg",
+      "aciklama": "Yıldırım Bayezid için yaptırılmış erken dönem Osmanlı türbesi."
+    },
+    {
+      "baslik": "Emir Sultan Türbesi",
+      "resim": "bursa-yildirim/emir_sultan_turbesi.jpg",
+      "aciklama": "Emir Sultan'ın kabri çevresinde gelişen tarihî ziyaret alanı."
+    }
+  ],
+  "plajlar": [],
+  "muzeler": [
+    {
+      "baslik": "Cumalıkızık Köyü Müzesi",
+      "resim": "bursa-yildirim/cumalikizik_koyu_muzesi.jpg",
+      "aciklama": "Cumalıkızık'ın yaşam kültürünü anlatır."
+    },
+    {
+      "baslik": "Bursa Türk-İslam Eserleri Müzesi",
+      "resim": "bursa-yildirim/turk_islam_eserleri_muzesi.jpg",
+      "aciklama": "Yeşil Medrese'de Türk-İslam sanat eserlerini sergiler."
+    },
+    {
+      "baslik": "Tofaş Anadolu Arabaları Müzesi",
+      "resim": "bursa-yildirim/tofas_anadolu_arabalari_muzesi.jpg",
+      "aciklama": "Anadolu taşıt tarihini anlatan müze."
+    },
+    {
+      "baslik": "Hünkâr Köşkü Müzesi",
+      "resim": "bursa-yildirim/hunkar_kosku_muzesi.jpg",
+      "aciklama": "Tarihî köşk odaları ve bahçesiyle ziyaret edilir."
+    }
+  ],
+  "aktiviteler": [
+    {
+      "baslik": "Cumalıkızık'ta yürüyüş",
+      "konum": "Cumalıkızık, Yıldırım/Bursa",
+      "aciklama": "Taş sokakları gezip geleneksel evlerin mimarisini inceleyin."
+    },
+    {
+      "baslik": "Müze gezisi",
+      "konum": "Yeşil ve Umurbey çevresi, Yıldırım/Bursa",
+      "aciklama": "Türk-İslam Eserleri Müzesi ile Tofaş Anadolu Arabaları Müzesi'ni aynı güne ekleyin."
+    },
+    {
+      "baslik": "Şelale yürüyüşü",
+      "konum": "Küreklidere, Yıldırım/Bursa",
+      "aciklama": "Hava ve yol koşulları uygunsa Küreklidere Şelalesi'ne doğa gezisi yapın."
+    }
+  ],
+  "neler_yapilir": [
+    "Cumalıkızık'a erken gidip tarihî sokaklarda yürü.",
+    "Yeşil Türbe'yi ve yakınındaki Türk-İslam Eserleri Müzesi'ni gez.",
+    "Tofaş Anadolu Arabaları Müzesi'nin koleksiyonunu incele.",
+    "Hünkâr Köşkü'nden şehir manzarasını izle.",
+    "Cumalıkızık'ta yerel kahvaltı, gözleme ve ahududu ürünlerini dene.",
+    "İkinci gün için Küreklidere Şelalesi'ne doğa gezisi planla."
+  ],
+  "ne_yenir": [
+    {
+      "baslik": "Cumalıkızık Köy Kahvaltısı",
+      "aciklama": "Yöresel peynir, reçel, zeytin, pişi ve ev yapımı ürünlerle hazırlanan kahvaltı."
+    },
+    {
+      "baslik": "Gözleme",
+      "aciklama": "Cumalıkızık'taki kahvaltı işletmelerinde farklı içlerle sunulan hamur işi."
+    },
+    {
+      "baslik": "Ahududu Reçeli ve Şerbeti",
+      "aciklama": "Cumalıkızık gezisinde denenebilecek yerel meyve ürünleri."
+    },
+    {
+      "baslik": "Bursa Cantığı",
+      "aciklama": "Kıymalı iç harçla yapılan Bursa'ya özgü küçük pide."
+    },
+    {
+      "baslik": "Bursa Pideli Köfte",
+      "aciklama": "Köftenin pide, domates sosu, yoğurt ve tereyağıyla sunulduğu Bursa yemeği."
+    },
+    {
+      "baslik": "Kestane Şekeri",
+      "aciklama": "Bursa ile özdeşleşmiş kestane tatlısı."
+    }
+  ],
+  "yemek_nerede": [
+    {
+      "baslik": "Süheyla Yeşil Ev",
+      "konum": "Cumalıkızık, Köyüstü Sokak No:22, Yıldırım/Bursa",
+      "aciklama": "Cumalıkızık'ta serpme kahvaltı ve ev yapımı ürünler sunuyor."
+    },
+    {
+      "baslik": "Kadı Efendi Konağı",
+      "konum": "Cumalıkızık, 2. Orta Sokak No:17/1, Yıldırım/Bursa",
+      "aciklama": "Cumalıkızık gezisinde köy kahvaltısı için bir diğer seçenek."
+    },
+    {
+      "baslik": "Urfa Konak",
+      "konum": "Ertuğrulgazi, Selçukbey Caddesi No:109, Yıldırım/Bursa",
+      "aciklama": "Menüsünde Bursa cantığı ve pideli köfte bulunan restoran."
+    }
+  ],
+  "rota_1_gun": [
+    {
+      "saat": "08:30",
+      "baslik": "Cumalıkızık'ta kahvaltı",
+      "aciklama": "Güne erken başlayıp yöresel kahvaltı yap."
+    },
+    {
+      "saat": "10:00",
+      "baslik": "Cumalıkızık sokakları ve köy müzesi",
+      "aciklama": "Tarihî dokuyu yürüyerek gez; müzenin açık olup olmadığını girişte kontrol et."
+    },
+    {
+      "saat": "12:00",
+      "baslik": "Yeşil Türbe",
+      "aciklama": "Türbenin çini ve mimari ayrıntılarını incele."
+    },
+    {
+      "saat": "13:00",
+      "baslik": "Öğle yemeği",
+      "aciklama": "Cantık veya pideli köfte dene."
+    },
+    {
+      "saat": "14:15",
+      "baslik": "Bursa Türk-İslam Eserleri Müzesi",
+      "aciklama": "Yeşil Medrese'deki koleksiyonu gez."
+    },
+    {
+      "saat": "15:30",
+      "baslik": "Tofaş Anadolu Arabaları Müzesi",
+      "aciklama": "Taşıt koleksiyonunu ziyaret et; pazartesi kapalıdır."
+    },
+    {
+      "saat": "17:00",
+      "baslik": "Hünkâr Köşkü",
+      "aciklama": "Günü köşk çevresinde manzara izleyerek tamamla. Küreklidere'yi ayrı bir doğa günü olarak planla."
+    }
+  ],
+  "sss": [
+    {
+      "soru": "Cumalıkızık hangi ilçede?",
+      "cevap": "Cumalıkızık, Bursa'nın Yıldırım ilçesindedir."
+    },
+    {
+      "soru": "Yıldırım'ı gezmek için kaç gün gerekir?",
+      "cevap": "Tarihî yerler ve müzeler için bir gün; Küreklidere Şelalesi'ni de görmek için iki gün önerilir."
+    },
+    {
+      "soru": "Küreklidere Şelalesi şehir merkezine yakın mı?",
+      "cevap": "Şelale ormanlık alandadır. Ulaşımın son bölümünü ve patika durumunu önceden kontrol ederek ayrı bir gezi olarak planlamak daha uygundur."
+    },
+    {   
+      "soru": "Pazartesi hangi müzeler kapalı?",
+      "cevap": "Tofaş Anadolu Arabaları Müzesi ve Hünkâr Köşkü Müzesi pazartesi kapalıdır."
+    }
+  ]
+},{
+  "slug": "bursa-nilufer",
+  "isim": "Nilüfer",
+  "bolge": "Bursa",
+  "resim": "bursa-nilufer/nilufer_genel.jpg",
+  "aciklama": "Nilüfer; Uluabat Gölü kıyısındaki Gölyazı, tarihî Gölyazı Kültürevi, Misi'deki müzeler ve Dağyenice Göleti ile kültür ve doğa gezisini birleştiren Bursa ilçesidir. Duraklar birbirinden uzak olduğu için araçlı gezi daha rahattır.",
+  "onerilen_sure": "1-2 gün",
+  "en_iyi_donem": "İlkbahar ve sonbahar",
+  "one_cikan": [
+    "Gölyazı Tarihî Yarımadası",
+    "Ağlayan Çınar",
+    "Uluabat Gölü",
+    "Gölyazı Kültürevi",
+    "Dağyenice Göleti"
+  ],
+  "kimler_icin_uygun": [
+    "Doğa severler",
+    "Fotoğrafçılar",
+    "Müze gezmeyi sevenler",
+    "Aileler"
+  ],
+  "gezilecek_yerler": [
+    {
+      "baslik": "Gölyazı Tarihî Yarımadası",
+      "resim": "bursa-nilufer/golyazi_tarihi_yarimada.jpg",
+      "aciklama": "Uluabat Gölü'ne uzanan tarihî yarımadada kıyıyı ve eski sokakları yürüyerek keşfedin."
+    },
+    {
+      "baslik": "Ağlayan Çınar",
+      "resim": "bursa-nilufer/aglayan_cinar.jpg",
+      "aciklama": "Gölyazı'daki anıt çınar, ilçenin en tanınan fotoğraf ve mola noktalarındandır."
+    },
+    {
+      "baslik": "Gölyazı Kültürevi",
+      "resim": "bursa-nilufer/golyazi_kulturevi.jpg",
+      "aciklama": "Restore edilen Aziz Panteleimon Kilisesi'nde Gölyazı tarihine ilişkin sergiler ve kültür etkinlikleri bulunur."
+    },
+    {
+      "baslik": "Zambak Tepe",
+      "resim": "bursa-nilufer/zambak_tepe.jpg",
+      "aciklama": "Gölyazı ve Uluabat Gölü manzarasını izleyebileceğiniz seyir noktası. Yakındaki antik tiyatro alanı kazı sahasıdır; alana giriş durumunu yerinde kontrol edin."
+    },
+    {
+      "baslik": "Gölyazı Surları",
+      "resim": "bursa-nilufer/golyazi_surlari.jpg",
+      "aciklama": "Antik Apollonia kentinden kalan sur izlerini yarımada yürüyüşü sırasında görebilirsiniz."
+    },
+    {
+      "baslik": "Uluabat Gölü Kıyısı",
+      "resim": "bursa-nilufer/uluabat_golu_kiyisi.jpg",
+      "aciklama": "Gölyazı kıyısından gölü, sazlıkları ve kuşları gözlemleyin. Hava uygunsa yerel tekne gezilerini değerlendirin."
+    },
+    {
+      "baslik": "Nilüfer Fotoğraf Müzesi",
+      "resim": "bursa-nilufer/nilufer_fotograf_muzesi.jpg",
+      "aciklama": "Misi'deki müze, fotoğraf tarihini, ekipmanları ve Bursa'ya ilişkin görsel arşivi sergiler."
+    },
+    {
+      "baslik": "Edebiyat Müzesi ve Arşivi",
+      "resim": "bursa-nilufer/edebiyat_muzesi_arsivi.jpg",
+      "aciklama": "Misi'deki tarihî evde yazarların el yazmaları, mektupları, kitapları ve kişisel eşyaları yer alır."
+    },
+    {
+      "baslik": "Görükle Mübadele Evi",
+      "resim": "bursa-nilufer/gorukle_mubadele_evi.jpg",
+      "aciklama": "Mübadele dönemine ait eşya, fotoğraf ve belgelerle göç hikâyelerini anlatan müze."
+    },
+    {
+      "baslik": "Dağyenice Göleti",
+      "resim": "bursa-nilufer/dagyenice_goleti.jpg",
+      "aciklama": "Ormanla çevrili gölet kıyısında yürüyüş ve doğa molası yapabilirsiniz. Gölyazı'dan ayrı bir gezi olarak planlamak daha rahattır."
+    },
+    {
+      "baslik": "Balat Atatürk Ormanı",
+      "resim": "bursa-nilufer/balat_ataturk_ormani.jpg",
+      "aciklama": "Yürüyüş, koşu ve açık hava etkinlikleri için kullanılan geniş yeşil alan."
+    }
+  ],
+  "dogal_guzellikler": [
+    {
+      "baslik": "Uluabat Gölü Kıyısı",
+      "resim": "bursa-nilufer/uluabat_golu_kiyisi.jpg",
+      "aciklama": "Gölyazı çevresinde göl manzarası ve kuş gözlemi sunar."
+    },
+    {
+      "baslik": "Dağyenice Göleti",
+      "resim": "bursa-nilufer/dagyenice_goleti.jpg",
+      "aciklama": "Orman içinde yürüyüş ve dinlenme için gölet."
+    },
+    {
+      "baslik": "Balat Atatürk Ormanı",
+      "resim": "bursa-nilufer/balat_ataturk_ormani.jpg",
+      "aciklama": "Şehir içinde uzun yürüyüşler için yeşil alan."
+    }
+  ],
+  "tarihi_yerler": [
+    {
+      "baslik": "Gölyazı Surları",
+      "resim": "bursa-nilufer/golyazi_surlari.jpg",
+      "aciklama": "Antik Apollonia kentinin günümüze ulaşan savunma yapısı izleri."
+    },
+    {
+      "baslik": "Gölyazı Kültürevi",
+      "resim": "bursa-nilufer/golyazi_kulturevi.jpg",
+      "aciklama": "Tarihî Aziz Panteleimon Kilisesi'nin restore edilmesiyle oluşturulan kültürevi."
+    }
+  ],
+  "plajlar": [],
+  "muzeler": [
+    {
+      "baslik": "Nilüfer Fotoğraf Müzesi",
+      "resim": "bursa-nilufer/nilufer_fotograf_muzesi.jpg",
+      "aciklama": "Fotoğrafçılığın geçmişini ve Bursa'nın görsel belleğini anlatır."
+    },
+    {
+      "baslik": "Edebiyat Müzesi ve Arşivi",
+      "resim": "bursa-nilufer/edebiyat_muzesi_arsivi.jpg",
+      "aciklama": "Şair ve yazarların eserleri ile kişisel arşivlerini sergiler."
+    },
+    {
+      "baslik": "Görükle Mübadele Evi",
+      "resim": "bursa-nilufer/gorukle_mubadele_evi.jpg",
+      "aciklama": "Mübadillerin yaşamına ilişkin eşya ve belgeleri gösterir."
+    }
+  ],
+  "aktiviteler": [
+    {
+      "baslik": "Gölyazı kıyı yürüyüşü",
+      "konum": "Gölyazı, Nilüfer/Bursa",
+      "aciklama": "Yarımadayı, Ağlayan Çınar'ı ve sur izlerini yürüyerek keşfedin."
+    },
+    {
+      "baslik": "Uluabat Gölü'nde tekne gezisi",
+      "konum": "Gölyazı, Nilüfer/Bursa",
+      "aciklama": "Hava ve işletme koşulları uygunsa yerel tekne gezisine katılın."
+    },
+    {
+      "baslik": "Misi müzeleri gezisi",
+      "konum": "Misi, Nilüfer/Bursa",
+      "aciklama": "Fotoğraf ve edebiyat müzelerini birlikte gezin."
+    },
+    {
+      "baslik": "Dağyenice'de doğa yürüyüşü",
+      "konum": "Dağyenice Göleti, Nilüfer/Bursa",
+      "aciklama": "Gölet çevresinde hava koşullarına uygun kısa bir yürüyüş yapın."
+    }
+  ],
+  "neler_yapilir": [
+    "Gölyazı'da kıyı boyunca yürü ve Ağlayan Çınar'ı gör.",
+    "Gölyazı Kültürevi'ndeki sergileri gez.",
+    "Zambak Tepe'den göl manzarasını izle.",
+    "Mevsimine göre Gölyazı'da göl balığı dene.",
+    "Misi'deki Fotoğraf ve Edebiyat müzelerini ziyaret et.",
+    "Vaktin varsa Dağyenice Göleti için ayrı bir doğa gezisi yap."
+  ],
+  "ne_yenir": [
+    {
+      "baslik": "Gölyazı Turna Balığı",
+      "aciklama": "Uluabat Gölü ile özdeşleşen balıklardan biridir. Av yasağı ve mevsime göre bulunabilirliği değişir."
+    },
+    {
+      "baslik": "Göl Sazanı",
+      "aciklama": "Gölyazı çevresinde geleneksel olarak tüketilen tatlı su balığıdır; güncel menüde bulunup bulunmadığını sorun."
+    },
+    {
+      "baslik": "Bursa Cantığı",
+      "aciklama": "Kıymalı harçla hazırlanan Bursa'ya özgü küçük pide."
+    },
+    {
+      "baslik": "Bursa Pideli Köfte",
+      "aciklama": "Pide üzerindeki köftenin sos, yoğurt ve tereyağıyla sunulduğu yöresel yemek."
+    },
+    {
+      "baslik": "Bursa Süt Helvası",
+      "aciklama": "Üzeri fırında kızartılarak servis edilen yerel sütlü tatlı."
+    }
+  ],
+  "yemek_nerede": [
+    {
+      "baslik": "Gölyazı Gönül Sofrası",
+      "konum": "Gölyazı, Cumhuriyet Caddesi No:52, Nilüfer/Bursa",
+      "aciklama": "Gölyazı gezisinde balık ve kahvaltı için listelenen restoran; gitmeden önce açık olduğunu teyit edin."
+    },
+    {
+      "baslik": "Misgibi Otel & Restaurant",
+      "konum": "Gümüştepe, Nilüfer Caddesi No:5, Nilüfer/Bursa",
+      "aciklama": "Misi'deki tarihî konakta restoran hizmeti veren işletme."
+    },
+    {
+      "baslik": "İskele Balık",
+      "konum": "Ertuğrul, Ahmet Taner Kışlalı Bulvarı D16/1, Nilüfer/Bursa",
+      "aciklama": "Balık ve meze için Nilüfer'de faaliyet gösteren restoran."
+    }
+  ],
+  "rota_1_gun": [
+    {
+      "saat": "09:00",
+      "baslik": "Gölyazı Tarihî Yarımadası",
+      "aciklama": "Güne göl kıyısında yürüyüşle başla."
+    },
+    {
+      "saat": "10:00",
+      "baslik": "Ağlayan Çınar ve Gölyazı Surları",
+      "aciklama": "Anıt ağacı gör, ardından sur izlerini takip et."
+    },
+    {
+      "saat": "11:00",
+      "baslik": "Gölyazı Kültürevi",
+      "aciklama": "Tarihî yapıyı ve sergileri gez."
+    },
+    {
+      "saat": "12:00",
+      "baslik": "Zambak Tepe",
+      "aciklama": "Yarımada ve göl manzarasını izle."
+    },
+    {
+      "saat": "13:00",
+      "baslik": "Öğle yemeği",
+      "aciklama": "Gölyazı'da yemek ye; göl balığı için mevsimi ve güncel menüyü sor."
+    },
+    {
+      "saat": "14:30",
+      "baslik": "Misi'ye geçiş",
+      "aciklama": "Araçla Misi'deki müzelere git."
+    },
+    {
+      "saat": "15:30",
+      "baslik": "Nilüfer Fotoğraf Müzesi",
+      "aciklama": "Fotoğraf koleksiyonunu incele."
+    },
+    {
+      "saat": "16:30",
+      "baslik": "Edebiyat Müzesi ve Arşivi",
+      "aciklama": "Yazarların eserleri ve kişisel eşyalarıyla günü tamamla."
+    }
+  ],
+  "sss": [
+    {
+      "soru": "Gölyazı hangi ilçede?",
+      "cevap": "Gölyazı, Bursa'nın Nilüfer ilçesindedir."
+    },
+    {
+      "soru": "Nilüfer'i gezmek için araba gerekli mi?",
+      "cevap": "Gölyazı, Misi ve Dağyenice birbirinden uzak olduğu için araçla gezi daha kolaydır."
+    },
+    {
+      "soru": "Ayvaini Mağarası gezilebilir mi?",
+      "cevap": "Bursa turizm kaynağı mağaranın sarp yapısı nedeniyle turizme kapalı olduğunu belirtiyor; bu yüzden günlük gezi rotasına eklenmedi."
+    },
+    {
+      "soru": "Gölyazı'da tekne turu her zaman yapılır mı?",
+      "cevap": "Tekne gezileri hava ve yerel işletme koşullarına bağlıdır; gitmeden önce yerinde veya işletmelerden bilgi alın."
+    }
+  ]
+},{
+  "slug": "bursa-mudanya",
+  "isim": "Mudanya",
+  "bolge": "Bursa",
+  "resim": "bursa-mudanya/mudanya_genel.jpg",
+  "aciklama": "Mudanya; Mütareke Evi, Tirilye'nin tarihî yapıları, Marmara kıyısı ve zeytin kültürüyle öne çıkan Bursa ilçesidir. İlçe merkezi yürüyerek gezilebilir; Tirilye, Kumyaka ve Kapanca için ayrıca ulaşım planlamak gerekir.",
+  "onerilen_sure": "1-2 gün",
+  "en_iyi_donem": "İlkbahar, yaz ve sonbahar",
+  "one_cikan": [
+    "Mudanya Mütareke Evi Müzesi",
+    "Tahir Paşa Konağı",
+    "Tirilye Taş Mektep Hafıza",
+    "Kemerli Kilise",
+    "Tirilye Limanı"
+  ],
+  "kimler_icin_uygun": [
+    "Tarih meraklıları",
+    "Sahil gezisi sevenler",
+    "Fotoğrafçılar",
+    "Yöresel yemek keşfetmek isteyenler"
+  ],
+  "gezilecek_yerler": [
+    {
+      "baslik": "Mudanya Mütareke Evi Müzesi",
+      "resim": "bursa-mudanya/mutareke_evi_muzesi.jpg",
+      "aciklama": "1922 Mudanya Mütarekesi'nin imzalandığı tarihî evde görüşme salonunu, dönem eşyalarını ve belgeleri görebilirsiniz. Ziyaret gününü önceden kontrol edin."
+    },
+    {
+      "baslik": "Tahir Paşa Konağı",
+      "resim": "bursa-mudanya/tahir_pasa_konagi.jpg",
+      "aciklama": "18. yüzyıldan kalan konakta Mudanya'nın sivil mimarisini ve sergilenen dönem eşyalarını inceleyebilirsiniz."
+    },
+    {
+      "baslik": "Mudanya Sahil Yürüyüş Yolu",
+      "resim": "bursa-mudanya/mudanya_sahil.jpg",
+      "aciklama": "Marmara kıyısında yürüyüş yapıp deniz manzarasında mola verebileceğiniz ilçe merkezi rotası."
+    },
+    {
+      "baslik": "Tirilye Taş Mektep Hafıza",
+      "resim": "bursa-mudanya/tirilye_tas_mektep.jpg",
+      "aciklama": "Restore edilen tarihî okul, 2026'da Tirilye'nin yaşamını ve mübadele geçmişini anlatan bir kültür mekânı olarak açıldı."
+    },
+    {
+      "baslik": "Kemerli Kilise",
+      "resim": "bursa-mudanya/kemerli_kilise.jpg",
+      "aciklama": "Tirilye'deki tarihî kilisenin mimarisini dışarıdan görebilirsiniz. İç ziyaret veya restorasyon durumunu önceden doğrulayın."
+    },
+    {
+      "baslik": "Dündar Evi",
+      "resim": "bursa-mudanya/dundar_evi.jpg",
+      "aciklama": "Tirilye'deki eski kilise yapısı günümüzde özel mülkiyettedir; yalnızca dış mimarisini görmek üzere rotaya ekleyin."
+    },
+    {
+      "baslik": "Tirilye Kültür Merkezi",
+      "resim": "bursa-mudanya/tirilye_kultur_merkezi.jpg",
+      "aciklama": "Eski kilise binasından dönüştürülen kültür merkezi. Etkinlik veya iç ziyaret durumunu gitmeden önce kontrol edin."
+    },
+    {
+      "baslik": "Tirilye Limanı",
+      "resim": "bursa-mudanya/tirilye_limani.jpg",
+      "aciklama": "Küçük liman boyunca yürüyebilir, balıkçı teknelerini ve Marmara manzarasını izleyebilirsiniz."
+    },
+    {
+      "baslik": "Tarihî Çamlı Kahve Seyir Noktası",
+      "resim": "bursa-mudanya/camli_kahve_manzara.jpg",
+      "aciklama": "Tirilye çatılarını ve Marmara Denizi'ni yukarıdan gören manzara durağı."
+    },
+    {
+      "baslik": "Baş Melekler Kilisesi",
+      "resim": "bursa-mudanya/bas_melekler_kilisesi.jpg",
+      "aciklama": "Kumyaka'daki tarihî kilise. Ziyarete açık olduğuna ilişkin güncel teyit bulunmadığından dışarıdan görmeyi planlayın."
+    },
+    {
+      "baslik": "Kapanca Antik Limanı",
+      "resim": "bursa-mudanya/kapanca_antik_limani.jpg",
+      "aciklama": "Tirilye ile Eşkel arasındaki antik liman kalıntıları ve kıyı manzarası. Ulaşım ve arazi koşullarını kontrol ederek gidin."
+    },
+    {
+      "baslik": "Plaj Mudanya",
+      "resim": "bursa-mudanya/plaj_mudanya.jpg",
+      "aciklama": "Güzelyalı sahilinde 2026 yazında hizmete açılan düzenlenmiş plaj. Deniz sezonu ve güncel hizmet durumunu kontrol edin."
+    }
+  ],
+  "dogal_guzellikler": [
+    {
+      "baslik": "Mudanya Sahili",
+      "resim": "bursa-mudanya/mudanya_sahil.jpg",
+      "aciklama": "Deniz manzarası eşliğinde yürüyüş için kıyı hattı."
+    },
+    {
+      "baslik": "Kapanca Kıyısı",
+      "resim": "bursa-mudanya/kapanca_antik_limani.jpg",
+      "aciklama": "Tarihî liman izleriyle birlikte doğa manzarası sunan kıyı."
+    }
+  ],
+  "tarihi_yerler": [
+    {
+      "baslik": "Mudanya Mütareke Evi Müzesi",
+      "resim": "bursa-mudanya/mutareke_evi_muzesi.jpg",
+      "aciklama": "Mudanya Mütarekesi'nin imzalandığı yapı."
+    },
+    {
+      "baslik": "Tahir Paşa Konağı",
+      "resim": "bursa-mudanya/tahir_pasa_konagi.jpg",
+      "aciklama": "Mudanya'nın 18. yüzyıl sivil mimari örneği."
+    },
+    {
+      "baslik": "Tirilye Taş Mektep",
+      "resim": "bursa-mudanya/tirilye_tas_mektep.jpg",
+      "aciklama": "Bugün kültür mekânı olarak kullanılan tarihî okul."
+    },
+    {
+      "baslik": "Kemerli Kilise",
+      "resim": "bursa-mudanya/kemerli_kilise.jpg",
+      "aciklama": "Tirilye'nin tarihî kilise yapısı."
+    },
+    {
+      "baslik": "Kapanca Antik Limanı",
+      "resim": "bursa-mudanya/kapanca_antik_limani.jpg",
+      "aciklama": "Antik dönemden itibaren kullanılan liman alanı."
+    }
+  ],
+  "plajlar": [
+    {
+      "baslik": "Plaj Mudanya",
+      "resim": "bursa-mudanya/plaj_mudanya.jpg",
+      "aciklama": "Güzelyalı'daki düzenlenmiş plaj; yaz sezonunda hizmet durumunu kontrol edin."
+    }
+  ],
+  "muzeler": [
+    {
+      "baslik": "Mudanya Mütareke Evi Müzesi",
+      "resim": "bursa-mudanya/mutareke_evi_muzesi.jpg",
+      "aciklama": "Mütareke dönemine ait oda, eşya ve belgeleri sergiler."
+    },
+    {
+      "baslik": "Tahir Paşa Konağı",
+      "resim": "bursa-mudanya/tahir_pasa_konagi.jpg",
+      "aciklama": "Dönem eşyalarıyla düzenlenmiş tarihî konak."
+    },
+    {
+      "baslik": "Tirilye Taş Mektep Hafıza",
+      "resim": "bursa-mudanya/tirilye_tas_mektep.jpg",
+      "aciklama": "Tirilye'nin tarihini ve mübadele belleğini anlatan kültür mekânı."
+    }
+  ],
+  "aktiviteler": [
+    {
+      "baslik": "Mudanya sahil yürüyüşü",
+      "konum": "Mudanya merkez, Bursa",
+      "aciklama": "Mütareke Evi ziyaretini kıyı yürüyüşüyle birleştirin."
+    },
+    {
+      "baslik": "Tirilye tarih gezisi",
+      "konum": "Tirilye, Mudanya/Bursa",
+      "aciklama": "Taş Mektep, tarihî yapıların dış cepheleri ve limanı yürüyerek görün."
+    },
+    {
+      "baslik": "Zeytin ve zeytinyağı tadımı",
+      "konum": "Tirilye, Mudanya/Bursa",
+      "aciklama": "Yerel üreticilerin zeytin ve zeytinyağı ürünlerini deneyin."
+    },
+    {
+      "baslik": "Rota Myrleia yürüyüşü",
+      "konum": "Mudanya-Tirilye hattı, Bursa",
+      "aciklama": "İşaretli parkurlardan uygun olanı seçip uzun yürüyüş için ayrıca zaman ayırın."
+    }
+  ],
+  "neler_yapilir": [
+    "Mütareke Evi'ni ve Tahir Paşa Konağı'nı gez.",
+    "Mudanya sahilinde yürü.",
+    "Tirilye Taş Mektep Hafıza'yı ziyaret et.",
+    "Tirilye'nin tarihî yapılarının dış cephelerini gör.",
+    "Liman ve Çamlı Kahve seyir noktasında manzara izle.",
+    "Tirilye zeytini, zeytinyağlılar ve mevsim balığı dene.",
+    "Yazın denize girmek için plajın güncel durumunu kontrol et."
+  ],
+  "ne_yenir": [
+    {
+      "baslik": "Tirilye Zeytini",
+      "aciklama": "Tirilye'nin sofralık zeytinini yerel üreticilerden tadın. Coğrafi işaret başvurusu bulunuyor; tescillendiği iddia edilmiyor."
+    },
+    {
+      "baslik": "Zeytinyağlı Ot Yemekleri",
+      "aciklama": "Mudanya'daki Girit mutfağı etkisiyle hazırlanan mevsimlik ot yemekleri."
+    },
+    {
+      "baslik": "Girit Usulü Etli Enginar",
+      "aciklama": "Mudanya'nın mübadele mutfağıyla ilişkili enginar yemeği."
+    },
+    {
+      "baslik": "Lorlu Hamur Kızartması",
+      "aciklama": "Bölgenin Girit mutfağı anlatımlarında yer alan hamur işi."
+    },
+    {
+      "baslik": "Mevsim Balığı",
+      "aciklama": "Mudanya ve Tirilye kıyısındaki balık restoranlarında günün balığını sorun."
+    }
+  ],
+  "yemek_nerede": [
+    {
+      "baslik": "Kıyı Balık",
+      "konum": "Halitpaşa, 12 Eylül Caddesi No:48, Mudanya/Bursa",
+      "aciklama": "Mudanya merkezde balık ve meze sunan restoran."
+    },
+    {
+      "baslik": "Tarihî Çamlı Kahve",
+      "konum": "Çamlı Kahve seyir noktası, Tirilye, Mudanya/Bursa",
+      "aciklama": "Tirilye manzarasında kahvaltı, gözleme ve hafif yemekler sunan işletme."
+    },
+    {
+      "baslik": "Eşkel Deniz Yıldızı",
+      "konum": "Esence, Esence 30. Sokak No:14/1, Mudanya/Bursa",
+      "aciklama": "Eşkel kıyısında kahvaltı ve balık seçenekleri sunan restoran."
+    }
+  ],
+  "rota_1_gun": [
+    {
+      "saat": "09:00",
+      "baslik": "Mudanya Mütareke Evi Müzesi",
+      "aciklama": "Güne ilçenin en önemli tarihî durağıyla başla; gitmeden önce o gün açık olduğunu doğrula."
+    },
+    {
+      "saat": "10:15",
+      "baslik": "Tahir Paşa Konağı",
+      "aciklama": "Konağı ve sergilenen dönem eşyalarını gör."
+    },
+    {
+      "saat": "11:15",
+      "baslik": "Mudanya sahili",
+      "aciklama": "Kıyıda yürüyüş ve fotoğraf molası ver."
+    },
+    {
+      "saat": "12:30",
+      "baslik": "Öğle yemeği",
+      "aciklama": "Mevsim balığı veya zeytinyağlılardan dene."
+    },
+    {
+      "saat": "14:00",
+      "baslik": "Tirilye Taş Mektep Hafıza",
+      "aciklama": "Tirilye'ye geçip tarihî okulun sergilerini gez."
+    },
+    {
+      "saat": "15:00",
+      "baslik": "Tirilye tarihî yapıları",
+      "aciklama": "Kemerli Kilise ve Dündar Evi'ni dışarıdan gör."
+    },
+    {
+      "saat": "16:00",
+      "baslik": "Tirilye Limanı",
+      "aciklama": "Liman boyunca yürüyüp yerel zeytin ürünlerine bak."
+    },
+    {
+      "saat": "17:30",
+      "baslik": "Çamlı Kahve seyir noktası",
+      "aciklama": "Günü Tirilye ve Marmara manzarasıyla tamamla."
+    }
+  ],
+  "sss": [
+    {
+      "soru": "Mudanya'yı gezmek için kaç gün gerekir?",
+      "cevap": "Mudanya merkezi ve Tirilye için bir gün; Kumyaka, Kapanca ve doğa yürüyüşlerini eklemek için iki gün daha uygundur."
+    },
+    {
+      "soru": "Tirilye hangi ilçede?",
+      "cevap": "Tirilye, Bursa'nın Mudanya ilçesindedir."
+    },
+    {
+      "soru": "Mudanya'daki tarihî kiliselerin içine girilebilir mi?",
+      "cevap": "Bazıları özel mülkiyette veya restorasyon sürecindedir. Kemerli Kilise, Dündar Evi ve Baş Melekler Kilisesi için iç ziyaret varsaymayın."
+    },
+    {
+      "soru": "Mudanya'da denize girilecek yer var mı?",
+      "cevap": "Güzelyalı'daki Plaj Mudanya 2026 yazında açıldı. Plajın hizmet dönemi, deniz koşulları ve güncel durumu ziyaret öncesi kontrol edilmelidir."
+    }
+  ]
+},{
+  "slug": "bursa-gemlik",
+  "isim": "Gemlik",
+  "bolge": "Bursa",
+  "resim": "bursa-gemlik/gemlik_genel.jpg",
+  "aciklama": "Gemlik; körfez manzarası, zeytini, kıyı gezileri ve Umurbey'deki Celal Bayar mirasıyla öne çıkar. Sahil durakları arasında araç kullanmak geziyi kolaylaştırır.",
+  "onerilen_sure": "1-2 gün",
+  "en_iyi_donem": "Sahil gezisi için ilkbahar ve sonbahar; deniz için yaz",
+  "one_cikan": [
+    "Gemlik zeytini",
+    "Celal Bayar'ın Doğduğu Ev",
+    "Sudüşen Şelalesi",
+    "Kumla ve Narlı kıyıları"
+  ],
+  "kimler_icin_uygun": [
+    "Sahil gezisi sevenler",
+    "Aileler",
+    "Tarih meraklıları",
+    "Doğa yürüyüşü sevenler"
+  ],
+  "gezilecek_yerler": [
+    {
+      "baslik": "Gemlik Sahil Kordonu",
+      "resim": "bursa-gemlik/gemlik_sahil_kordonu.jpg",
+      "aciklama": "İlçe merkezinde körfez manzarası eşliğinde yürüyüş ve kısa mola için uygun kıyı hattı."
+    },
+    {
+      "baslik": "Atatepe",
+      "resim": "bursa-gemlik/atatepe.jpg",
+      "aciklama": "Gemlik Körfezi'ni yukarıdan izleyebileceğiniz manzara durağı. Burada BURFAŞ sosyal tesisi de bulunur."
+    },
+    {
+      "baslik": "Celal Bayar'ın Doğduğu Ev",
+      "resim": "bursa-gemlik/celal_bayarin_dogdugu_ev.jpg",
+      "aciklama": "Umurbey'deki tarihî ev ücretsiz ziyarete açıktır. Belediye duyurusuna göre pazartesi hariç 09.00-17.00 arasında gezilebilir."
+    },
+    {
+      "baslik": "Celal Bayar Anıt Mezarı",
+      "resim": "bursa-gemlik/celal_bayar_anit_mezari.jpg",
+      "aciklama": "Türkiye'nin üçüncü cumhurbaşkanının Umurbey'deki anıt mezarı. Doğduğu evle birlikte ziyaret edilebilir."
+    },
+    {
+      "baslik": "Sudüşen Şelalesi",
+      "resim": "bursa-gemlik/sudusen_selalesi.jpg",
+      "aciklama": "Bursa turizm portalının Gemlik-Haydariye yönünde gösterdiği şelale. Yalova-Termal üzerinden de tarif edildiği için yola çıkmadan erişim güzergâhını kontrol edin."
+    },
+    {
+      "baslik": "Kurşunlu Hagios Aberkios Manastırı",
+      "resim": "bursa-gemlik/kursunlu_hagios_aberkios_manastiri.jpg",
+      "aciklama": "Kurşunlu yakınındaki tarihî manastır yapısı. Düzenli müze ziyareti gibi planlamayın; erişim durumunu önceden öğrenin."
+    }
+  ],
+  "dogal_guzellikler": [
+    {
+      "baslik": "Sudüşen Şelalesi",
+      "resim": "bursa-gemlik/sudusen_selalesi.jpg",
+      "aciklama": "Ormanlık çevresiyle kısa bir doğa gezisi için değerlendirilebilecek şelale."
+    },
+    {
+      "baslik": "Gemlik Körfezi",
+      "resim": "bursa-gemlik/gemlik_korfezi.jpg",
+      "aciklama": "Kordon ve Atatepe'den farklı açılarla izlenebilen körfez manzarası."
+    }
+  ],
+  "tarihi_yerler": [
+    {
+      "baslik": "Celal Bayar'ın Doğduğu Ev",
+      "resim": "bursa-gemlik/celal_bayarin_dogdugu_ev.jpg",
+      "aciklama": "Umurbey'de restore edilerek ziyarete açılan tarihî ev."
+    },
+    {
+      "baslik": "Celal Bayar Anıt Mezarı",
+      "resim": "bursa-gemlik/celal_bayar_anit_mezari.jpg",
+      "aciklama": "Umurbey'deki anma ve ziyaret noktası."
+    },
+    {
+      "baslik": "Kurşunlu Hagios Aberkios Manastırı",
+      "resim": "bursa-gemlik/kursunlu_hagios_aberkios_manastiri.jpg",
+      "aciklama": "Bursa'nın eski manastır yapılarından biri; ziyaret koşulları önceden kontrol edilmeli."
+    }
+  ],
+  "plajlar": [
+    {
+      "baslik": "Küçükkumla Plajı",
+      "resim": "bursa-gemlik/kucukkumla_plaji.jpg",
+      "aciklama": "Kumla kıyısında deniz ve sahil yürüyüşü için kullanılan plaj."
+    },
+    {
+      "baslik": "Büyükkumla Plajı",
+      "resim": "bursa-gemlik/buyukkumla_plaji.jpg",
+      "aciklama": "Gemlik'in yaz aylarında tercih edilen kıyı duraklarından biri."
+    },
+    {
+      "baslik": "Narlı Plajı",
+      "resim": "bursa-gemlik/narli_plaji.jpg",
+      "aciklama": "Kıyı manzarası ve deniz molası için değerlendirilebilecek plaj."
+    },
+    {
+      "baslik": "Karacaali Plajı",
+      "resim": "bursa-gemlik/karacaali_plaji.jpg",
+      "aciklama": "Gemlik'in Karacaali kıyısındaki deniz durağı."
+    },
+    {
+      "baslik": "Kurşunlu Plajı",
+      "resim": "bursa-gemlik/kursunlu_plaji.jpg",
+      "aciklama": "Kurşunlu kıyısında yaz gezisi için tercih edilen plaj."
+    }
+  ],
+  "muzeler": [
+    {
+      "baslik": "Celal Bayar'ın Doğduğu Ev",
+      "resim": "bursa-gemlik/celal_bayarin_dogdugu_ev.jpg",
+      "aciklama": "Ziyarete açık tarihî anı evi. Ayrı Celal Bayar müze ve kütüphane projesiyle karıştırılmamalıdır."
+    }
+  ],
+  "aktiviteler": [
+    {
+      "baslik": "Körfez manzarası izlemek",
+      "konum": "Atatepe, Gemlik",
+      "aciklama": "Körfezi yüksek bir noktadan fotoğraflayın."
+    },
+    {
+      "baslik": "Sahil yürüyüşü",
+      "konum": "Gemlik Sahil Kordonu",
+      "aciklama": "Kıyı boyunca yürüyüş yapın."
+    },
+    {
+      "baslik": "Denize girmek",
+      "konum": "Kumla, Narlı, Karacaali veya Kurşunlu",
+      "aciklama": "Güncel deniz suyu kalitesi ve plaj koşullarını kontrol ederek plaj seçin."
+    },
+    {
+      "baslik": "Şelale gezisi",
+      "konum": "Sudüşen Şelalesi",
+      "aciklama": "Yol ve hava koşullarına uygun ayakkabıyla doğa gezisi yapın."
+    }
+  ],
+  "neler_yapilir": [
+    "Gemlik Sahil Kordonu'nda yürü.",
+    "Atatepe'den körfez manzarasını izle.",
+    "Umurbey'de Celal Bayar'ın doğduğu evi ve anıt mezarını ziyaret et.",
+    "Yazın Gemlik plajlarından birinde deniz molası ver.",
+    "Sudüşen Şelalesi'ni ayrı bir doğa gezisi olarak planla.",
+    "Gemlik zeytini tat ve mevsim balığı ye."
+  ],
+  "ne_yenir": [
+    {
+      "baslik": "Gemlik Zeytini",
+      "aciklama": "İlçenin coğrafi işaretli, en tanınan yerel ürünüdür."
+    },
+    {
+      "baslik": "Zeytinyağlılar",
+      "aciklama": "Bölgenin zeytin üretimiyle uyumlu bir sofra seçeneğidir; çeşitler işletmeye göre değişir."
+    },
+    {
+      "baslik": "Mevsim Balığı",
+      "aciklama": "Körfez kıyısındaki balık restoranlarında o gün bulunan türleri sorun."
+    },
+    {
+      "baslik": "Balık Çorbası",
+      "aciklama": "Atatepe Sosyal Tesisi'nin tanıtımında öne çıkarılan seçeneklerden biridir."
+    },
+    {
+      "baslik": "Fırın Helva",
+      "aciklama": "Balık yemeği sonrasında tercih edilebilen tatlı; Atatepe'nin tanıtılan menüsünde de yer alır."
+    }
+  ],
+  "yemek_nerede": [
+    {
+      "baslik": "BURFAŞ Atatepe Sosyal Tesisi",
+      "konum": "Ata Mahallesi, Aydınlar Sokak No:3, Gemlik/Bursa",
+      "aciklama": "Körfez manzaralı restoran; balık ve diğer yemek seçenekleri bulunur. Gitmeden çalışma saatlerini doğrulayın."
+    },
+    {
+      "baslik": "Mert Balık",
+      "konum": "Hamidiye Mahallesi, Kumsal Sokak No:3A, Gemlik/Bursa",
+      "aciklama": "Merkezde balık yemek için seçenek. Güncel sipariş platformu kaydı bulunur."
+    },
+    {
+      "baslik": "Huzur Motel Restaurant",
+      "konum": "Karacaali Mahallesi, Çamlık Sitesi Yolu No:334, Gemlik/Bursa",
+      "aciklama": "Karacaali kıyısında deniz ürünleri sunan işletme. Özellikle sezon dışında gitmeden açık olup olmadığını arayın."
+    }
+  ],
+  "rota_1_gun": [
+    {
+      "saat": "09:00",
+      "baslik": "Gemlik Sahil Kordonu",
+      "aciklama": "Güne körfez kıyısında yürüyüşle başla."
+    },
+    {
+      "saat": "10:30",
+      "baslik": "Celal Bayar'ın Doğduğu Ev",
+      "aciklama": "Umurbey'e geçip tarihî evi ziyaret et; pazartesi kapalı olduğunu unutma."
+    },
+    {
+      "saat": "11:30",
+      "baslik": "Celal Bayar Anıt Mezarı",
+      "aciklama": "Umurbey'deki ikinci tarih durağını gör."
+    },
+    {
+      "saat": "13:00",
+      "baslik": "Gemlik'te öğle yemeği",
+      "aciklama": "Mevsim balığı veya zeytinyağlı seçenekleri dene."
+    },
+    {
+      "saat": "14:30",
+      "baslik": "Küçükkumla ve Büyükkumla kıyısı",
+      "aciklama": "Sahil gezisi yap; yazın uygun plajda deniz molası ver."
+    },
+    {
+      "saat": "17:00",
+      "baslik": "Atatepe",
+      "aciklama": "Günü körfez manzarasıyla tamamla. Sudüşen Şelalesi'ni ulaşım süresi nedeniyle ayrı geziye bırak."
+    }
+  ],
+  "sss": [
+    {
+      "soru": "Gemlik'te bir günde nereler gezilir?",
+      "cevap": "Sahil Kordonu, Umurbey'deki Celal Bayar durakları, Kumla kıyısı ve Atatepe bir günlük rotaya sığar."
+    },
+    {
+      "soru": "Celal Bayar'ın doğduğu ev açık mı?",
+      "cevap": "Gemlik Belediyesi duyurusuna göre pazartesi hariç 09.00-17.00 saatleri arasında ücretsiz ziyarete açıktır."
+    },
+    {
+      "soru": "Sudüşen Şelalesi Gemlik'te mi?",
+      "cevap": "Bursa turizm portalı şelaleyi Gemlik-Haydariye'de gösterir. Bazı ulaşım tarifleri Yalova-Termal üzerinden verildiğinden yola çıkmadan rotayı kontrol edin."
+    },
+    {
+      "soru": "Gemlik'in ünlü yiyeceği nedir?",
+      "cevap": "En belirgin yerel ürün coğrafi işaretli Gemlik zeytinidir."
+    }
+  ]
+},{
+  "slug": "bursa-gursu",
+  "isim": "Gürsu",
+  "bolge": "Bursa",
+  "resim": "bursa-gursu/gursu_genel.jpg",
+  "aciklama": "Gürsu; Ericek Göleti, Adrenalin Park, seyir noktaları ve coğrafi işaretli armutlarıyla öne çıkan Bursa ilçesidir. Doğa durakları ilçe merkezinden ayrı olduğu için araçlı gezi daha uygundur.",
+  "onerilen_sure": "1 gün",
+  "en_iyi_donem": "İlkbahar ve sonbahar",
+  "one_cikan": [
+    "Ericek Göleti",
+    "Gürsu Adrenalin Park",
+    "Gemi Seyir Terası",
+    "Gürsu Deveci Armudu"
+  ],
+  "kimler_icin_uygun": [
+    "Doğa gezisi sevenler",
+    "Macera sporlarına ilgi duyanlar",
+    "Aileler",
+    "Manzara fotoğrafı çekmek isteyenler"
+  ],
+  "gezilecek_yerler": [
+    {
+      "baslik": "Ericek Göleti",
+      "resim": "bursa-gursu/ericek_goleti.jpg",
+      "aciklama": "Ormanlık çevresi ve gölet manzarasıyla yürüyüş ve doğa molası için Gürsu'nun başlıca duraklarından biridir."
+    },
+    {
+      "baslik": "Gürsu Adrenalin Park",
+      "resim": "bursa-gursu/gursu_adrenalin_park.jpg",
+      "aciklama": "Ericek Göleti yakınındaki doğa sporları tesisi. Zipline ve diğer etkinliklerin o günkü çalışma durumunu gitmeden doğrulayın."
+    },
+    {
+      "baslik": "Gemi Seyir Terası",
+      "resim": "bursa-gursu/gemi_seyir_terasi.jpg",
+      "aciklama": "İğdir yönünde Bursa Ovası'nı yüksekten izleyebileceğiniz seyir noktası. 2026 yazında ziyaretçi ağırladığı bildirilmiştir."
+    },
+    {
+      "baslik": "Kule Orman Park Mesire Alanı",
+      "resim": "bursa-gursu/kule_orman_park.jpg",
+      "aciklama": "2025 yangınından sonra 2026'da kontrollü olarak yeniden açılan mesire alanı. Bazı bölümler kapalıdır; eski kır lokantası ve seyir terası kullanılamaz."
+    },
+    {
+      "baslik": "Dışkaya Yamaç Paraşütü Uçuş Alanı",
+      "resim": "bursa-gursu/diskaya_yamac_parasutu.jpg",
+      "aciklama": "Bursa turizm portalında yamaç paraşütü noktası olarak gösterilir. Uçuş ancak yetkili ekip ve uygun hava koşullarıyla planlanmalıdır."
+    },
+    {
+      "baslik": "Tarihi Gürsu Su Değirmeni",
+      "resim": "bursa-gursu/tarihi_gursu_su_degirmeni.jpg",
+      "aciklama": "Belediyenin kent rehberinde işaretlenen tarihî yapı. İç ziyaret bilgisi net olmadığından dışarıdan görme durağı olarak planlayın."
+    },
+    {
+      "baslik": "Gürsu Tarihi Hamamı",
+      "resim": "bursa-gursu/gursu_tarihi_hamami.jpg",
+      "aciklama": "İlçe merkezindeki tarihî yapı; güncel kullanım ve içeri giriş durumunu önceden kontrol edin."
+    }
+  ],
+  "dogal_guzellikler": [
+    {
+      "baslik": "Ericek Göleti",
+      "resim": "bursa-gursu/ericek_goleti.jpg",
+      "aciklama": "Gölet çevresinde manzara ve kısa doğa yürüyüşü için zaman ayırın."
+    },
+    {
+      "baslik": "Kule Orman Park Mesire Alanı",
+      "resim": "bursa-gursu/kule_orman_park.jpg",
+      "aciklama": "Yalnızca ziyarete açılmış bölümleri kullanın; güncel yangın tedbirlerine uyun."
+    }
+  ],
+  "tarihi_yerler": [
+    {
+      "baslik": "Tarihi Gürsu Su Değirmeni",
+      "resim": "bursa-gursu/tarihi_gursu_su_degirmeni.jpg",
+      "aciklama": "Gürsu'nun tarihî üretim yapılarından biri."
+    },
+    {
+      "baslik": "Gürsu Tarihi Hamamı",
+      "resim": "bursa-gursu/gursu_tarihi_hamami.jpg",
+      "aciklama": "Merkezdeki tarihî hamam yapısı."
+    }
+  ],
+  "plajlar": [],
+  "muzeler": [],
+  "aktiviteler": [
+    {
+      "baslik": "Gölet çevresinde yürüyüş",
+      "konum": "Ericek Göleti, Gürsu/Bursa",
+      "aciklama": "Hava ve zemin koşullarına uygun ayakkabıyla gölet çevresini keşfedin."
+    },
+    {
+      "baslik": "Doğa sporları",
+      "konum": "Gürsu Adrenalin Park, Ericek",
+      "aciklama": "İlgilendiğiniz etkinliğin açık olup olmadığını tesisle önceden görüşün."
+    },
+    {
+      "baslik": "Manzara izleme",
+      "konum": "Gemi Seyir Terası, İğdir",
+      "aciklama": "Bursa Ovası manzarası için mola verin."
+    },
+    {
+      "baslik": "Yamaç paraşütü",
+      "konum": "Dışkaya Uçuş Alanı",
+      "aciklama": "Yalnızca yetkili pilot ve uygun hava koşullarıyla uçuş planlayın."
+    }
+  ],
+  "neler_yapilir": [
+    "Ericek Göleti çevresinde yürüyüş yap.",
+    "Adrenalin Park'taki güncel etkinlikleri kontrol et.",
+    "Gemi Seyir Terası'ndan Bursa Ovası'nı izle.",
+    "Kule Orman Park'ın açık bölümünde doğa molası ver.",
+    "Tarihî değirmen ve hamam yapılarını dışarıdan gör.",
+    "Mevsimindeyse Gürsu Deveci ve Bursa Santa Maria armutlarını tat."
+  ],
+  "ne_yenir": [
+    {
+      "baslik": "Gürsu Deveci Armudu",
+      "aciklama": "Gürsu ilçesi için coğrafi işaretle tescillenmiş, sulu ve gevrek kış armudu."
+    },
+    {
+      "baslik": "Bursa Santa Maria Armudu",
+      "aciklama": "Gürsu'da da yetiştirilen, coğrafi işaretli yazlık armut."
+    },
+    {
+      "baslik": "Kurutulmuş Armut",
+      "aciklama": "Gürsu'daki kadın kooperatifinin yerel armutlardan hazırladığı ürünlerden biridir."
+    },
+    {
+      "baslik": "Bursa Cantığı",
+      "aciklama": "Gürsu'daki pide salonlarında da bulunabilen Bursa yöresi hamur işi."
+    },
+    {
+      "baslik": "Pideli Köfte",
+      "aciklama": "Gürsu'ya özgü değil, ancak Bursa gezisinde denenebilecek yöresel ana yemek."
+    }
+  ],
+  "yemek_nerede": [
+    {
+      "baslik": "Gemi Seyir Terası",
+      "konum": "İğdir, Gürsu/Bursa",
+      "aciklama": "Manzaralı yeme-içme durağı. Gitmeden güncel servis saatlerini kontrol edin."
+    },
+    {
+      "baslik": "Sofram's Et Mangal",
+      "konum": "Kurtuluş Mahallesi, Şehit Cüneyt Yıldız Caddesi No:93/B, Gürsu/Bursa",
+      "aciklama": "Et ve ızgara seçenekleri sunan restoran; işletmenin güncel web sayfasında çalışma saatleri yer alıyor."
+    },
+    {
+      "baslik": "Gürsulu Kardeşler Pide Cantık Lahmacun",
+      "konum": "Kurtuluş Mahallesi, Nergis Sokak No:2, Gürsu/Bursa",
+      "aciklama": "Cantık, pide ve lahmacun için seçenek. Saatleri yayımlanmadığından gitmeden arayın."
+    }
+  ],
+  "rota_1_gun": [
+    {
+      "saat": "09:00",
+      "baslik": "Tarihi Gürsu Su Değirmeni ve Gürsu Tarihi Hamamı",
+      "aciklama": "Merkezdeki iki tarihî yapıyı dışarıdan gör."
+    },
+    {
+      "saat": "10:30",
+      "baslik": "Ericek Göleti",
+      "aciklama": "Araçla Ericek'e geç; gölet çevresinde yürüyüş yap."
+    },
+    {
+      "saat": "12:00",
+      "baslik": "Gürsu Adrenalin Park",
+      "aciklama": "Önceden teyit ettiğin etkinliğe katıl veya park çevresini gez."
+    },
+    {
+      "saat": "13:30",
+      "baslik": "Öğle yemeği",
+      "aciklama": "Gürsu merkezde cantık, pide veya ızgara seç."
+    },
+    {
+      "saat": "15:00",
+      "baslik": "Kule Orman Park",
+      "aciklama": "Yalnızca kontrollü açılan bölümde doğa molası ver."
+    },
+    {
+      "saat": "17:00",
+      "baslik": "Gemi Seyir Terası",
+      "aciklama": "Günü Bursa Ovası manzarasıyla tamamla; duraklar arası araç süresini hesaba kat."
+    }
+  ],
+  "sss": [
+    {
+      "soru": "Gürsu'da en çok nereye gidilir?",
+      "cevap": "Ericek Göleti, Gürsu Adrenalin Park ve Gemi Seyir Terası öne çıkan duraklardır."
+    },
+    {
+      "soru": "Kule Orman Park açık mı?",
+      "cevap": "2026'da kontrollü olarak yeniden açılmıştır; yangında zarar gören bazı bölümler, eski kır lokantası ve eski teras kullanılamaz."
+    },
+    {
+      "soru": "Gürsu'nun meşhur yiyeceği nedir?",
+      "cevap": "İlçenin en belirgin tescilli ürünü Gürsu Deveci Armudu'dur. Bursa Santa Maria Armudu da Gürsu'da yetiştirilir."
+    },
+    {
+      "soru": "Gürsu'da plaj var mı?",
+      "cevap": "Hayır. Gürsu denize kıyısı olmayan bir ilçedir."
+    }
+  ]
+},{
+  "slug": "bursa-kestel",
+  "isim": "Kestel",
+  "bolge": "Bursa",
+  "resim": "bursa-kestel/kestel_genel.jpg",
+  "aciklama": "Kestel; Saitabat, Küreklidere ve Alaçam şelaleleri, Aksu Köyü Müzesi, Gölbaşı Göleti ve erken dönem tarihî yapılarıyla öne çıkar. Doğa duraklarına ulaşım için araç ve uygun yürüyüş ayakkabısı önerilir.",
+  "onerilen_sure": "1-2 gün",
+  "en_iyi_donem": "İlkbahar ve sonbahar",
+  "one_cikan": [
+    "Saitabat Şelalesi",
+    "Aksu Köyü Müzesi",
+    "Gölbaşı Göleti",
+    "Baba Sultan Çınarı",
+    "Alaçam Şelalesi ve Kanyonu"
+  ],
+  "kimler_icin_uygun": [
+    "Doğa yürüyüşü sevenler",
+    "Aileler",
+    "Tarih meraklıları",
+    "Fotoğrafçılar"
+  ],
+  "gezilecek_yerler": [
+    {
+      "baslik": "Saitabat Şelalesi",
+      "resim": "bursa-kestel/saitabat_selalesi.jpg",
+      "aciklama": "Kestel'in en bilinen doğa durağıdır. Şelale çevresinde yürüyüş ve yemek molası verilebilir."
+    },
+    {
+      "baslik": "Küreklidere Şelalesi",
+      "resim": "bursa-kestel/kureklidere_selalesi.jpg",
+      "aciklama": "Orman içindeki patikadan ulaşılan şelale. Saitabat'a göre daha fazla yürüyüş gerektirir; yağış sonrası zemin koşullarını kontrol edin."
+    },
+    {
+      "baslik": "Alaçam Şelalesi ve Kanyonu",
+      "resim": "bursa-kestel/alacam_selalesi_ve_kanyonu.jpg",
+      "aciklama": "Patika ve kanyon çevresiyle doğa yürüyüşçülerine hitap eder. Hazırlıksız bir kısa mola olarak değil, ayrı bir yürüyüş gezisi olarak planlayın."
+    },
+    {
+      "baslik": "Gölbaşı Göleti",
+      "resim": "bursa-kestel/golbasi_goleti.jpg",
+      "aciklama": "Kestel sınırlarında bulunan sulama göleti. Kıyı manzarası ve sakin bir doğa molası için uygundur; yüzme noktası olarak değerlendirmeyin."
+    },
+    {
+      "baslik": "Aksu Köyü Müzesi",
+      "resim": "bursa-kestel/aksu_koyu_muzesi.jpg",
+      "aciklama": "Eski köy hamamında düzenlenen müze, Aksu'nun geçmişini ve gündelik yaşam kültürünü anlatır. Turizm portalında ziyaret saatleri 09.30-17.30 olarak verilmiştir."
+    },
+    {
+      "baslik": "Kestel Kalesi",
+      "resim": "bursa-kestel/kestel_kalesi.jpg",
+      "aciklama": "İlçeye adını veren tarihî sınır kalesinin günümüze ulaşan bölümleri. Büyük kısmı tahrip olduğu için sağlam bir kale yapısı beklemeyin."
+    },
+    {
+      "baslik": "Geyikli Baba Türbesi",
+      "resim": "bursa-kestel/geyikli_baba_turbesi.jpg",
+      "aciklama": "Baba Sultan olarak da bilinen Geyikli Baba'ya ait tarihî ziyaret noktası."
+    },
+    {
+      "baslik": "Baba Sultan Çınarı",
+      "resim": "bursa-kestel/baba_sultan_cinari.jpg",
+      "aciklama": "Geyikli Baba Türbesi çevresindeki anıt çınar; Kestel'in öne çıkan doğal ve kültürel simgelerindendir."
+    }
+  ],
+  "dogal_guzellikler": [
+    {
+      "baslik": "Saitabat Şelalesi",
+      "resim": "bursa-kestel/saitabat_selalesi.jpg",
+      "aciklama": "Kısa doğa gezisi ve şelale manzarası için uygun durak."
+    },
+    {
+      "baslik": "Küreklidere Şelalesi",
+      "resim": "bursa-kestel/kureklidere_selalesi.jpg",
+      "aciklama": "Orman yürüyüşüyle ulaşılan şelale."
+    },
+    {
+      "baslik": "Alaçam Şelalesi ve Kanyonu",
+      "resim": "bursa-kestel/alacam_selalesi_ve_kanyonu.jpg",
+      "aciklama": "Patika ve kanyon manzaraları sunan, daha hazırlıklı gezi gerektiren alan."
+    },
+    {
+      "baslik": "Gölbaşı Göleti",
+      "resim": "bursa-kestel/golbasi_goleti.jpg",
+      "aciklama": "Kıyıdan manzara izlemek için sakin bir gölet."
+    },
+    {
+      "baslik": "Baba Sultan Çınarı",
+      "resim": "bursa-kestel/baba_sultan_cinari.jpg",
+      "aciklama": "Türbe çevresindeki yaşlı anıt ağaç."
+    }
+  ],
+  "tarihi_yerler": [
+    {
+      "baslik": "Kestel Kalesi",
+      "resim": "bursa-kestel/kestel_kalesi.jpg",
+      "aciklama": "Doğu Roma dönemine uzanan sınır kalesinin kalıntıları."
+    },
+    {
+      "baslik": "Geyikli Baba Türbesi",
+      "resim": "bursa-kestel/geyikli_baba_turbesi.jpg",
+      "aciklama": "Baba Sultan'daki tarihî türbe."
+    }
+  ],
+  "plajlar": [],
+  "muzeler": [
+    {
+      "baslik": "Aksu Köyü Müzesi",
+      "resim": "bursa-kestel/aksu_koyu_muzesi.jpg",
+      "aciklama": "Restore edilmiş eski hamam yapısında köyün tarihini ve kültürünü tanıtan müze."
+    }
+  ],
+  "aktiviteler": [
+    {
+      "baslik": "Şelale gezisi",
+      "konum": "Saitabat Şelalesi, Kestel/Bursa",
+      "aciklama": "Şelale çevresinde yürüyüş ve fotoğraf molası verin."
+    },
+    {
+      "baslik": "Orman yürüyüşü",
+      "konum": "Küreklidere Şelalesi",
+      "aciklama": "Patika koşullarına uygun ayakkabı giyin ve dönüş için yeterli zaman ayırın."
+    },
+    {
+      "baslik": "Kanyon yürüyüşü",
+      "konum": "Alaçam Şelalesi ve Kanyonu",
+      "aciklama": "Hava durumunu kontrol ederek mümkünse deneyimli bir grupla gidin."
+    },
+    {
+      "baslik": "Köy müzesi ziyareti",
+      "konum": "Aksu Köyü Müzesi",
+      "aciklama": "Yerel yaşam ve üretim kültürüne ilişkin sergileri inceleyin."
+    }
+  ],
+  "neler_yapilir": [
+    "Saitabat Şelalesi'ni gör.",
+    "Aksu Köyü Müzesi'ni ziyaret et.",
+    "Gölbaşı Göleti kıyısında manzara molası ver.",
+    "Kestel Kalesi'nin günümüze kalan bölümlerini gör.",
+    "Geyikli Baba Türbesi ve Baba Sultan Çınarı'nı ziyaret et.",
+    "Zamanın ve ekipmanın uygunsa Küreklidere veya Alaçam için ayrı yürüyüş planla.",
+    "Yerel cevizli çörek, tarhana ve erişte ürünlerini ara."
+  ],
+  "ne_yenir": [
+    {
+      "baslik": "Cevizli Çörek",
+      "aciklama": "Kestel'in kırsal üretim kültüründe öne çıkan fırın ürünlerinden biridir."
+    },
+    {
+      "baslik": "Ev Yapımı Erişte",
+      "aciklama": "Yerel üreticilerin hazırladığı geleneksel hamur işi."
+    },
+    {
+      "baslik": "Tarhana Çorbası",
+      "aciklama": "Kestel'in kırsal pazarlarında da karşılaşılabilen ev yapımı tarhanayla hazırlanır."
+    },
+    {
+      "baslik": "Alabalık",
+      "aciklama": "Saitabat çevresindeki restoranlarda bulunabilen seçenek; ilçeye özgü tescilli yemek olarak sunulmamalıdır."
+    },
+    {
+      "baslik": "Kazancı Köftesi",
+      "aciklama": "Kazancı'daki Muhtarın Yeri işletmesinin kendi geçmişinde adıyla andığı köfte."
+    }
+  ],
+  "yemek_nerede": [
+    {
+      "baslik": "Muhtarın Yeri Kazancı",
+      "konum": "Kazancı Mahallesi, İpekyolu Bulvarı No:331, Kestel/Bursa",
+      "aciklama": "Kahvaltı ve köfte için seçenek; işletmenin güncel web sitesi bulunuyor."
+    },
+    {
+      "baslik": "Şelale Yeşil Vadi Et Mangal",
+      "konum": "Saitabat, Ardiye Caddesi No:77, Kestel/Bursa",
+      "aciklama": "Saitabat çevresinde et-mangal ve kahvaltı sunan işletme."
+    },
+    {
+      "baslik": "Şelale Dere Park Restaurant",
+      "konum": "Saitabat, Bursa-Saitabat Yolu 12. km, Şelale Mevkii, Kestel/Bursa",
+      "aciklama": "Şelale çevresindeki restoran. Güncel harita kaydı ve yakın tarihli ziyaretçi yorumu bulunuyor."
+    }
+  ],
+  "rota_1_gun": [
+    {
+      "saat": "09:00",
+      "baslik": "Kestel Kalesi",
+      "aciklama": "Güne kalenin günümüze kalan bölümlerini görerek başla."
+    },
+    {
+      "saat": "10:30",
+      "baslik": "Aksu Köyü Müzesi",
+      "aciklama": "Eski hamam yapısındaki müzeyi gez."
+    },
+    {
+      "saat": "12:00",
+      "baslik": "Saitabat Şelalesi",
+      "aciklama": "Şelale çevresinde yürüyüş yap ve fotoğraf molası ver."
+    },
+    {
+      "saat": "13:00",
+      "baslik": "Saitabat'ta öğle yemeği",
+      "aciklama": "Açık olduğunu doğruladığın restoranlardan birinde yemek ye."
+    },
+    {
+      "saat": "15:00",
+      "baslik": "Gölbaşı Göleti",
+      "aciklama": "Gölet kıyısında kısa manzara molası ver."
+    },
+    {
+      "saat": "16:30",
+      "baslik": "Geyikli Baba Türbesi ve Baba Sultan Çınarı",
+      "aciklama": "Günü türbe ve anıt çınar ziyaretiyle tamamla."
+    }
+  ],
+  "sss": [
+    {
+      "soru": "Kestel'de bir günde nereler gezilir?",
+      "cevap": "Kestel Kalesi, Aksu Köyü Müzesi, Saitabat Şelalesi, Gölbaşı Göleti ve Baba Sultan çevresi araçla bir güne sığdırılabilir."
+    },
+    {
+      "soru": "Küreklidere ve Alaçam Şelalesi aynı gün gezilir mi?",
+      "cevap": "İkisi de yürüyüş gerektirebildiği için rahat bir gezi adına ayrı gün veya tek şelale seçimi daha uygundur."
+    },
+    {
+      "soru": "Aksu Köyü Müzesi açık mı?",
+      "cevap": "Bursa turizm portalında her gün 09.30-17.30 saatleri belirtiliyor; gitmeden güncel durumu teyit edin."
+    },
+    {
+      "soru": "Kestel'de plaj var mı?",
+      "cevap": "Hayır. Kestel denize kıyısı olmayan bir ilçedir; Gölbaşı Göleti de plaj değildir."
+    }
+  ]
+},{
+  "slug": "bursa-inegol",
+  "isim": "İnegöl",
+  "bolge": "Bursa",
+  "resim": "bursa-inegol/inegol_genel.jpg",
+  "aciklama": "İnegöl; coğrafi işaretli köftesi, mobilya kültürü, kent müzeleri ve Oylat'ın mağara, şelale ve kaplıcalarıyla öne çıkar. Merkez ile Oylat ayrı gezi bölgeleridir; araçla ulaşım daha rahattır.",
+  "onerilen_sure": "1-2 gün",
+  "en_iyi_donem": "İlkbahar ve sonbahar; kaplıca için yıl boyunca",
+  "one_cikan": [
+    "İnegöl Köftesi",
+    "Oylat Mağarası",
+    "Oylat Şelalesi",
+    "Oylat Kaplıcaları",
+    "İnegöl Kent Müzesi"
+  ],
+  "kimler_icin_uygun": [
+    "Doğa yürüyüşü sevenler",
+    "Müze ve tarih meraklıları",
+    "Yöresel yemekleri deneyenler",
+    "Termal gezi planlayanlar"
+  ],
+  "gezilecek_yerler": [
+    {
+      "baslik": "Oylat Mağarası",
+      "resim": "bursa-inegol/oylat_magarasi.jpg",
+      "aciklama": "Hilmiye yönündeki mağara sarkıt, dikit ve geniş salonlarıyla İnegöl'ün başlıca doğal gezi noktasıdır. Merdivenli bölümler için rahat ayakkabı giyin."
+    },
+    {
+      "baslik": "Oylat Şelalesi",
+      "resim": "bursa-inegol/oylat_selalesi.jpg",
+      "aciklama": "Oylat oteller bölgesinden orman içindeki yaklaşık 2 kilometrelik ekoturizm parkuruyla ulaşılan şelale. Dönüş yolunu ve hava durumunu hesaba katın."
+    },
+    {
+      "baslik": "Oylat Kaplıcaları",
+      "resim": "bursa-inegol/oylat_kaplicalari.jpg",
+      "aciklama": "Konaklama ve termal havuz tesislerinin bulunduğu Oylat bölgesi. Tesislerin kullanım koşullarını önceden kontrol edin."
+    },
+    {
+      "baslik": "Oylat Kanyonu",
+      "resim": "bursa-inegol/oylat_kanyonu.jpg",
+      "aciklama": "Mağara ve şelale çevresindeki vadinin kayalık-doğal görünümü. İşaretli ve güvenli yolların dışına çıkmayın."
+    },
+    {
+      "baslik": "İnegöl Kent Müzesi",
+      "resim": "bursa-inegol/inegol_kent_muzesi.jpg",
+      "aciklama": "İlçenin tarihini, geleneklerini ve gündelik yaşamını tanıtan müze. Resmî sitesine göre genel ziyaret ücretsizdir."
+    },
+    {
+      "baslik": "İnegöl Mobilya ve Ağaç Sanayi Müzesi",
+      "resim": "bursa-inegol/inegol_mobilya_muzesi.jpg",
+      "aciklama": "İnegöl'ün ahşap işçiliğinden mobilya sanayisine uzanan üretim kültürünü anlatır. Pazartesi ve resmî tatillerde kapalıdır."
+    },
+    {
+      "baslik": "Turgut Alp Türbesi",
+      "resim": "bursa-inegol/turgut_alp_turbesi.jpg",
+      "aciklama": "Turgutalp bölgesinde bulunan ve restorasyon sonrasında yeniden açılan tarihî türbe."
+    },
+    {
+      "baslik": "İnegöl Kapalı Çarşısı",
+      "resim": "bursa-inegol/inegol_kapali_carsi.jpg",
+      "aciklama": "Merkezde kısa bir çarşı gezisi ve yerel alışveriş için değerlendirilebilecek durak."
+    },
+    {
+      "baslik": "Boğazova Yaylası",
+      "resim": "bursa-inegol/bogazova_yaylasi.jpg",
+      "aciklama": "İnegöl çevresindeki yayla ve yürüyüş rotalarından biri. Oylat ve merkez gezisinden ayrı bir doğa günü olarak planlamak daha uygundur."
+    }
+  ],
+  "dogal_guzellikler": [
+    {
+      "baslik": "Oylat Mağarası",
+      "resim": "bursa-inegol/oylat_magarasi.jpg",
+      "aciklama": "Damlataş oluşumlarıyla öne çıkan mağara."
+    },
+    {
+      "baslik": "Oylat Şelalesi",
+      "resim": "bursa-inegol/oylat_selalesi.jpg",
+      "aciklama": "Orman yürüyüşünün sonunda ulaşılan şelale."
+    },
+    {
+      "baslik": "Oylat Kanyonu",
+      "resim": "bursa-inegol/oylat_kanyonu.jpg",
+      "aciklama": "Oylat çevresinin kayalık vadi manzarası."
+    },
+    {
+      "baslik": "Boğazova Yaylası",
+      "resim": "bursa-inegol/bogazova_yaylasi.jpg",
+      "aciklama": "Yayla havası ve doğa yürüyüşü için ayrı zaman ayrılabilecek alan."
+    }
+  ],
+  "tarihi_yerler": [
+    {
+      "baslik": "Turgut Alp Türbesi",
+      "resim": "bursa-inegol/turgut_alp_turbesi.jpg",
+      "aciklama": "Restorasyonu tamamlanmış tarihî ziyaret noktası."
+    },
+    {
+      "baslik": "İnegöl Kapalı Çarşısı",
+      "resim": "bursa-inegol/inegol_kapali_carsi.jpg",
+      "aciklama": "İlçe merkezindeki geleneksel ticaret durağı."
+    }
+  ],
+  "plajlar": [],
+  "muzeler": [
+    {
+      "baslik": "İnegöl Kent Müzesi",
+      "resim": "bursa-inegol/inegol_kent_muzesi.jpg",
+      "aciklama": "İnegöl'ün tarihini ve kültürel yaşamını anlatan müze."
+    },
+    {
+      "baslik": "İnegöl Mobilya ve Ağaç Sanayi Müzesi",
+      "resim": "bursa-inegol/inegol_mobilya_muzesi.jpg",
+      "aciklama": "İlçenin ahşap ve mobilya üretim geçmişini sergileyen müze."
+    }
+  ],
+  "aktiviteler": [
+    {
+      "baslik": "Mağara gezisi",
+      "konum": "Oylat Mağarası, İnegöl/Bursa",
+      "aciklama": "Mağaranın ziyarete açık bölümündeki doğal oluşumları inceleyin."
+    },
+    {
+      "baslik": "Şelale yürüyüşü",
+      "konum": "Oylat Şelalesi Ekoturizm Alanı",
+      "aciklama": "Gidiş ve dönüş için zaman ayırarak işaretli parkurda yürüyün."
+    },
+    {
+      "baslik": "Termal mola",
+      "konum": "Oylat Kaplıcaları",
+      "aciklama": "Seçtiğiniz tesisin günübirlik kullanım imkânını önceden öğrenin."
+    },
+    {
+      "baslik": "Mobilya kültürünü keşfetme",
+      "konum": "İnegöl Mobilya ve Ağaç Sanayi Müzesi",
+      "aciklama": "Geleneksel zanaattan güncel üretime uzanan sergileri gezin."
+    }
+  ],
+  "neler_yapilir": [
+    "Kent Müzesi ve Mobilya Müzesi'ni gez.",
+    "İnegöl köftesini piyaz ve şırayla dene.",
+    "Turgut Alp Türbesi'ni ziyaret et.",
+    "Oylat Mağarası'nı gör.",
+    "Uygun hava koşullarında Oylat Şelalesi parkurunu yürü.",
+    "İstersen Oylat'ta termal tesis için zaman ayır.",
+    "Daha uzun bir doğa gezisi için Boğazova Yaylası'nı ayrı güne bırak."
+  ],
+  "ne_yenir": [
+    {
+      "baslik": "İnegöl Köftesi",
+      "aciklama": "İlçenin coğrafi işaretle tescillenmiş en tanınan yemeği."
+    },
+    {
+      "baslik": "İnegöl Sütlü Kadayıfı",
+      "aciklama": "Coğrafi işaretli yerel tatlı."
+    },
+    {
+      "baslik": "Piyaz",
+      "aciklama": "İnegöl köftesinin yanında sık tercih edilen eşlikçi."
+    },
+    {
+      "baslik": "Üzüm Şırası",
+      "aciklama": "Köfte restoranlarında bulunabilen geleneksel içecek."
+    },
+    {
+      "baslik": "İşkembe Çorbası",
+      "aciklama": "İnegöl Kaymakamlığının ilçede yaygın tüketilen yemekler arasında saydığı çorba."
+    }
+  ],
+  "yemek_nerede": [
+    {
+      "baslik": "Besler 1893",
+      "konum": "Osmaniye Mahallesi, Altay Caddesi No:6, İnegöl/Bursa",
+      "aciklama": "İnegöl köftesi, piyaz ve sütlü kadayıf için merkezde bir seçenek."
+    },
+    {
+      "baslik": "Nâre Et Restaurant",
+      "konum": "Süleymaniye Mahallesi, Babacan Caddesi No:25/E, İnegöl/Bursa",
+      "aciklama": "Köfte ve ızgara seçenekleri sunan restoran."
+    },
+    {
+      "baslik": "Orhan Köfte",
+      "konum": "İnegöl-Bursa Karayolu 2. km, İnegöl/Bursa",
+      "aciklama": "İnegöl köftesi için yol üzerindeki işletme."
+    }
+  ],
+  "rota_1_gun": [
+    {
+      "saat": "09:00",
+      "baslik": "İnegöl Kent Müzesi",
+      "aciklama": "Güne ilçenin geçmişini tanıyarak başla."
+    },
+    {
+      "saat": "10:15",
+      "baslik": "İnegöl Mobilya ve Ağaç Sanayi Müzesi",
+      "aciklama": "Mobilya üretim kültürünü incele; pazartesi kapalı olduğunu unutma."
+    },
+    {
+      "saat": "11:30",
+      "baslik": "Turgut Alp Türbesi",
+      "aciklama": "Merkezden tarihî türbeye geç."
+    },
+    {
+      "saat": "12:30",
+      "baslik": "İnegöl köftesi molası",
+      "aciklama": "Köfte, piyaz ve sütlü kadayıf dene."
+    },
+    {
+      "saat": "13:45",
+      "baslik": "Oylat'a yolculuk",
+      "aciklama": "Oylat'a araçla geç; yol süresini hesaba kat."
+    },
+    {
+      "saat": "14:30",
+      "baslik": "Oylat Mağarası",
+      "aciklama": "Ziyarete açık mağara bölümünü gez."
+    },
+    {
+      "saat": "15:45",
+      "baslik": "Oylat Şelalesi",
+      "aciklama": "Yaklaşık 2 kilometrelik orman parkurunda yürü; hava kararmadan dönüşe başla."
+    },
+    {
+      "saat": "18:00",
+      "baslik": "Oylat Kaplıcaları",
+      "aciklama": "Önceden kullanımını teyit ettiğin tesiste günü tamamla."
+    }
+  ],
+  "sss": [
+    {
+      "soru": "İnegöl'de bir günde ne yapılır?",
+      "cevap": "Merkezde iki müzeyi gezip köfte yedikten sonra Oylat Mağarası ve Şelalesi'ne gidilebilir; araç ve erken başlangıç gerekir."
+    },
+    {
+      "soru": "Oylat Şelalesi'ne araçla gidilir mi?",
+      "cevap": "Oylat oteller bölgesine araçla gidilir; şelaleye kalan bölüm yaklaşık 2 kilometrelik yürüyüş parkurudur."
+    },
+    {
+      "soru": "Mobilya Müzesi pazartesi açık mı?",
+      "cevap": "Hayır. Müzenin resmî sitesine göre pazartesi ve resmî tatillerde kapalıdır."
+    },
+    {
+      "soru": "İnegöl'ün meşhur yemeği nedir?",
+      "cevap": "Coğrafi işaretli İnegöl Köftesi başta gelir; İnegöl Sütlü Kadayıfı da tescilli yerel tatlıdır."
+    }
+  ]
+},{
+  "slug": "bursa-iznik",
+  "isim": "İznik",
+  "bolge": "Bursa",
+  "resim": "bursa-iznik/iznik_genel.jpg",
+  "aciklama": "İznik; gölü, tarihî surları, Roma dönemi eserleri, müzeleri ve çini geleneğiyle öne çıkan Bursa ilçesidir. Merkezdeki tarihî duraklar yürüyerek gezilebilir; Sansarak Kanyonu ve Beştaş için araç gerekir.",
+  "onerilen_sure": "1-2 gün",
+  "en_iyi_donem": "İlkbahar ve sonbahar; göl kıyısında vakit geçirmek için yaz",
+  "one_cikan": [
+    "İznik Gölü",
+    "İznik Surları ve Kapıları",
+    "İznik Antik Roma Tiyatrosu",
+    "İznik çinileri",
+    "Sansarak Kanyonu"
+  ],
+  "kimler_icin_uygun": [
+    "Tarih meraklıları",
+    "Doğa yürüyüşçüleri",
+    "Fotoğrafçılar",
+    "Çini sanatına ilgi duyanlar",
+    "Günübirlik gezginler"
+  ],
+  "gezilecek_yerler": [
+    {
+      "baslik": "İznik Gölü Kıyısı",
+      "resim": "bursa-iznik/iznik_golu_kiyisi.jpg",
+      "aciklama": "İlçe merkezinde göl manzarası, kıyı yürüyüşü ve gün batımı için en kolay ulaşılabilen duraktır."
+    },
+    {
+      "baslik": "Lefke Kapı",
+      "resim": "bursa-iznik/lefke_kapi.jpg",
+      "aciklama": "İznik surlarının ayakta kalan ana kapılarından biridir; taş işçiliği ve sur bağlantısıyla görülmeye değerdir."
+    },
+    {
+      "baslik": "İstanbul Kapı",
+      "resim": "bursa-iznik/istanbul_kapi.jpg",
+      "aciklama": "Kentin kuzeyindeki tarihî giriş kapısıdır. Surlar ve devşirme mimari parçalar birlikte incelenebilir."
+    },
+    {
+      "baslik": "Yenişehir Kapı",
+      "resim": "bursa-iznik/yenisehir_kapi.jpg",
+      "aciklama": "İznik'in güney yönündeki, kısmen ayakta kalan tarihî kapısıdır."
+    },
+    {
+      "baslik": "İznik Antik Roma Tiyatrosu",
+      "resim": "bursa-iznik/iznik_roma_tiyatrosu.jpg",
+      "aciklama": "Roma döneminden kalan önemli tiyatro yapısıdır. Kazı veya koruma düzenlemeleri nedeniyle ziyaret edilebilen bölümleri yerinde kontrol edin."
+    },
+    {
+      "baslik": "Süleyman Paşa Medresesi Çini Çarşısı",
+      "resim": "bursa-iznik/suleyman_pasa_medresesi.jpg",
+      "aciklama": "Tarihî medresedeki çini atölyelerinde üretimi görebilir ve el yapımı İznik çinilerini inceleyebilirsiniz."
+    },
+    {
+      "baslik": "Beştaş Dikilitaşı",
+      "resim": "bursa-iznik/bestas_dikilitasi.jpg",
+      "aciklama": "İznik'in yaklaşık 5,5 kilometre kuzeybatısındaki Roma dönemi anıt mezarıdır; merkez dışı kısa bir araçlı durak olarak planlanmalıdır."
+    },
+    {
+      "baslik": "Abdülvahap Tepesi",
+      "resim": "bursa-iznik/abdulvahap_tepesi.jpg",
+      "aciklama": "İznik ve göl manzarasını yüksekten görmek için tercih edilen seyir noktasıdır."
+    }
+  ],
+  "dogal_guzellikler": [
+    {
+      "baslik": "İznik Gölü",
+      "resim": "bursa-iznik/iznik_golu.jpg",
+      "aciklama": "Yürüyüş, manzara fotoğrafı ve gün batımı için ilçenin başlıca doğal durağıdır."
+    },
+    {
+      "baslik": "Sansarak Kanyonu",
+      "resim": "bursa-iznik/sansarak_kanyonu.jpg",
+      "aciklama": "İznik sınırlarındaki ormanlık kanyon, doğa yürüyüşü için uygundur. Parkur ve hava koşullarını önceden kontrol edin; zorlu bölümlere hazırlıksız girmeyin."
+    },
+    {
+      "baslik": "Abdülvahap Tepesi",
+      "resim": "bursa-iznik/abdulvahap_tepesi.jpg",
+      "aciklama": "Göl ve ilçe manzarasını birlikte görebileceğiniz yüksek bir noktadır."
+    }
+  ],
+  "tarihi_yerler": [
+    {
+      "baslik": "İznik Surları",
+      "resim": "bursa-iznik/iznik_surlari.jpg",
+      "aciklama": "Farklı dönemlerde onarılarak günümüze ulaşan surların görülebilen kısımları merkezdeki yürüyüş rotasına eklenebilir."
+    },
+    {
+      "baslik": "Lefke Kapı",
+      "resim": "bursa-iznik/lefke_kapi.jpg",
+      "aciklama": "Surların doğu yönündeki ana kapılarından biridir."
+    },
+    {
+      "baslik": "İstanbul Kapı",
+      "resim": "bursa-iznik/istanbul_kapi.jpg",
+      "aciklama": "Surların kuzey yönündeki tarihî kapısıdır."
+    },
+    {
+      "baslik": "Yenişehir Kapı",
+      "resim": "bursa-iznik/yenisehir_kapi.jpg",
+      "aciklama": "Kısmen korunmuş güney kapısıdır."
+    },
+    {
+      "baslik": "İznik Antik Roma Tiyatrosu",
+      "resim": "bursa-iznik/iznik_roma_tiyatrosu.jpg",
+      "aciklama": "Roma döneminin kentteki en belirgin mimari kalıntılarındandır."
+    },
+    {
+      "baslik": "Beştaş Dikilitaşı",
+      "resim": "bursa-iznik/bestas_dikilitasi.jpg",
+      "aciklama": "Roma dönemine ait, yaklaşık 12 metre yüksekliğindeki anıt mezardır."
+    },
+    {
+      "baslik": "Süleyman Paşa Medresesi",
+      "resim": "bursa-iznik/suleyman_pasa_medresesi.jpg",
+      "aciklama": "Günümüzde çini atölyeleri ve satış alanları bulunan tarihî medresedir."
+    }
+  ],
+  "plajlar": [
+    {
+      "baslik": "İnciraltı Halk Plajı",
+      "resim": "bursa-iznik/inciralti_halk_plaji.jpg",
+      "aciklama": "İznik Gölü kıyısındaki halk plajıdır. Yüzmeden önce güncel su kalitesi, uyarı levhaları ve cankurtaran durumunu kontrol edin."
+    }
+  ],
+  "muzeler": [
+    {
+      "baslik": "İznik Müzesi",
+      "resim": "bursa-iznik/iznik_muzesi.jpg",
+      "aciklama": "2023'te açılan yeni müze binasında İznik ve çevresinin arkeolojik eserleri sergilenir."
+    },
+    {
+      "baslik": "Nilüfer Hatun İmareti Türk İslam Eserleri Müzesi",
+      "resim": "bursa-iznik/nilufer_hatun_imareti.jpg",
+      "aciklama": "Tarihî imaret yapısındaki müzedir. Eski kaynaklarda 'İznik Müzesi' adıyla geçebilir; yeni İznik Müzesi'yle aynı bina değildir."
+    },
+    {
+      "baslik": "Murad Hüdavendigar Hamamı Müzesi",
+      "resim": "bursa-iznik/murad_hudavendigar_hamami.jpg",
+      "aciklama": "Atatürk Caddesi'ndeki tarihî hamamda İznik'in geçmişini anlatan sergiler bulunur."
+    }
+  ],
+  "aktiviteler": [
+    {
+      "baslik": "Çini atölyelerini gezme",
+      "konum": "Süleyman Paşa Medresesi, İznik/Bursa",
+      "aciklama": "Atölyelerde çini yapımını inceleyin; uygulamalı etkinlik için önceden uygunluk sorun."
+    },
+    {
+      "baslik": "Surlar ve kapılar yürüyüşü",
+      "konum": "İznik merkez, Bursa",
+      "aciklama": "Lefke, İstanbul ve Yenişehir kapılarını ayrı duraklar halinde gezin."
+    },
+    {
+      "baslik": "Göl kıyısında gün batımı",
+      "konum": "İznik Gölü kıyısı, İznik/Bursa",
+      "aciklama": "Kıyıda yürüyüş ve fotoğraf molası yapın."
+    },
+    {
+      "baslik": "Kanyon yürüyüşü",
+      "konum": "Sansarak Kanyonu, İznik/Bursa",
+      "aciklama": "Uygun ekipmanla ve koşullara göre rehber eşliğinde yürüyüş planlayın."
+    }
+  ],
+  "neler_yapilir": [
+    "İznik Müzesi ile Nilüfer Hatun İmareti müzesini ayrı ayrı gez.",
+    "Surların ayakta kalan üç ana kapısını gör.",
+    "Süleyman Paşa Medresesi'nde çini atölyelerini incele.",
+    "Göl kıyısında yürüyüp gün batımını izle.",
+    "Ek zamanın varsa Beştaş Dikilitaşı ve Sansarak Kanyonu için araçlı gezi planla.",
+    "Yerel göl balığı yemeklerini ve İznik zeytinini dene."
+  ],
+  "ne_yenir": [
+    {
+      "baslik": "Balıklı pilav",
+      "aciklama": "İznik'in yerel yemek kültüründe anılan göl balıklı pilavdır; her restoranda bulunmayabilir."
+    },
+    {
+      "baslik": "Havyar köftesi",
+      "aciklama": "Yöresel balık ürünleriyle ilişkilendirilen İznik lezzetidir; sunulan dönem ve işletme değişebilir."
+    },
+    {
+      "baslik": "Balık kıskı",
+      "aciklama": "Bursa'nın yerel göl balığı hazırlama biçimlerinden biridir."
+    },
+    {
+      "baslik": "Yayın balığı tava veya şiş",
+      "aciklama": "İznik Gölü çevresindeki balık lokantalarında karşılaşılabilen seçeneklerdendir; günlük menüyü sorun."
+    },
+    {
+      "baslik": "Zeytin ve zeytinyağlılar",
+      "aciklama": "İznik çevresinin zeytin üretimiyle bağlantılı ürünlerini kahvaltıda veya yerel satış noktalarında deneyebilirsiniz."
+    }
+  ],
+  "yemek_nerede": [
+    {
+      "baslik": "Nihat'ın Yeri Balık Restaurantı",
+      "konum": "Selçuk Mahallesi, Göl Sahil Caddesi No:42, İznik/Bursa",
+      "aciklama": "Göl kıyısında balık yemekleri için bir seçenek. Gitmeden önce çalışma saatini ve günlük balık çeşitlerini doğrulayın."
+    },
+    {
+      "baslik": "Aşhana Geleneksel Türk Mutfağı",
+      "konum": "Selçuk Mahallesi, Gazi Hasan Özcan Sokak No:2, İznik/Bursa",
+      "aciklama": "Göl sahili yakınında Türk mutfağı sunan restoran. Yerel yemeklerin o günkü menüde olup olmadığını sorun."
+    },
+    {
+      "baslik": "Enfal Izgara & Kasap",
+      "konum": "Beyler Mahallesi, Kılıçarslan Caddesi No:140, İznik/Bursa",
+      "aciklama": "Et ve ızgara tercih edenler için merkezde bir alternatif; gitmeden önce güncel çalışma durumunu kontrol edin."
+    }
+  ],
+  "rota_1_gun": [
+    {
+      "saat": "09:00",
+      "baslik": "İznik Müzesi",
+      "aciklama": "Geziye ilçenin tarihini tanıyarak başla."
+    },
+    {
+      "saat": "10:15",
+      "baslik": "Nilüfer Hatun İmareti ve Murad Hüdavendigar Hamamı Müzesi",
+      "aciklama": "Merkezdeki iki farklı müze yapısını gez."
+    },
+    {
+      "saat": "11:30",
+      "baslik": "Süleyman Paşa Medresesi",
+      "aciklama": "Çini atölyelerine ve tarihî yapıya zaman ayır."
+    },
+    {
+      "saat": "12:30",
+      "baslik": "Öğle yemeği",
+      "aciklama": "İznik merkezinde yemek ye; balıklı pilav veya yerel göl balığı seçeneklerini sor."
+    },
+    {
+      "saat": "14:00",
+      "baslik": "Roma Tiyatrosu ve sur kapıları",
+      "aciklama": "Tiyatronun ziyarete uygun alanını gör; ardından Lefke, İstanbul ve Yenişehir kapılarını gez."
+    },
+    {
+      "saat": "16:30",
+      "baslik": "Abdülvahap Tepesi",
+      "aciklama": "İznik ve göl manzarasını yüksekten izle."
+    },
+    {
+      "saat": "18:00",
+      "baslik": "İznik Gölü kıyısı",
+      "aciklama": "Günü kıyı yürüyüşü ve gün batımıyla tamamla. Sansarak Kanyonu'nu ayrı bir yarım güne bırak."
+    }
+  ],
+  "sss": [
+    {
+      "soru": "İznik bir günde gezilir mi?",
+      "cevap": "Merkezdeki müzeler, çini çarşısı, tiyatro, kapılar ve göl kıyısı bir güne sığabilir. Sansarak Kanyonu için ek süre ayırmak daha uygundur."
+    },
+    {
+      "soru": "İznik Müzesi ile Nilüfer Hatun İmareti aynı yer mi?",
+      "cevap": "Hayır. Yeni İznik Müzesi ayrı binadadır; Nilüfer Hatun İmareti ise Türk İslam Eserleri Müzesi olarak anılır."
+    },
+    {
+      "soru": "İznik Gölü'nde yüzülebilir mi?",
+      "cevap": "İnciraltı Halk Plajı bulunur; yüzmeden önce güncel su kalitesi ve yerel uyarılar kontrol edilmelidir."
+    },
+    {
+      "soru": "İznik UNESCO Dünya Mirası Listesi'nde mi?",
+      "cevap": "İznik UNESCO Dünya Mirası Geçici Listesi'ndedir; kalıcı Dünya Mirası Listesi'ne alınmış gibi gösterilmemelidir."
+    }
+  ]
+},{
+  "slug": "bursa-karacabey",
+  "isim": "Karacabey",
+  "bolge": "Bursa",
+  "resim": "bursa-karacabey/karacabey_genel.jpg",
+  "aciklama": "Karacabey; longoz ormanları, Kocaçay Deltası, Uluabat Gölü kıyısındaki kuş gözlem noktaları ve Marmara sahilleriyle öne çıkar. Doğa durakları birbirinden uzak olduğu için geziyi araçla planlamak uygundur.",
+  "onerilen_sure": "1-2 gün",
+  "en_iyi_donem": "Kuş gözlemi için ilkbahar; sahil için yaz; longoz yürüyüşü için ilkbahar ve sonbahar",
+  "one_cikan": [
+    "Karacabey Longozu",
+    "Kocaçay Deltası",
+    "Eskikaraağaç kuş gözlem noktaları",
+    "Kurşunlu ve Malkara plajları",
+    "Issız Han"
+  ],
+  "kimler_icin_uygun": [
+    "Doğa fotoğrafçıları",
+    "Kuş gözlemcileri",
+    "Aileler",
+    "Sahil gezisi sevenler",
+    "Tarih meraklıları"
+  ],
+  "gezilecek_yerler": [
+    {
+      "baslik": "Karacabey Longoz Ormanları",
+      "resim": "bursa-karacabey/karacabey_longozu.jpg",
+      "aciklama": "Subasar orman, sazlık ve lagünlerin bir arada bulunduğu ilçenin başlıca doğa durağıdır. İşaretli yolların dışına çıkmayın; yağış sonrası zemin koşullarını kontrol edin."
+    },
+    {
+      "baslik": "Kocaçay Deltası",
+      "resim": "bursa-karacabey/kocacay_deltasi.jpg",
+      "aciklama": "Susurluk Irmağı'nın Marmara Denizi'ne ulaştığı kesimdeki sulak alan ve kuş yaşam alanıdır. Koruma kurallarına uyarak belirlenmiş gözlem noktalarından izleyin."
+    },
+    {
+      "baslik": "Longoz Kuş Gözlem Kulesi",
+      "resim": "bursa-karacabey/longoz_kus_gozlem_kulesi.jpg",
+      "aciklama": "Longoz çevresindeki kuşları uzaktan gözlemek için kullanılan noktadır. Gitmeden önce erişim durumunu yerel yetkililerden öğrenin."
+    },
+    {
+      "baslik": "Eskikaraağaç Kuş Gözetleme Kulesi",
+      "resim": "bursa-karacabey/eskikaraagac_kus_gozetleme_kulesi.jpg",
+      "aciklama": "Uluabat Gölü kıyısındaki kuşları ve leylekleri gözlemek için düzenlenmiş seyir noktasıdır."
+    },
+    {
+      "baslik": "Issız Han",
+      "resim": "bursa-karacabey/issiz_han.jpg",
+      "aciklama": "Seyran yakınında, Uluabat Gölü kıyısındaki tarihî handır. Dış mimarisini görmek için rotaya ekleyin; iç ziyaret imkânını önceden doğrulayın."
+    },
+    {
+      "baslik": "Ulubatlı Hasan Anıtı",
+      "resim": "bursa-karacabey/ulubatli_hasan_aniti.jpg",
+      "aciklama": "Uluabat'ta bulunan anıt, tarihî rota üzerinde kısa bir ziyaret durağıdır."
+    },
+    {
+      "baslik": "Kurşunlu Liman Parkı",
+      "resim": "bursa-karacabey/kursunlu_liman_parki.jpg",
+      "aciklama": "Deniz kıyısında yürüyüş ve mola için düzenlenmiş alandır."
+    }
+  ],
+  "dogal_guzellikler": [
+    {
+      "baslik": "Karacabey Longoz Ormanları",
+      "resim": "bursa-karacabey/karacabey_longozu.jpg",
+      "aciklama": "Su basar orman dokusu ve kuş çeşitliliğiyle ilçenin en belirgin doğal alanıdır."
+    },
+    {
+      "baslik": "Dalyan Gölü",
+      "resim": "bursa-karacabey/dalyan_golu.jpg",
+      "aciklama": "Kocaçay Deltası içindeki lagünlerden biridir. Koruma alanındaki geçiş ve erişim kurallarını gözetin."
+    },
+    {
+      "baslik": "Poyraz Gölü",
+      "resim": "bursa-karacabey/poyraz_golu.jpg",
+      "aciklama": "Longoz ekosisteminin parçası olan lagündür; kuş gözlemi için uygun mevsim ve erişilebilir noktaları önceden araştırın."
+    },
+    {
+      "baslik": "Uluabat Gölü Karacabey Kıyısı",
+      "resim": "bursa-karacabey/uluabat_golu_karacabey.jpg",
+      "aciklama": "Eskikaraağaç çevresinde göl manzarası ve kuş gözlemi sunar."
+    },
+    {
+      "baslik": "Kocaçay Deltası",
+      "resim": "bursa-karacabey/kocacay_deltasi.jpg",
+      "aciklama": "Nehir ağzı, sazlık, kumul ve longozun birleştiği hassas doğal alandır."
+    }
+  ],
+  "tarihi_yerler": [
+    {
+      "baslik": "Issız Han",
+      "resim": "bursa-karacabey/issiz_han.jpg",
+      "aciklama": "Karacabey Kaymakamlığına göre 1394-1395 yıllarında yaptırılmış Osmanlı dönemi hanıdır."
+    },
+    {
+      "baslik": "Ulubatlı Hasan Anıtı",
+      "resim": "bursa-karacabey/ulubatli_hasan_aniti.jpg",
+      "aciklama": "İstanbul'un fethinin 500. yılı anısına Uluabat'ta yaptırılmış anıttır."
+    }
+  ],
+  "plajlar": [
+    {
+      "baslik": "Kurşunlu Halk Plajı",
+      "resim": "bursa-karacabey/kursunlu_halk_plaji.jpg",
+      "aciklama": "Karacabey'in Marmara kıyısındaki halk plajıdır. Denize girmeden önce güncel uyarı ve cankurtaran durumunu kontrol edin."
+    },
+    {
+      "baslik": "Malkara Halk Plajı",
+      "resim": "bursa-karacabey/malkara_halk_plaji.jpg",
+      "aciklama": "Bayramdere kıyısındaki halk plajıdır. Yüzme alanı sınırları ve güncel su kalitesi uyarılarına uyun."
+    },
+    {
+      "baslik": "Yeniköy Sahili",
+      "resim": "bursa-karacabey/yenikoy_sahili.jpg",
+      "aciklama": "Sahil yürüyüşü ve deniz manzarası için bir duraktır; yüzme koşullarını ziyaret günü ayrıca kontrol edin."
+    }
+  ],
+  "muzeler": [
+  ],
+  "aktiviteler": [
+    {
+      "baslik": "Longozda doğa yürüyüşü",
+      "konum": "Karacabey Longozu, Karacabey/Bursa",
+      "aciklama": "Erişime açık güzergâhlarda yürüyüş ve doğa fotoğrafçılığı yapın."
+    },
+    {
+      "baslik": "Leylek ve su kuşu gözlemi",
+      "konum": "Eskikaraağaç kuş gözlem noktaları, Karacabey/Bursa",
+      "aciklama": "Dürbünle uzaktan gözlem yapın; yuvalara ve kuşlara yaklaşmayın."
+    },
+    {
+      "baslik": "Sahil yürüyüşü",
+      "konum": "Kurşunlu Liman Parkı ve Yeniköy Sahili, Karacabey/Bursa",
+      "aciklama": "Marmara kıyısında yürüyüş ve fotoğraf molası verin."
+    },
+    {
+      "baslik": "Tarihî han ziyareti",
+      "konum": "Issız Han, Seyran yakınları, Karacabey/Bursa",
+      "aciklama": "Göl kıyısındaki hanın mimarisini dışarıdan inceleyin."
+    }
+  ],
+  "neler_yapilir": [
+    "Karacabey Longozu'nda erişime açık güzergâhları gez.",
+    "Eskikaraağaç kuş gözetleme kulesinden göç mevsiminde leylekleri izle.",
+    "Issız Han ve Ulubatlı Hasan Anıtı'nı aynı araçlı rotaya ekle.",
+    "Yazın Kurşunlu veya Malkara kıyısında vakit geçir.",
+    "Mihaliç peyniri ve Karacabey höşmerimini dene."
+  ],
+  "ne_yenir": [
+    {
+      "baslik": "Mihaliç peyniri",
+      "aciklama": "Karacabey'in eski adıyla anılan sert ve tuzlu yöresel peynirdir."
+    },
+    {
+      "baslik": "Karacabey höşmerimi",
+      "aciklama": "Yörede bilinen peynirli tatlıdır; her restoranda bulunmayabileceği için önceden sorun."
+    },
+    {
+      "baslik": "Mihaliç kavurma",
+      "aciklama": "Karacabey'de kavurma sunan işletmelerde denenebilecek et yemeğidir."
+    },
+    {
+      "baslik": "Karacabey soğanıyla hazırlanan yöresel yemekler",
+      "aciklama": "İlçenin tanınan tarım ürünlerinden Karacabey soğanı yerel mutfakta kullanılır; tek bir standart yemek adı olarak düşünülmemelidir."
+    }
+  ],
+  "yemek_nerede": [
+    {
+      "baslik": "Mihaliç Kavurma",
+      "konum": "75. Sokak No:11, Karacabey/Bursa",
+      "aciklama": "Kavurma için merkezde bir seçenek. Güncel kayıtlarda pazar günü kapalı görünüyor; gitmeden önce teyit edin."
+    },
+    {
+      "baslik": "Zeyyuf Cafe Restaurant",
+      "konum": "Yeni Mahallesi, Karacabey/Bursa",
+      "aciklama": "Kahvaltı ve ızgara çeşitleri sunan bir alternatif. Tam konumu ve çalışma saatini haritadan kontrol edin."
+    },
+    {
+      "baslik": "Park Restoran",
+      "konum": "Tabaklar Mahallesi, Park Caddesi No:27/A, Karacabey/Bursa",
+      "aciklama": "Merkezde et ve meze seçenekleri bulunan restoran. Gitmeden önce telefonla açık olduğunu doğrulayın."
+    }
+  ],
+  "rota_1_gun": [
+    {
+      "saat": "09:00",
+      "baslik": "Issız Han",
+      "aciklama": "Güne Uluabat Gölü kıyısındaki tarihî hanla başla."
+    },
+    {
+      "saat": "10:00",
+      "baslik": "Ulubatlı Hasan Anıtı",
+      "aciklama": "Uluabat'taki anıta kısa bir ziyaret yap."
+    },
+    {
+      "saat": "11:00",
+      "baslik": "Eskikaraağaç kuş gözlem noktaları",
+      "aciklama": "Gözetleme kulesi ve gözlem evine uğra; leylekleri mevsim uygunsa uzaktan izle."
+    },
+    {
+      "saat": "13:00",
+      "baslik": "Öğle yemeği",
+      "aciklama": "Karacabey merkezinde yemek ye; Mihaliç peyniri veya höşmerim bulup bulamayacağını sor."
+    },
+    {
+      "saat": "14:30",
+      "baslik": "Karacabey Longozu",
+      "aciklama": "Erişime açık bölümde yürüyüş ve kuş gözlemi yap."
+    },
+    {
+      "saat": "17:00",
+      "baslik": "Kurşunlu kıyısı",
+      "aciklama": "Liman Parkı ve sahilde yürüyerek günü tamamla. Plaj günü istiyorsan bu durağa daha fazla zaman ayır."
+    }
+  ],
+  "sss": [
+    {
+      "soru": "Karacabey bir günde gezilir mi?",
+      "cevap": "Başlıca duraklar araçla bir güne sığabilir; longoz ve sahili sakin tempoda gezmek için iki gün daha rahattır."
+    },
+    {
+      "soru": "Karacabey Longozu'na her mevsim gidilir mi?",
+      "cevap": "Gidilebilir ancak yağış, su seviyesi ve koruma düzenlemeleri erişimi etkileyebilir. Yola çıkmadan güncel koşulları kontrol edin."
+    },
+    {
+      "soru": "Leylekleri ne zaman görmek daha olasıdır?",
+      "cevap": "İlkbahar ve yaz ayları göç ve üreme dönemi açısından daha uygundur; yaban hayvanlarının görülmesi garanti değildir."
+    },
+    {
+      "soru": "Karacabey'de denize girilecek yer var mı?",
+      "cevap": "Kurşunlu ve Malkara halk plajları bulunur. Yüzmeden önce güncel su kalitesi, hava ve cankurtaran uyarılarını kontrol edin."
+    }
+  ]
+},{
+  "slug": "bursa-keles",
+  "isim": "Keles",
+  "bolge": "Bursa",
+  "resim": "bursa-keles/keles_genel.jpg",
+  "aciklama": "Keles; Uludağ'ın güneyindeki Kocayayla, ormanlarla çevrili göletler ve yöresel mutfağıyla öne çıkan Bursa ilçesidir. Doğal duraklar arasında araçla ulaşım gerekir.",
+  "onerilen_sure": "1-2 gün",
+  "en_iyi_donem": "İlkbahar ve yaz; sonbaharda da gölet ve orman yürüyüşleri için uygun",
+  "one_cikan": [
+    "Kocayayla",
+    "Gököz Göleti",
+    "Baraklı Göleti",
+    "Yakup Çelebi Hamamı",
+    "Keles güveci",
+    "Keles Sorgun Peyniri"
+  ],
+  "kimler_icin_uygun": [
+    "Doğa yürüyüşçüleri",
+    "Fotoğrafçılar",
+    "Kampçılar",
+    "Aileler",
+    "Yöresel yemek meraklıları"
+  ],
+  "gezilecek_yerler": [
+    {
+      "baslik": "Kocayayla",
+      "resim": "bursa-keles/kocayayla.jpg",
+      "aciklama": "Keles merkezine yakın, geniş çayırlık alanı ve orman çevresiyle ilçenin en bilinen doğa durağıdır. Yürüyüş ve piknik için zaman ayırın."
+    },
+    {
+      "baslik": "Gököz Göleti",
+      "resim": "bursa-keles/gokoz_goleti.jpg",
+      "aciklama": "Gölet kıyısında manzara seyri, yürüyüş ve fotoğraf molası yapılabilir. Suya girilebilen bir plaj olarak değerlendirmeyin."
+    },
+    {
+      "baslik": "Gököz Doğa Parkı",
+      "resim": "bursa-keles/gokoz_doga_parki.jpg",
+      "aciklama": "Gököz Göleti kıyısındaki tesis ve doğa alanıdır. Etkinliklerin ve tesis bölümlerinin güncel durumunu önceden kontrol edin."
+    },
+    {
+      "baslik": "Baraklı Göleti",
+      "resim": "bursa-keles/barakli_goleti.jpg",
+      "aciklama": "Orman çevresinde yürüyüş ve manzara için uygun gölet alanıdır. Burası sulama göletidir; yüzme noktası olarak sunulmamalıdır."
+    },
+    {
+      "baslik": "Keles Göleti",
+      "resim": "bursa-keles/keles_goleti.jpg",
+      "aciklama": "İlçe merkezine yakın gölet çevresi, kısa doğa molası ve fotoğraf için değerlendirilebilir."
+    },
+    {
+      "baslik": "Dağdibi Göleti",
+      "resim": "bursa-keles/dagdibi_goleti.jpg",
+      "aciklama": "Kırsal manzarasıyla öne çıkan gölet çevresidir. Yol ve erişim koşullarını yola çıkmadan kontrol edin."
+    },
+    {
+      "baslik": "Yakup Çelebi Hamamı",
+      "resim": "bursa-keles/yakup_celebi_hamami.jpg",
+      "aciklama": "Keles merkezindeki tarihî hamam yapısıdır. Ziyaret veya hizmet saatlerini önceden öğrenin."
+    },
+    {
+      "baslik": "Belenören Kültür Evi",
+      "resim": "bursa-keles/belenoren_kultur_evi.jpg",
+      "aciklama": "Restore edilmiş sivil mimarlık örneği yapıda yerel kültür ve el sanatlarını tanıma imkânı sunar. Ziyaret için önceden randevu isteyin."
+    },
+    {
+      "baslik": "Kocayayla Orhun Yazıtları Kopyaları",
+      "resim": "bursa-keles/kocayayla_orhun_yazitlari.jpg",
+      "aciklama": "Kocayayla tesis alanında bulunan yazıt kopyalarıdır; tarihî orijinaller değil, sergilenen replikalardır."
+    }
+  ],
+  "dogal_guzellikler": [
+    {
+      "baslik": "Kocayayla",
+      "resim": "bursa-keles/kocayayla.jpg",
+      "aciklama": "Geniş çayırlığı ve çevresindeki ağaçlık alanlarla Keles'in başlıca yayla manzarasını sunar."
+    },
+    {
+      "baslik": "Gököz Göleti",
+      "resim": "bursa-keles/gokoz_goleti.jpg",
+      "aciklama": "Gölet kıyısında yürüyüş ve manzara seyri için uygun bir duraktır."
+    },
+    {
+      "baslik": "Baraklı Göleti",
+      "resim": "bursa-keles/barakli_goleti.jpg",
+      "aciklama": "Orman dokusuyla çevrili gölet ve mesire alanıdır."
+    },
+    {
+      "baslik": "Keles Göleti",
+      "resim": "bursa-keles/keles_goleti.jpg",
+      "aciklama": "Merkeze yakın kısa bir doğa gezisi seçeneğidir."
+    },
+    {
+      "baslik": "Dağdibi Göleti",
+      "resim": "bursa-keles/dagdibi_goleti.jpg",
+      "aciklama": "Kırsal gölet manzarası için araçlı rotaya eklenebilir."
+    }
+  ],
+  "tarihi_yerler": [
+    {
+      "baslik": "Yakup Çelebi Hamamı",
+      "resim": "bursa-keles/yakup_celebi_hamami.jpg",
+      "aciklama": "Keles merkezinde korunmuş tarihî hamam yapısıdır."
+    },
+    {
+      "baslik": "Belenören Kültür Evi Binası",
+      "resim": "bursa-keles/belenoren_kultur_evi.jpg",
+      "aciklama": "Restore edilerek kültür evine dönüştürülmüş geleneksel yapı örneğidir; ziyaret için randevu gerekir."
+    }
+  ],
+  "plajlar": [],
+  "muzeler": [
+    {
+      "baslik": "Belenören Kültür Evi",
+      "resim": "bursa-keles/belenoren_kultur_evi.jpg",
+      "aciklama": "Yöresel kültürün tanıtıldığı kültür evidir. Düzenli açık müze gibi düşünmeyin; ziyaret öncesinde randevu alın."
+    }
+  ],
+  "aktiviteler": [
+    {
+      "baslik": "Yayla yürüyüşü",
+      "konum": "Kocayayla, Keles/Bursa",
+      "aciklama": "Açık çayırlık ve uygun patikalarda yürüyüş yapın."
+    },
+    {
+      "baslik": "Gölet fotoğrafçılığı",
+      "konum": "Gököz Göleti, Keles/Bursa",
+      "aciklama": "Gölet ve orman manzarasını fotoğraflayın."
+    },
+    {
+      "baslik": "Bisiklet veya ATV etkinliği",
+      "konum": "Kocayayla ve Gököz çevresi, Keles/Bursa",
+      "aciklama": "Faaliyetin o gün sunulup sunulmadığını ilgili işletmeden öğrenin."
+    },
+    {
+      "baslik": "Yöresel ürün tadımı",
+      "konum": "Keles merkez, Bursa",
+      "aciklama": "Keles güveci ve bulunabildiğinde Sorgun peynirini deneyin."
+    }
+  ],
+  "neler_yapilir": [
+    "Kocayayla'da yürüyüş ve piknik yap.",
+    "Gököz ve Baraklı göletlerini araçlı doğa rotasına ekle.",
+    "Yakup Çelebi Hamamı'nın tarihî yapısını gör.",
+    "Önceden randevu alarak Belenören Kültür Evi'ni ziyaret et.",
+    "Keles güveci ve Sorgun peynirini tat."
+  ],
+  "ne_yenir": [
+    {
+      "baslik": "Keles güveci",
+      "aciklama": "Keles'e özgü, etin toprak kapta uzun süre pişirilmesiyle hazırlanan yöresel yemektir. Önceden sipariş gerekip gerekmediğini sorun."
+    },
+    {
+      "baslik": "Keles Sorgun Peyniri",
+      "aciklama": "2026 yılında coğrafi işaret tescili alan yöresel peynirdir. Satış noktası ve bulunabilirliği değişebilir."
+    },
+    {
+      "baslik": "Güveçte alabalık",
+      "aciklama": "Keles'teki alabalık tesislerinde karşılaşılabilen yemeklerden biridir."
+    },
+    {
+      "baslik": "Keles kirazı",
+      "aciklama": "İlçenin mevsimlik tarım ürünüdür; kiraz sezonunda yerel tezgâhlarda arayın."
+    }
+  ],
+  "yemek_nerede": [
+    {
+      "baslik": "Pınarcık Alabalık Tesisleri",
+      "konum": "Pınarcık Köyü İç Yolu, Pınarcık, Keles/Bursa",
+      "aciklama": "Güveçte alabalık için bir seçenek. Gitmeden önce açık olduğunu ve menüyü telefonla doğrulayın."
+    },
+    {
+      "baslik": "Pehlevan Alabalık ve Konaklama Tesisi",
+      "konum": "Dağdibi, Keles/Bursa",
+      "aciklama": "Alabalık ve kahvaltı sunan tesis. Güncel çalışma saatini ve rezervasyon durumunu kontrol edin."
+    },
+    {
+      "baslik": "Gököz Natural Park Restoran",
+      "konum": "Gököz Göleti kıyısı, Gököz, Keles/Bursa",
+      "aciklama": "Gölet kıyısındaki tesis restoranı. Menü ve restoranın dışarıdan ziyaretçi kabulünü önceden sorun."
+    }
+  ],
+  "rota_1_gun": [
+    {
+      "saat": "09:00",
+      "baslik": "Gököz Göleti",
+      "aciklama": "Güne gölet kıyısında yürüyüş ve manzara molasıyla başla."
+    },
+    {
+      "saat": "10:30",
+      "baslik": "Kocayayla",
+      "aciklama": "Yaylada yürüyüş yap ve Orhun Yazıtları kopyalarını gör."
+    },
+    {
+      "saat": "12:30",
+      "baslik": "Öğle yemeği",
+      "aciklama": "Keles güveci bulup bulamayacağını önceden sor; alternatif olarak alabalık tercih et."
+    },
+    {
+      "saat": "14:00",
+      "baslik": "Yakup Çelebi Hamamı",
+      "aciklama": "Merkezdeki tarihî yapıya uğra."
+    },
+    {
+      "saat": "15:00",
+      "baslik": "Baraklı Göleti",
+      "aciklama": "Gölet çevresinde manzara ve fotoğraf molası ver."
+    },
+    {
+      "saat": "17:00",
+      "baslik": "Keles'e dönüş",
+      "aciklama": "Yerel ürün satış noktalarında Sorgun peyniri ve mevsimindeyse Keles kirazı ara. Belenören Kültür Evi'ni yalnızca randevun varsa rotaya ekle."
+    }
+  ],
+  "sss": [
+    {
+      "soru": "Keles bir günde gezilir mi?",
+      "cevap": "Kocayayla, Gököz Göleti, merkez ve Baraklı Göleti araçla bir güne sığabilir. Diğer göletler için ikinci gün daha rahattır."
+    },
+    {
+      "soru": "Keles'te plaj var mı?",
+      "cevap": "Keles denize kıyısı olmayan bir ilçedir. Göletler plaj veya güvenli yüzme alanı olarak listelenmemiştir."
+    },
+    {
+      "soru": "Keles'in en bilinen yemeği nedir?",
+      "cevap": "Keles güveci ilçeyle doğrudan özdeşleşen yöresel yemektir; Sorgun peyniri de tescilli yerel üründür."
+    },
+    {
+      "soru": "Belenören Kültür Evi'ne doğrudan gidilebilir mi?",
+      "cevap": "Ziyaret öncesinde randevu talep edilmesi önerilir."
+    }
+  ]
+},{
+  "slug": "bursa-orhaneli",
+  "isim": "Orhaneli",
+  "bolge": "Bursa",
+  "resim": "bursa-orhaneli/orhaneli_genel.jpg",
+  "aciklama": "Orhaneli, Bursa'nın güneyindeki doğa ağırlıklı ilçelerinden biridir. Sadağı Kanyonu, tarihî Kaya Hamamı ve ormanlık mesire alanları günübirlik bir gezi için öne çıkar.",
+  "onerilen_sure": "1 gün",
+  "en_iyi_donem": "İlkbahar ve sonbahar",
+  "one_cikan": ["Sadağı Kanyonu", "Sadağı Kaya Hamamı", "Karagöz Piknik Alanı"],
+  "kimler_icin_uygun": ["Doğa yürüyüşü sevenler", "Fotoğraf meraklıları", "Günübirlik gezenler"],
+  "gezilecek_yerler": [
+    {
+      "baslik": "Karagöz Heykeli",
+      "resim": "bursa-orhaneli/karagoz_heykeli.jpg",
+      "aciklama": "İlçenin Karagöz geleneğini simgeleyen heykel. Merkezden Sadağı yönüne geçerken kısa bir fotoğraf durağı olarak görülebilir."
+    }
+  ],
+  "dogal_guzellikler": [
+    {
+      "baslik": "Sadağı Kanyonu",
+      "resim": "bursa-orhaneli/sadagi_kanyonu.jpg",
+      "aciklama": "Kayalık duvarlar ve dere boyunca uzanan yürüyüş alanıyla ilçenin başlıca doğa durağıdır. Yağış ve parkur durumunu gitmeden önce kontrol edin."
+    },
+    {
+      "baslik": "Karagöz Piknik Alanı",
+      "resim": "bursa-orhaneli/karagoz_piknik_alani.jpg",
+      "aciklama": "Orman içinde piknik ve dinlenme için düzenlenmiş bir alandır."
+    },
+    {
+      "baslik": "Kurt Dağı",
+      "resim": "bursa-orhaneli/kurt_dagi.jpg",
+      "aciklama": "Kaymakamlığın Orhaneli'nin mesire alanları arasında saydığı ormanlık bölgedir. İşaretli rota ve erişim durumunu yerelde doğrulayarak gidin."
+    },
+    {
+      "baslik": "Kocasu Çayı",
+      "resim": "bursa-orhaneli/kocasu_cayi.jpg",
+      "aciklama": "Orhaneli'nin rafting etkinlikleriyle ilişkilendirilen akarsuyudur. Suya giriş veya rafting yalnızca güncel koşullar ve yetkili işletme uygunluğuyla planlanmalıdır."
+    }
+  ],
+  "tarihi_yerler": [
+    {
+      "baslik": "Sadağı Kaya Hamamı",
+      "resim": "bursa-orhaneli/sadagi_kaya_hamami.jpg",
+      "aciklama": "Kanyon içindeki tarihî sıcak su yapısıdır. Kanyondan ayrı bir durak olarak görülebilir; ulaşım için kayalık zeminde yürümek gerekir."
+    }
+  ],
+  "plajlar": [],
+  "muzeler": [],
+  "aktiviteler": [
+    {
+      "baslik": "Kanyon yürüyüşü",
+      "konum": "Sadağı Kanyonu, Orhaneli/Bursa",
+      "aciklama": "Kanyonun ziyarete açık bölümünde yürüyün; kaygan zemin ve su seviyesine dikkat edin."
+    },
+    {
+      "baslik": "Piknik",
+      "konum": "Karagöz Piknik Alanı, Orhaneli/Bursa",
+      "aciklama": "Ayrılmış alanlarda piknik yapın; güncel ateş yakma kurallarını kontrol edin."
+    },
+    {
+      "baslik": "Rafting",
+      "konum": "Kocasu Çayı, Orhaneli/Bursa",
+      "aciklama": "Etkinlik düzenleniyorsa rezervasyon, su seviyesi ve güvenlik koşullarını önceden doğrulayın."
+    }
+  ],
+  "neler_yapilir": [
+    "Sadağı Kanyonu'nda yürüyüş yap.",
+    "Parkur uygunsa Sadağı Kaya Hamamı'nı gör.",
+    "Karagöz Piknik Alanı'nda mola ver.",
+    "Karagöz Heykeli'ni fotoğrafla.",
+    "Mevsiminde yerel çilek ve diğer orman meyvelerine bak."
+  ],
+  "ne_yenir": [
+    {
+      "baslik": "Etli güveç",
+      "aciklama": "Bursa'nın dağ ilçelerinde görülen, ağır ateşte pişirilen etli yemeklerden biridir; günlük menüde bulunup bulunmadığını sorun."
+    },
+    {
+      "baslik": "Keşkek",
+      "aciklama": "Bölgenin geleneksel sofralarında karşılaşılan buğday ve et yemeğidir; her restoranda sürekli sunulmayabilir."
+    },
+    {
+      "baslik": "Köy ekmeği ve yerel ürünler",
+      "aciklama": "Yerel fırın ürünleri ile mevsiminde yetişen çilek, kiraz ve ahududuyu değerlendirin."
+    }
+  ],
+  "yemek_nerede": [
+    {
+      "baslik": "Karagöz Et Mangal",
+      "konum": "İsmetpaşa, Zafer Caddesi, Orhaneli/Bursa",
+      "aciklama": "İlçe merkezindeki et ve ızgara restoranı."
+    },
+    {
+      "baslik": "Şef'in Mutfağı",
+      "konum": "Erenler Sokak No:16/A, Orhaneli/Bursa",
+      "aciklama": "Orhaneli'de kayıtlı bir restoran; gitmeden önce güncel menü ve çalışma saatlerini kontrol edin."
+    },
+    {
+      "baslik": "Beyce Doğal Yaşam ve Spor Merkezi Restoranı",
+      "konum": "Karabekirpaşa, Beyce Doğal Yaşam ve Spor Merkezi, Orhaneli/Bursa",
+      "aciklama": "Belediye tesisindeki restoran. Servis saatlerini tesisten önceden doğrulayın."
+    }
+  ],
+  "rota_1_gun": [
+    {
+      "saat": "09:00",
+      "baslik": "Karagöz Heykeli",
+      "aciklama": "İlçe merkezinde kısa bir başlangıç yap."
+    },
+    {
+      "saat": "09:45",
+      "baslik": "Sadağı Kanyonu",
+      "aciklama": "Kanyonun açık bölümünde yürüyüşe başla."
+    },
+    {
+      "saat": "11:15",
+      "baslik": "Sadağı Kaya Hamamı",
+      "aciklama": "Parkur ve hava koşulları uygunsa tarihî yapıya kadar ilerle."
+    },
+    {
+      "saat": "13:00",
+      "baslik": "Öğle yemeği",
+      "aciklama": "Orhaneli merkezindeki restoranlardan birinde mola ver."
+    },
+    {
+      "saat": "14:30",
+      "baslik": "Karagöz Piknik Alanı",
+      "aciklama": "Orman içinde dinlen ve kısa bir yürüyüş yap."
+    },
+    {
+      "saat": "16:00",
+      "baslik": "Kurt Dağı veya Karakoca Mevkii",
+      "aciklama": "Erişimi yerelde doğruladığın alanlardan yalnızca birini ekleyerek günü tamamla."
+    }
+  ],
+  "sss": [
+    {
+      "soru": "Orhaneli için bir gün yeterli mi?",
+      "cevap": "Sadağı Kanyonu, Kaya Hamamı ve ilçe merkezini görmek için bir gün yeterlidir. Rafting veya uzun doğa yürüyüşü planlanırsa daha fazla zaman ayırın."
+    },
+    {
+      "soru": "Sadağı Kanyonu'na giderken nelere dikkat edilmeli?",
+      "cevap": "Kaymaz ayakkabı giyin; yağış, su seviyesi ve parkurun güncel açık olma durumunu önceden kontrol edin."
+    },
+    {
+      "soru": "Orhaneli'nde plaj veya müze var mı?",
+      "cevap": "Bu rehbere güvenle eklenebilecek bir plaj ya da müze doğrulanmadı."
+    }
+  ]
+},{
+  "slug": "bursa-orhangazi",
+  "isim": "Orhangazi",
+  "bolge": "Bursa",
+  "resim": "bursa-orhangazi/orhangazi_genel.jpg",
+  "aciklama": "İznik Gölü'nün batı kıyısındaki Orhangazi; Keramet Ilıcası, Gürle Dağı, göl kıyısı ve Gedelek turşusuyla öne çıkar. İlçedeki duraklar dağınık olduğundan araçla gezmek daha uygundur.",
+  "onerilen_sure": "1 gün",
+  "en_iyi_donem": "İlkbahar, yaz ve erken sonbahar",
+  "one_cikan": ["Keramet Ilıcası", "Gürle Dağı", "Orhangazi Halk Plajı", "Gedelek Pınarbaşı"],
+  "kimler_icin_uygun": ["Doğa sevenler", "Günübirlik gezenler", "Yerel lezzet meraklıları"],
+  "gezilecek_yerler": [
+    {
+      "baslik": "Orhangazi Göl İskelesi",
+      "resim": "bursa-orhangazi/orhangazi_gol_iskelesi.jpg",
+      "aciklama": "İznik Gölü kıyısında manzara seyretmek ve fotoğraf çekmek için kısa bir duraktır. Su seviyesine bağlı olarak kıyının görünümü değişebilir."
+    }
+  ],
+  "dogal_guzellikler": [
+    {
+      "baslik": "Keramet Ilıcası",
+      "resim": "bursa-orhangazi/keramet_ilicasi.jpg",
+      "aciklama": "Doğal sıcak su kaynağıyla tanınır. İşletme, giriş ve havuza erişim koşullarını gitmeden önce doğrulayın."
+    },
+    {
+      "baslik": "Gürle Dağı",
+      "resim": "bursa-orhangazi/gurle_dagi.jpg",
+      "aciklama": "Manzara ve yamaç paraşütüyle öne çıkan dağlık alandır. Kalkış alanlarına yalnızca uygun yol ve hava koşullarında gidin."
+    },
+    {
+      "baslik": "Nadır Piknik Alanı",
+      "resim": "bursa-orhangazi/nadir_piknik_alani.jpg",
+      "aciklama": "Kaymakamlığın Orhangazi'deki mesire yerleri arasında saydığı, doğada mola verilebilecek alandır."
+    },
+    {
+      "baslik": "Gedelek Pınarbaşı",
+      "resim": "bursa-orhangazi/gedelek_pinarbasi.jpg",
+      "aciklama": "Gedelek turşusuyla ilişkili kaynak suyunun bulunduğu piknik alanıdır. Üretici satış noktalarına uğramak için de uygun bir duraktır."
+    }
+  ],
+  "tarihi_yerler": [
+    {
+      "baslik": "Gürle Orhan Gazi Hamamı",
+      "resim": "bursa-orhangazi/gurle_orhan_gazi_hamami.jpg",
+      "aciklama": "Gürle'deki tarihî hamam yapısıdır. Aktif hamam hizmeti beklemeyin; yapıyı dışarıdan görmek üzere planlayın."
+    },
+    {
+      "baslik": "Karsak Tarihî Köprüsü",
+      "resim": "bursa-orhangazi/karsak_tarihi_koprusu.jpg",
+      "aciklama": "Kaymakamlığın ilçe turizm noktaları arasında belirttiği tarihî köprüdür. Yerinde yol ve erişim durumunu kontrol edin."
+    },
+    {
+      "baslik": "Orhangazi Tarihî Hamamı",
+      "resim": "bursa-orhangazi/orhangazi_tarihi_hamami.jpg",
+      "aciklama": "İlçe merkezindeki Orhan Bey dönemiyle ilişkilendirilen hamam yapısıdır. Restorasyon ve iç ziyaret durumu belirsiz olduğundan dış cephe ziyareti olarak düşünün."
+    }
+  ],
+  "plajlar": [
+    {
+      "baslik": "Orhangazi Halk Plajı",
+      "resim": "bursa-orhangazi/orhangazi_halk_plaji.jpg",
+      "aciklama": "İznik Gölü kıyısındaki halk plajıdır. Yüzmeye girmeden önce en güncel su kalitesi ölçümünü ve güvenlik uyarılarını kontrol edin."
+    }
+  ],
+  "muzeler": [],
+  "aktiviteler": [
+    {
+      "baslik": "Göl kıyısında yürüyüş",
+      "konum": "İznik Gölü'nün Orhangazi kıyısı",
+      "aciklama": "İskele ve kıyı çevresinde yürüyüp göl manzarasını izle."
+    },
+    {
+      "baslik": "Termal mola",
+      "konum": "Keramet Ilıcası, Orhangazi/Bursa",
+      "aciklama": "Güncel giriş ve kullanım koşulları uygunsa ılıcada zaman geçir."
+    },
+    {
+      "baslik": "Yamaç paraşütü",
+      "konum": "Gürle Dağı, Orhangazi/Bursa",
+      "aciklama": "Yalnızca yetkili bir ekip ve uygun hava koşullarıyla planla."
+    }
+  ],
+  "neler_yapilir": [
+    "Keramet Ilıcası'nın güncel ziyaret durumunu kontrol ederek uğra.",
+    "İznik Gölü kıyısında yürüyüş yap.",
+    "Gürle Dağı manzarasını izle.",
+    "Gedelek turşusu ve Orhangazi zeytini al.",
+    "Vaktin varsa Gürle'deki tarihî hamamı gör."
+  ],
+  "ne_yenir": [
+    {
+      "baslik": "Orhangazi Gedelek Turşusu",
+      "aciklama": "Pınarbaşı kaynak suyuyla hazırlanan, coğrafi işaretli yerel üründür."
+    },
+    {
+      "baslik": "Orhangazi zeytini ve zeytinyağı",
+      "aciklama": "İlçenin zeytin üretimini kahvaltıda veya yerel üretici ürünlerinde deneyin."
+    },
+    {
+      "baslik": "Malhun Hatun Tatlısı",
+      "aciklama": "Orhangazi Belediyesi'nin yerel mutfak tanıtımında sunduğu tatlıdır; her işletmede bulunmayabilir."
+    },
+    {
+      "baslik": "Mevsimlik çilek",
+      "aciklama": "Orhangazi çevresinde yetiştirilen çileği mevsiminde taze veya reçel olarak değerlendirin."
+    }
+  ],
+  "yemek_nerede": [
+    {
+      "baslik": "Güler Kebap Orhangazi",
+      "konum": "Camiikebir, Tozkoparan Caddesi No:20/A, Orhangazi/Bursa",
+      "aciklama": "İlçe merkezinde kebap ve İskender için bir seçenek."
+    },
+    {
+      "baslik": "İskele Yaşam",
+      "konum": "İznik Gölü kıyısı, Orhangazi/Bursa",
+      "aciklama": "Göl kıyısında yemek servisi bulunan işletme."
+    },
+    {
+      "baslik": "Kebapnare",
+      "konum": "Arapzade, Arkaltı 13 Nolu Sokak No:4/A, Orhangazi/Bursa",
+      "aciklama": "Kebap çeşitleri sunan restoran. Gitmeden önce çalışma saatini doğrulayın."
+    }
+  ],
+  "rota_1_gun": [
+    {
+      "saat": "09:00",
+      "baslik": "Keramet Ilıcası",
+      "aciklama": "Güncel giriş durumunu doğrulayarak güne burada başla."
+    },
+    {
+      "saat": "11:00",
+      "baslik": "Orhangazi Göl İskelesi",
+      "aciklama": "İznik Gölü manzarasını izle ve kıyıda yürü."
+    },
+    {
+      "saat": "12:00",
+      "baslik": "Orhangazi Halk Plajı",
+      "aciklama": "Kıyıda mola ver; yüzmeyi yalnızca güncel koşullar uygunsa değerlendir."
+    },
+    {
+      "saat": "13:30",
+      "baslik": "Öğle yemeği",
+      "aciklama": "Listelenen üç restorandan birinde yemek ye."
+    },
+    {
+      "saat": "15:00",
+      "baslik": "Gedelek Pınarbaşı",
+      "aciklama": "Pınarbaşı çevresini gez ve Gedelek turşusuna bak."
+    },
+    {
+      "saat": "17:00",
+      "baslik": "Gürle Dağı",
+      "aciklama": "Yol ve hava koşulları uygunsa manzarayla günü tamamla."
+    }
+  ],
+  "sss": [
+    {
+      "soru": "Orhangazi için bir gün yeterli mi?",
+      "cevap": "Ana doğa ve göl durakları için yeterli. Tarihî noktaların tümünü ve uzun bir termal molayı eklemek için ikinci gün daha rahat olur."
+    },
+    {
+      "soru": "Orhangazi Halk Plajı'nda yüzülebilir mi?",
+      "cevap": "Burası göl plajıdır; su kalitesi dönem içinde değişebilir. Yüzmeden önce güncel resmî ölçüm ve yerel uyarıları kontrol edin."
+    },
+    {
+      "soru": "Orhan Gazi Türbesi Orhangazi ilçesinde mi?",
+      "cevap": "Hayır. Orhan Gazi Türbesi Bursa'nın Osmangazi ilçesindeki Tophane'dedir."
+    }
+  ]
+},{
+  "slug": "bursa-yenisehir",
+  "isim": "Yenişehir",
+  "bolge": "Bursa",
+  "resim": "bursa-yenisehir/yenisehir_genel.jpg",
+  "aciklama": "Yenişehir, erken Osmanlı döneminden kalan yapıları, Şemaki Evi, Yarhisar Şelalesi ve Günece Kanyonu ile tarih ve doğayı bir araya getirir.",
+  "onerilen_sure": "1-2 gün",
+  "en_iyi_donem": "İlkbahar ve sonbahar",
+  "one_cikan": ["Şemaki Evi Müzesi", "Saat Kulesi", "Yarhisar Şelalesi", "Günece Cennet Kanyonu"],
+  "kimler_icin_uygun": ["Tarih meraklıları", "Doğa yürüyüşçüleri", "Günübirlik gezenler"],
+  "gezilecek_yerler": [
+    {
+      "baslik": "Yenişehir Saat Kulesi",
+      "resim": "bursa-yenisehir/yenisehir_saat_kulesi.jpg",
+      "aciklama": "1930'larda tamamlanan ve belediyenin ambleminde de yer alan ilçe simgesidir. Merkez gezisi için iyi bir başlangıç noktasıdır."
+    }
+  ],
+  "dogal_guzellikler": [
+    {
+      "baslik": "Yarhisar Şelalesi",
+      "resim": "bursa-yenisehir/yarhisar_selalesi.jpg",
+      "aciklama": "Kayalar arasından dökülerek küçük bir gölet oluşturan şelaledir. Yağışa ve mevsime göre su miktarı değişebilir."
+    },
+    {
+      "baslik": "Günece Cennet Kanyonu",
+      "resim": "bursa-yenisehir/gunece_cennet_kanyonu.jpg",
+      "aciklama": "Su geçişleri, kayalıklar ve kaygan zemin içeren doğa yürüyüşü alanıdır. Deneyimli bir grupla ve uygun ekipmanla gezilmelidir."
+    }
+  ],
+  "tarihi_yerler": [
+    {
+      "baslik": "Çifte Hamam",
+      "resim": "bursa-yenisehir/cifte_hamam.jpg",
+      "aciklama": "Yenişehir'in Osmanlı döneminden kalan tarihî hamam yapılarındandır. İç ziyaret durumunu önceden doğrulayın."
+    },
+    {
+      "baslik": "Saray Hamamı",
+      "resim": "bursa-yenisehir/saray_hamami.jpg",
+      "aciklama": "Kaymakamlığın ilçe tarihî eserleri arasında saydığı hamamdır. Ziyareti dış mimarisini görme üzerine planlayın."
+    },
+    {
+      "baslik": "Yarhisar Orhan Gazi Hamamı",
+      "resim": "bursa-yenisehir/yarhisar_orhan_gazi_hamami.jpg",
+      "aciklama": "Yarhisar'daki restorasyonu tamamlanan tarihî hamam yapısıdır. Şelale gezisiyle aynı bölgedeyken görülebilir."
+    },
+    {
+      "baslik": "Aydoğdu Bey Türbesi",
+      "resim": "bursa-yenisehir/aydogdu_bey_turbesi.jpg",
+      "aciklama": "Yenişehir'in tarihî kültür gezilerinde yer verilen türbedir."
+    }
+  ],
+  "plajlar": [],
+  "muzeler": [
+    {
+      "baslik": "Şemaki Evi Müzesi",
+      "resim": "bursa-yenisehir/semaki_evi_muzesi.jpg",
+      "aciklama": "18. yüzyıl sivil mimarisini ve kalem işi süslemeleri yansıtan konaktır. Restorasyon sonrası yeniden açılış duyuruldu; içeri giriş durumunu gitmeden önce teyit edin."
+    }
+  ],
+  "aktiviteler": [
+    {
+      "baslik": "Tarihî merkez yürüyüşü",
+      "konum": "Yenişehir merkez, Bursa",
+      "aciklama": "Saat Kulesi, tarihî hamamlar ve Şemaki Evi çevresini yürüyerek gez."
+    },
+    {
+      "baslik": "Şelale gezisi",
+      "konum": "Yarhisar Şelalesi, Yenişehir/Bursa",
+      "aciklama": "Şelale çevresinde manzara ve fotoğraf molası ver."
+    },
+    {
+      "baslik": "Rehberli kanyon yürüyüşü",
+      "konum": "Günece Cennet Kanyonu, Yenişehir/Bursa",
+      "aciklama": "Su geçişleri nedeniyle bu etkinliği ayrı bir gün ve uygun ekiple planla."
+    }
+  ],
+  "neler_yapilir": [
+    "Saat Kulesi çevresinde yürüyüş yap.",
+    "Açıksa Şemaki Evi Müzesi'ni gez.",
+    "Tarihî hamam yapılarını gör.",
+    "Yarhisar Şelalesi'ne git.",
+    "Yerel biberle yapılan dolmayı dene.",
+    "Günece Kanyonu için ayrı ve hazırlıklı bir doğa günü ayır."
+  ],
+  "ne_yenir": [
+    {
+      "baslik": "Yenişehir biberiyle biber dolması",
+      "aciklama": "İlçenin Altın Biber Festivali'nde de yarışması düzenlenen yemektir; günlük menüde olup olmadığını sorun."
+    },
+    {
+      "baslik": "Yenişehir biberi",
+      "aciklama": "İlçenin öne çıkan tarım ürünüdür; mevsiminde taze olarak alınabilir."
+    },
+    {
+      "baslik": "Geleneksel helva",
+      "aciklama": "Yenişehir'deki köklü helvacılarda tahin helvası ve farklı yöresel helva çeşitlerini deneyebilirsiniz."
+    }
+  ],
+  "yemek_nerede": [
+    {
+      "baslik": "Yenişehir İmren Izgara",
+      "konum": "Kurtuluş, İznik Caddesi No:60/A, Yenişehir/Bursa",
+      "aciklama": "Köfte, ızgara ve pide seçenekleri sunan restoran."
+    },
+    {
+      "baslik": "Küfe Restoran",
+      "konum": "Kurtuluş, Atatürk Caddesi No:16, Yenişehir/Bursa",
+      "aciklama": "İlçe merkezindeki restoran."
+    },
+    {
+      "baslik": "Karadeniz Pide ve Lokanta",
+      "konum": "Cumhuriyet Caddesi No:17/C, Yenişehir/Bursa",
+      "aciklama": "Pide ve lokanta yemekleri için bir seçenek; gitmeden önce güncel adresini ve saatini kontrol edin."
+    }
+  ],
+  "rota_1_gun": [
+    {
+      "saat": "09:00",
+      "baslik": "Yenişehir Saat Kulesi",
+      "aciklama": "Güne ilçe merkezinde başla."
+    },
+    {
+      "saat": "09:45",
+      "baslik": "Şemaki Evi Müzesi",
+      "aciklama": "İç ziyaret açılmışsa müzeyi gez; değilse yapıyı dışarıdan gör."
+    },
+    {
+      "saat": "11:00",
+      "baslik": "Çifte Hamam ve Saray Hamamı",
+      "aciklama": "Tarihî yapıları dışarıdan incele."
+    },
+    {
+      "saat": "12:30",
+      "baslik": "Öğle yemeği",
+      "aciklama": "Listelenen restoranlardan birinde mola ver."
+    },
+    {
+      "saat": "14:00",
+      "baslik": "Yarhisar Orhan Gazi Hamamı",
+      "aciklama": "Yarhisar'daki restore edilmiş yapıyı gör."
+    },
+    {
+      "saat": "15:00",
+      "baslik": "Yarhisar Şelalesi",
+      "aciklama": "Şelale çevresinde zaman geçir."
+    },
+    {
+      "saat": "17:00",
+      "baslik": "Yenişehir'e dönüş",
+      "aciklama": "Yerel biber veya helva alarak günü tamamla."
+    }
+  ],
+  "sss": [
+    {
+      "soru": "Şemaki Evi Müzesi açık mı?",
+      "cevap": "Belediye 2026'da restorasyon sonrası yeniden açılış hazırlığını duyurdu. Kesin iç ziyaret durumunu müzeden veya belediyeden öğrenin."
+    },
+    {
+      "soru": "Günece Kanyonu bir günlük şehir rotasına eklenir mi?",
+      "cevap": "Önerilmez. Su geçişleri ve kaygan zemin nedeniyle kanyona ayrı bir gün ayırın."
+    },
+    {
+      "soru": "Yenişehir'de plaj var mı?",
+      "cevap": "Bu rehbere eklenebilecek doğrulanmış bir plaj bulunmadı."
+    }
+  ]
+},{
+  "slug": "bursa-yildirim",
+  "isim": "Yıldırım",
+  "bolge": "Bursa",
+  "resim": "bursa-yildirim/yildirim_genel.jpg",
+  "aciklama": "Yıldırım; Cumalıkızık'ın tarihî sokakları, Yeşil Türbe, Balabanbey Kalesi, müzeleri ve Uludağ eteklerindeki şelaleleriyle Bursa'nın tarih ve doğa bakımından zengin ilçelerindendir.",
+  "onerilen_sure": "2 gün",
+  "en_iyi_donem": "İlkbahar ve sonbahar",
+  "one_cikan": ["Cumalıkızık", "Yeşil Türbe", "TOFAŞ Anadolu Arabaları Müzesi", "Küreklidere Şelalesi"],
+  "kimler_icin_uygun": ["Tarih meraklıları", "Müze gezmeyi sevenler", "Doğa yürüyüşçüleri", "Aileler"],
+  "gezilecek_yerler": [
+    {
+      "baslik": "Kaplıkaya Cazibe Merkezi",
+      "resim": "bursa-yildirim/kaplikaya_cazibe_merkezi.jpg",
+      "aciklama": "Yürüyüş, dinlenme ve çocuklarla zaman geçirme için düzenlenmiş geniş bir kent parkıdır. İçindeki birimlerin güncel çalışma saatleri değişebilir."
+    }
+  ],
+  "dogal_guzellikler": [
+    {
+      "baslik": "Küreklidere Şelalesi",
+      "resim": "bursa-yildirim/kureklidere_selalesi.jpg",
+      "aciklama": "Uludağ eteklerindeki şelaleye ulaşmak için yürüyüş gerekir. Kaygan zemin, hava ve yol koşullarını kontrol edin."
+    },
+    {
+      "baslik": "Balaban Şelalesi",
+      "resim": "bursa-yildirim/balaban_selalesi.jpg",
+      "aciklama": "Kayalıklar arasından akan suyu ve doğal manzarasıyla kısa bir doğa gezisi için uygundur. Suya girilecek güvenli bir alan olduğunu varsaymayın."
+    },
+    {
+      "baslik": "Balaban Mesire Alanı",
+      "resim": "bursa-yildirim/balaban_mesire_alani.jpg",
+      "aciklama": "Balaban çevresinde piknik ve dinlenme için düzenlenmiş alandır."
+    },
+    {
+      "baslik": "Cumalıkızık Orman Parkı",
+      "resim": "bursa-yildirim/cumalikizik_orman_parki.jpg",
+      "aciklama": "Tarihî Cumalıkızık gezisine eklenebilecek ormanlık dinlenme alanıdır."
+    }
+  ],
+  "tarihi_yerler": [
+    {
+      "baslik": "Cumalıkızık Tarihî Sokakları",
+      "resim": "bursa-yildirim/cumalikizik_tarihi_sokaklari.jpg",
+      "aciklama": "Erken Osmanlı kırsal mimarisini koruyan, UNESCO Dünya Mirası alanının parçası olan tarihî sokaklardır. Yaşayan bir yer olduğu için evlerin mahremiyetine dikkat edin."
+    },
+    {
+      "baslik": "Yeşil Türbe",
+      "resim": "bursa-yildirim/yesil_turbe.jpg",
+      "aciklama": "Çelebi Sultan Mehmed'in türbesi; çini kaplamalarıyla Bursa'nın en tanınan tarihî yapılarındandır."
+    },
+    {
+      "baslik": "Yıldırım Bayezid Türbesi",
+      "resim": "bursa-yildirim/yildirim_bayezid_turbesi.jpg",
+      "aciklama": "Yıldırım Bayezid'in defnedildiği erken Osmanlı dönemi türbesidir."
+    },
+    {
+      "baslik": "Balabanbey Kalesi",
+      "resim": "bursa-yildirim/balabanbey_kalesi.jpg",
+      "aciklama": "Bursa'nın Osmanlılar tarafından kuşatılmasıyla ilişkilendirilen tarihî hisar kalıntısıdır."
+    }
+  ],
+  "plajlar": [],
+  "muzeler": [
+    {
+      "baslik": "TOFAŞ Anadolu Arabaları Müzesi",
+      "resim": "bursa-yildirim/tofas_anadolu_arabalari_muzesi.jpg",
+      "aciklama": "Anadolu'da tekerlekli taşıtların gelişimini sergileyen müzedir. Gitmeden önce ziyaret saatlerini kontrol edin."
+    },
+    {
+      "baslik": "Türk İslam Eserleri Müzesi",
+      "resim": "bursa-yildirim/turk_islam_eserleri_muzesi.jpg",
+      "aciklama": "Yeşil Medrese binasındaki müzede çini, seramik, ahşap ve metal eserler sergilenir."
+    },
+    {
+      "baslik": "Hünkâr Köşkü Müzesi",
+      "resim": "bursa-yildirim/hunkar_kosku_muzesi.jpg",
+      "aciklama": "Osmanlı sultanlarının ve Atatürk'ün konakladığı tarihî köşktür; bahçesinden Bursa manzarası da izlenebilir."
+    },
+    {
+      "baslik": "Cumalıkızık Köy Müzesi",
+      "resim": "bursa-yildirim/cumalikizik_koy_muzesi.jpg",
+      "aciklama": "Cumalıkızık'ın tarihi ve günlük yaşamına ilişkin eserlerin sergilendiği küçük müzedir."
+    }
+  ],
+  "aktiviteler": [
+    {
+      "baslik": "Tarihî sokak yürüyüşü",
+      "konum": "Cumalıkızık, Yıldırım/Bursa",
+      "aciklama": "Sabah saatlerinde sokakları yürüyerek gez ve yerel ürünlere bak."
+    },
+    {
+      "baslik": "Müze gezisi",
+      "konum": "Yeşil ve Umurbey çevresi, Yıldırım/Bursa",
+      "aciklama": "Türk İslam Eserleri Müzesi ile TOFAŞ Anadolu Arabaları Müzesi'ne zaman ayır."
+    },
+    {
+      "baslik": "Şelale yürüyüşü",
+      "konum": "Küreklidere, Yıldırım/Bursa",
+      "aciklama": "Uygun hava ve parkur koşullarında şelale yürüyüşü yap; bunu ayrı bir doğa günü olarak planla."
+    }
+  ],
+  "neler_yapilir": [
+    "Cumalıkızık'ın tarihî sokaklarını gez.",
+    "Yeşil Türbe'yi ziyaret et.",
+    "TOFAŞ ve Türk İslam Eserleri müzelerini gör.",
+    "Hünkâr Köşkü'nden şehir manzarasını izle.",
+    "İkinci gün Küreklidere veya Balaban Şelalesi için doğa gezisi yap.",
+    "Bursa kebabı, tahinli pide ve ahududu reçelini dene."
+  ],
+  "ne_yenir": [
+    {
+      "baslik": "Bursa kebabı",
+      "aciklama": "Döner etinin pide, sos ve tereyağıyla servis edildiği Bursa lezzeti."
+    },
+    {
+      "baslik": "Pideli köfte",
+      "aciklama": "Pide üzerinde sos, yoğurt ve tereyağıyla sunulan Bursa yemeği."
+    },
+    {
+      "baslik": "Tahinli pide",
+      "aciklama": "Bursa'da özellikle kahvaltıda tüketilen tahinli hamur işi."
+    },
+    {
+      "baslik": "Cumalıkızık ahududu reçeli",
+      "aciklama": "Cumalıkızık'taki yerel üreticilerle özdeşleşen kahvaltılık ürün."
+    },
+    {
+      "baslik": "Süt helvası",
+      "aciklama": "Bursa mutfağının sütlü tatlılarından biridir."
+    }
+  ],
+  "yemek_nerede": [
+    {
+      "baslik": "Hasbihal Bahçesi",
+      "konum": "Cumalıkızık, Ferdağ Sokak No:5, Yıldırım/Bursa",
+      "aciklama": "Cumalıkızık'ta kahvaltı ve gözleme sunan işletme."
+    },
+    {
+      "baslik": "Meşhur Bursa Kebapçısı Yüce Hünkâr",
+      "konum": "Yeşil, Akyokuş Sokak No:17, Yıldırım/Bursa",
+      "aciklama": "Yeşil çevresinde Bursa kebabı için bir seçenek."
+    },
+    {
+      "baslik": "FA'vore Restoran",
+      "konum": "Siteler, Kanuni Caddesi No:21/B, Yıldırım/Bursa",
+      "aciklama": "İlçede yemek servisi sunan restoran. Menü ve çalışma saatlerini gitmeden önce kontrol edin."
+    }
+  ],
+  "rota_1_gun": [
+    {
+      "saat": "08:30",
+      "baslik": "Cumalıkızık",
+      "aciklama": "Tarihî sokaklarda yürüyüş yap; istersen kahvaltı et."
+    },
+    {
+      "saat": "10:00",
+      "baslik": "Cumalıkızık Köy Müzesi",
+      "aciklama": "Müze açıksa kısa bir ziyaret yap."
+    },
+    {
+      "saat": "11:30",
+      "baslik": "TOFAŞ Anadolu Arabaları Müzesi",
+      "aciklama": "Taşıt koleksiyonunu gez."
+    },
+    {
+      "saat": "13:00",
+      "baslik": "Öğle yemeği",
+      "aciklama": "Yeşil çevresinde Bursa kebabı veya pideli köfte dene."
+    },
+    {
+      "saat": "14:30",
+      "baslik": "Yeşil Türbe",
+      "aciklama": "Türbeyi ve çini işçiliğini gör."
+    },
+    {
+      "saat": "15:15",
+      "baslik": "Türk İslam Eserleri Müzesi",
+      "aciklama": "Yeşil Medrese'deki koleksiyonu gez."
+    },
+    {
+      "saat": "16:30",
+      "baslik": "Hünkâr Köşkü Müzesi",
+      "aciklama": "Köşkü ziyaret edip manzarayla günü tamamla."
+    }
+  ],
+  "sss": [
+    {
+      "soru": "Yıldırım'ın doğal yerleri bir günlük tarih rotasına eklenir mi?",
+      "cevap": "Küreklidere Şelalesi gibi yürüyüş gerektiren duraklar için ikinci gün ayırmak daha uygundur."
+    },
+    {
+      "soru": "Cumalıkızık Yıldırım ilçesinde mi?",
+      "cevap": "Evet. UNESCO kapsamındaki tarihî Cumalıkızık, Yıldırım sınırlarındadır."
+    },
+    {
+      "soru": "Yıldırım'da plaj var mı?",
+      "cevap": "Hayır; bu ilçe için plaj kategorisine yer eklenmedi."
+    }
+  ]
+},{
+  "slug": "bursa-buyukorhan",
+  "isim": "Büyükorhan",
+  "bolge": "Bursa",
+  "resim": "bursa-buyukorhan/buyukorhan_genel.jpg",
+  "aciklama": "Büyükorhan, Bursa'nın ormanlarla çevrili dağ ilçelerinden biridir. Görecik Yaylası doğa gezisinin, Derecik Bazilikası tarih gezisinin öne çıkan durağıdır. Düğüncüler Ilıcası, Bayındır Mağarası ve yöresel yemekler de ilçeyi keşfetmek için neden sunar.",
+  "onerilen_sure": "1 gün; çevredeki uzak noktalar için 2 gün",
+  "en_iyi_donem": "İlkbahar ve yaz başı; yayla için yaz ayları",
+  "one_cikan": [
+    "Görecik Yaylası",
+    "Derecik Bazilikası",
+    "Düğüncüler Ilıcası",
+    "Bayındır Mağarası",
+    "Büyükorhan yöresel yemekleri"
+  ],
+  "kimler_icin_uygun": [
+    "Doğa yürüyüşü sevenler",
+    "Sakin bir ilçe gezisi arayanlar",
+    "Tarih meraklıları",
+    "Yöresel mutfağı keşfetmek isteyenler"
+  ],
+  "gezilecek_yerler": [
+  ],
+  "dogal_guzellikler": [
+    {
+      "baslik": "Görecik Yaylası",
+      "resim": "bursa-buyukorhan/gorecik_yaylasi.jpg",
+      "aciklama": "İlçe merkezine yaklaşık 4 kilometre uzaklıktaki yayla; orman, açık çayırlar ve serin havasıyla yürüyüş, piknik ve fotoğraf için ilçenin başlıca durağıdır."
+    },
+    {
+      "baslik": "Bayındır Mağarası",
+      "resim": "bursa-buyukorhan/bayindir_magarasi.jpg",
+      "aciklama": "Bayındır yakınındaki doğal mağara, mağaracılık açısından bilinir. Yol ve giriş koşullarını yerel yetkililerden öğrenmeden içeri girmeyin."
+    },
+    {
+      "baslik": "Büyükorhan Baraj Gölü",
+      "resim": "bursa-buyukorhan/buyukorhan_baraj_golu.jpg",
+      "aciklama": "Cuma Deresi üzerindeki baraj gölü, kıyı manzarası ve kısa bir doğa molası için değerlendirilebilir. Barajın işletme ve güvenlik sınırlarına uyun."
+    },
+    {
+      "baslik": "Aliova Çayı",
+      "resim": "bursa-buyukorhan/aliova_cayi.jpg",
+      "aciklama": "İlçenin güneyinden geçen akarsu, kırsal manzaranın parçalarından biridir. Belirlenmiş bir turistik tesis veya düzenli yürüyüş parkuru olarak düşünülmemelidir."
+    }
+  ],
+  "tarihi_yerler": [
+    {
+      "baslik": "Derecik Bazilikası",
+      "resim": "bursa-buyukorhan/derecik_bazilikasi.jpg",
+      "aciklama": "Derecik'te ortaya çıkarılan erken dönem Hristiyanlık yapısı, Büyükorhan'ın en önemli tarihî kalıntısıdır. Kazı alanındaki erişim ve koruma kurallarına uyularak ziyaret edilmelidir."
+    }
+  ],
+  "plajlar": [],
+  "muzeler": [],
+  "aktiviteler": [
+    "Görecik Yaylası'nda doğa yürüyüşü ve fotoğraf çekimi",
+    "Uygun koşullarda yaylada piknik",
+    "Derecik Bazilikası çevresinde tarih gezisi",
+    "İlçe merkezinde yöresel yemekleri deneme"
+  ],
+  "neler_yapilir": [
+    "Görecik Yaylası'na çıkıp orman ve çayır manzarasını izle.",
+    "Derecik Bazilikası'nı ziyaret etmeden önce erişim durumunu öğren.",
+    "Düğüncüler Ilıcası'ndaki tesislerin açık olup olmadığını kontrol et.",
+    "Mercimekli un çorbası, yufka ıslaması veya erkeç etli güveç ara.",
+    "Bayındır Mağarası'nı ancak uygun ekipman ve yerel rehberlikle değerlendir."
+  ],
+  "ne_yenir": [
+    {
+      "baslik": "Mercimekli Un Çorbası",
+      "aciklama": "Pişmiş mercimek ve ufalanmış un hamuruyla hazırlanan yöresel çorba."
+    },
+    {
+      "baslik": "Yufka Islaması",
+      "aciklama": "Kavrulmuş yufkanın üzerine sulu et dökülerek hazırlanan yerel yemek."
+    },
+    {
+      "baslik": "Çalı Bastırması",
+      "aciklama": "Kurutulmuş taze fasulyeyle pişirilen, servis sırasında zeytinyağı eklenen yemek."
+    },
+    {
+      "baslik": "Kaşık Hamuru",
+      "aciklama": "Kaşıkla kaynar suya bırakılarak pişirilen hamurun yoğurtla sunulduğu yemek."
+    },
+    {
+      "baslik": "Melke Köftesi",
+      "aciklama": "Yörede yetişen melke mantarının hamura batırılıp kızartılmasıyla hazırlanır."
+    },
+    {
+      "baslik": "Erkeç Etli Güveç",
+      "aciklama": "Bölgedeki erkek keçi etiyle hazırlanan, fırında ağır pişirilen güveç."
+    },
+    {
+      "baslik": "Büyükorhan Kavurması",
+      "aciklama": "İlçeyle anılan et yemeği; yayla etkinliklerinde de öne çıkar."
+    }
+  ],
+  "yemek_nerede": [
+    {
+      "baslik": "Cuma Sofrası",
+      "konum": "İsmetiye, Cuma Pazarı Sokak No:2, Büyükorhan/Bursa",
+      "aciklama": "Belediyenin sosyal tesisi. Harita kayıtlarında restoran olarak açık görünüyor; gitmeden önce çalışma saatini kontrol edin."
+    },
+    {
+      "baslik": "Stresin Lokantası",
+      "konum": "Orhan, Cumhuriyet Caddesi No:27/B, Büyükorhan/Bursa",
+      "aciklama": "Etli ve sulu yemekler sunan esnaf lokantası. Harita kaydında çalışma saatleri bulunuyor."
+    },
+    {
+      "baslik": "Gökçe Kafe Restaurant",
+      "konum": "Orhan, Dr. İbrahim Öktem Caddesi No:6/A, Büyükorhan/Bursa",
+      "aciklama": "Kafe ve yemek seçenekleri bulunan işletme. Yöresel yemeklerin sürekli menüde olduğu doğrulanmadı."
+    }
+  ],
+  "rota_1_gun": [
+    {
+      "saat": "09:00",
+      "baslik": "Görecik Yaylası",
+      "aciklama": "Güne yaylada yürüyüş ve manzara molasıyla başlayın."
+    },
+    {
+      "saat": "11:30",
+      "baslik": "Büyükorhan Baraj Gölü",
+      "aciklama": "Uygun ve güvenli bir kıyı noktasından göl manzarasını görün."
+    },
+    {
+      "saat": "13:00",
+      "baslik": "Büyükorhan'da Öğle Yemeği",
+      "aciklama": "İlçe merkezinde yemek yiyin; yöresel seçeneklerin o gün bulunup bulunmadığını sorun."
+    },
+    {
+      "saat": "14:30",
+      "baslik": "Derecik Bazilikası",
+      "aciklama": "Erişim koşulları uygunsa tarihî kalıntıyı ziyaret edin."
+    },
+    {
+      "saat": "16:30",
+      "baslik": "İlçeye Dönüş",
+      "aciklama": "Günü merkezde tamamlayın. Düğüncüler Ilıcası ve Bayındır Mağarası için ayrı zaman ayırın."
+    }
+  ],
+  "sss": [
+    {
+      "soru": "Büyükorhan'da en çok neresi görülür?",
+      "cevap": "Doğa gezisi için Görecik Yaylası, tarih gezisi için Derecik Bazilikası öne çıkar."
+    },
+    {
+      "soru": "Büyükorhan'da denize girilir mi?",
+      "cevap": "Hayır. Büyükorhan denize kıyısı olmayan bir Bursa ilçesidir."
+    },
+    {
+      "soru": "Bayındır Mağarası'na herkes girebilir mi?",
+      "cevap": "Düzenli ve güvenli ziyaret altyapısı doğrulanmadı. Yerel yetkililerden bilgi almadan mağara içine girilmemelidir."
+    },
+    {
+      "soru": "Büyükorhan'da ne yenir?",
+      "cevap": "Kaymakamlığın yöresel yemek listesinde mercimekli un çorbası, yufka ıslaması, çalı bastırması, kaşık hamuru, melke köftesi ve güveç bulunur."
+    }
+  ]
+},{
+  "slug": "bursa-harmancik",
+  "isim": "Harmancık",
+  "bolge": "Bursa",
+  "resim": "bursa-harmancik/harmancik_genel.jpg",
+  "aciklama": "Harmancık, Bursa'nın güneybatısında ormanları ve sakin doğasıyla öne çıkan bir dağ ilçesidir. Karaca Göleti, Ilıcaksu Kaplıcaları ve belediyenin Eko Turizm Tesisleri ilçedeki başlıca gezi duraklarıdır.",
+  "onerilen_sure": "1 gün; konaklama ve doğa etkinlikleri için 2 gün",
+  "en_iyi_donem": "İlkbahar, yaz ve sonbahar",
+  "one_cikan": [
+    "Karaca Göleti",
+    "Ilıcaksu Kaplıcaları",
+    "Harmancık Eko Turizm Tesisleri",
+    "Çardı kavurması",
+    "Harmancık kapalı pidesi"
+  ],
+  "kimler_icin_uygun": [
+    "Doğa ve gölet manzarası sevenler",
+    "Sakin bir hafta sonu arayanlar",
+    "Kamp ve karavan gezginleri",
+    "Yöresel yemekleri denemek isteyenler"
+  ],
+  "gezilecek_yerler": [
+    {
+      "baslik": "Ilıcaksu Kaplıcaları",
+      "resim": "bursa-harmancik/ilicaksu_kaplicalari.jpg",
+      "aciklama": "Harmancık'taki termal kaynakların bulunduğu bölgedir. Çevresinde eski su yapılarının izleri de görülür. Kullanmayı düşündüğünüz tesisin güncel hizmet durumunu önceden öğrenin."
+    },
+    {
+      "baslik": "Harmancık Eko Turizm Tesisleri",
+      "resim": "bursa-harmancik/eko_turizm_tesisleri.jpg",
+      "aciklama": "Çam ağaçları arasındaki belediye tesisi; restoranı, konaklama birimleri ve doğa etkinlikleriyle ilçenin en kapsamlı ziyaret noktasıdır. Etkinliklerin o gün sunulup sunulmadığını tesisten doğrulayın."
+    },
+    {
+      "baslik": "Harmancık Kamp ve Karavan Alanı",
+      "resim": "bursa-harmancik/kamp_karavan_alani.jpg",
+      "aciklama": "Belediyenin tanıttığı kamp ve karavan alanıdır. Konaklama koşulları ve yer durumunu gitmeden önce işletmeden öğrenin."
+    },
+    {
+      "baslik": "Okçu Şüca Heykeli",
+      "resim": "bursa-harmancik/okcu_suca_heykeli.jpg",
+      "aciklama": "Harmancık'la ilişkilendirilen tarihî okçu Bursalı Şüca'yı anan ilçe merkezindeki heykeldir."
+    }
+  ],
+  "dogal_guzellikler": [
+    {
+      "baslik": "Karaca Göleti",
+      "resim": "bursa-harmancik/karaca_goleti.jpg",
+      "aciklama": "Ormanlarla çevrili gölet, manzara seyri, fotoğraf ve sakin bir doğa molası için uygundur. Sulama göleti olduğu için suya giriş ve balıkçılık kurallarını yerinde kontrol edin."
+    }
+  ],
+  "tarihi_yerler": [],
+  "plajlar": [],
+  "muzeler": [],
+  "aktiviteler": [
+    "Karaca Göleti çevresinde manzara seyri ve fotoğraf",
+    "Eko Turizm Tesisleri çevresinde yürüyüş",
+    "Tesiste sunuluyorsa bisiklet veya diğer açık hava etkinlikleri",
+    "Uygun tesis bulunursa Ilıcaksu'da termal mola",
+    "Kamp veya karavanla konaklama"
+  ],
+  "neler_yapilir": [
+    "Sabah Karaca Göleti'nde doğa molası ver.",
+    "Ilıcaksu'daki tesislerin açık olduğunu doğrulayıp termal bölgeyi gör.",
+    "Eko Turizm Tesisleri'nde yürüyüş yap ve öğle yemeği ye.",
+    "İlçe merkezinde Okçu Şüca Heykeli'ni gör.",
+    "Menüde varsa Çardı kavurması veya Harmancık kapalı pidesini dene."
+  ],
+  "ne_yenir": [
+    {
+      "baslik": "Çardı Kavurması",
+      "aciklama": "Eko Turizm Tesisleri menüsünde Çardı (Harmancık) kavurması adıyla sunulan et yemeği."
+    },
+    {
+      "baslik": "Harmancık Kapalı Pidesi",
+      "aciklama": "Tesis menüsünde mevsim yeşillikleriyle hazırlanan kapalı pide olarak yer alır; menüde hafta içi sunulduğu belirtilir."
+    },
+    {
+      "baslik": "Güveçte Etli Kuru Fasulye",
+      "aciklama": "Tesis menüsünde çarşamba ve hafta sonu için belirtilen, güveçte pişirilen etli kuru fasulye."
+    },
+    {
+      "baslik": "Yufka Tatlısı",
+      "aciklama": "Menüde kaymaklı yufka tatlısı, diğer adıyla saraylı olarak geçer."
+    },
+    {
+      "baslik": "Süt Helvası",
+      "aciklama": "Harmancık'ta tadılabilecek Bursa mutfağı tatlılarından biri; tesisin menüsünde de bulunur."
+    },
+    {
+      "baslik": "Kabak Tatlısı",
+      "aciklama": "Tesiste tahinli ve kaymaklı seçenekle sunulan tatlı."
+    }
+  ],
+  "yemek_nerede": [
+    {
+      "baslik": "Harmancık Eko Turizm Tesisleri Restoranı",
+      "konum": "Merkez, Akkuş Dede Mevkii, Harmancık/Bursa",
+      "aciklama": "İşletmenin yayımladığı menüde Çardı kavurması ve Harmancık kapalı pidesi bulunuyor. Gitmeden önce güncel menüyü arayarak doğrulayın."
+    },
+    {
+      "baslik": "Köfteci Şükrü",
+      "konum": "Merkez, 4 Eylül Caddesi No:1/A, Harmancık/Bursa",
+      "aciklama": "Harmancık merkezde kayıtlı köfte restoranı. Harita kaydında çalışma saatleri belirtilmediği için gitmeden önce açık olduğunu kontrol edin."
+    },
+    {
+      "baslik": "Pideci Mustafa Öztürk",
+      "konum": "Merkez, Şahinler Caddesi No:3/A, Harmancık/Bursa",
+      "aciklama": "İlçe merkezindeki pideci; harita kaydında adres ve çalışma saatleri bulunuyor."
+    }
+  ],
+  "rota_1_gun": [
+    {
+      "saat": "09:00",
+      "baslik": "Karaca Göleti",
+      "aciklama": "Güne gölet ve orman manzarasıyla başlayın."
+    },
+    {
+      "saat": "11:00",
+      "baslik": "Ilıcaksu Kaplıcaları",
+      "aciklama": "Önceden açık olduğunu doğruladığınız bir tesiste termal mola verin."
+    },
+    {
+      "saat": "13:00",
+      "baslik": "Eko Turizm Tesisleri'nde Öğle Yemeği",
+      "aciklama": "Menüde bulunuyorsa Çardı kavurması veya Harmancık kapalı pidesini deneyin."
+    },
+    {
+      "saat": "14:30",
+      "baslik": "Tesis Çevresinde Doğa Yürüyüşü",
+      "aciklama": "Açık ve uygun olan yürüyüş güzergâhında vakit geçirin."
+    },
+    {
+      "saat": "16:30",
+      "baslik": "Okçu Şüca Heykeli",
+      "aciklama": "İlçe merkezindeki heykeli görerek günü tamamlayın."
+    }
+  ],
+  "sss": [
+    {
+      "soru": "Harmancık'ta en çok neresi gezilir?",
+      "cevap": "Karaca Göleti, Ilıcaksu Kaplıcaları ve Eko Turizm Tesisleri öne çıkar."
+    },
+    {
+      "soru": "Harmancık'ta ne yenir?",
+      "cevap": "Çardı kavurması ve Harmancık kapalı pidesi, yerel tesisin menüsünde adıyla yer alan seçeneklerdir."
+    },
+    {
+      "soru": "Harmancık'ta kamp yapılır mı?",
+      "cevap": "Belediyenin kamp ve karavan alanı bulunur; güncel kullanım koşulları önceden öğrenilmelidir."
+    },
+    {
+      "soru": "Ilıcaksu Kaplıcaları açık mı?",
+      "cevap": "Bölgede birden fazla termal işletme bulunur. Gideceğiniz işletmenin o gün hizmet verdiğini doğrudan doğrulayın."
+    }
+  ]
+}
+]
 },
 "cankiri": {
     "isim": "Çankırı",
     "bolge": "İç Anadolu",
     "resim": "cankiri.jpg",
     "aciklama": "Çankırı; Tuz Mağarası, Ilgaz Dağı, tarihi konakları, kaplıcaları ve sakin doğa rotalarıyla öne çıkan İç Anadolu'nun kültür ve doğa şehirlerinden biridir.",
-    "ilceler": []
+    "ilceler": [{
+  "slug": "cankiri-merkez",
+  "isim": "Çankırı Merkez",
+  "bolge": "Çankırı",
+  "resim": "cankiri-merkez/cankiri_merkez_genel.jpg",
+  "aciklama": "Çankırı Merkez; Yer Altı Tuz Şehri, Çankırı Kalesi, Selçuklu ve Osmanlı yapıları, kültür evleri ve yöresel mutfağıyla gezilebilir. Şehir içindeki tarihî duraklar yürüyerek, Tuz Mağarası ve Kenbağ Tabiat Parkı ise araçla ziyaret edilebilir.",
+  "onerilen_sure": "1-2 gün",
+  "en_iyi_donem": "İlkbahar ve sonbahar",
+  "one_cikan": [
+    "Yer Altı Tuz Şehri",
+    "Çankırı Kalesi",
+    "Taş Mescit",
+    "Ferit Akalın Radyo ve İletişim Evi",
+    "Kenbağ Tabiat Parkı",
+    "Çankırı yöresel yemekleri"
+  ],
+  "kimler_icin_uygun": [
+    "Tarih ve kültür meraklıları",
+    "Aileler",
+    "Yöresel mutfağı keşfetmek isteyenler",
+    "Kısa doğa yürüyüşü arayanlar"
+  ],
+  "gezilecek_yerler": [
+    {
+      "baslik": "Yer Altı Tuz Şehri",
+      "resim": "cankiri-merkez/yer_alti_tuz_sehri.jpg",
+      "aciklama": "Merkez ilçedeki tuz galerileri, tuz oluşumları ve heykelleriyle Çankırı'nın en belirgin gezi noktasıdır. Belediyenin 1 Ekim 2026 duyurusuna göre her gün 09.00-17.00 arasında ziyarete açıktır."
+    },
+    {
+      "baslik": "Çankırı Kültür Evi",
+      "resim": "cankiri-merkez/cankiri_kultur_evi.jpg",
+      "aciklama": "Restore edilmiş tarihî evde Çankırı'nın gündelik yaşamına, kıyafetlerine ve geleneklerine ait eşyalar sergilenir."
+    }
+  ],
+  "dogal_guzellikler": [
+    {
+      "baslik": "Kenbağ Tabiat Parkı",
+      "resim": "cankiri-merkez/kenbag_tabiat_parki.jpg",
+      "aciklama": "İl merkezine yaklaşık 7 kilometre uzaklıktaki karaçamlık alan, yürüyüş ve günübirlik doğa molası için uygundur."
+    }
+  ],
+  "tarihi_yerler": [
+    {
+      "baslik": "Çankırı Kalesi ve Emir Karatekin Bey Türbesi",
+      "resim": "cankiri-merkez/cankiri_kalesi.jpg",
+      "aciklama": "Şehre hâkim tepede kale kalıntıları, seyir alanı ve kale içindeki Emir Karatekin Bey Türbesi birlikte görülebilir."
+    },
+    {
+      "baslik": "Taş Mescit",
+      "resim": "cankiri-merkez/tas_mescit.jpg",
+      "aciklama": "Cemaleddin Ferruh Darülhadisi olarak da bilinen Selçuklu yapısı, taş işçiliği ve yılan kabartmasıyla öne çıkar."
+    },
+    {
+      "baslik": "Çivitçioğlu Medresesi",
+      "resim": "cankiri-merkez/civitcioglu_medresesi.jpg",
+      "aciklama": "17. yüzyıldan kalan iki katlı ahşap medrese, geleneksel süsleme sanatları için kullanılan bir kültür durağıdır."
+    },
+    {
+      "baslik": "Buğday Pazarı Medresesi",
+      "resim": "cankiri-merkez/bugday_pazari_medresesi.jpg",
+      "aciklama": "18. yüzyıldan günümüze ulaşan medresede etnografik eserler ve Çankırı kültürüyle ilgili çalışmalar görülebilir."
+    },
+    {
+      "baslik": "Çankırı Saat Kulesi",
+      "resim": "cankiri-merkez/cankiri_saat_kulesi.jpg",
+      "aciklama": "Merkezdeki tarihî saat kulesi kısa bir şehir yürüyüşüne eklenebilir."
+    },
+    {
+      "baslik": "Taş Mektep",
+      "resim": "cankiri-merkez/tas_mektep.jpg",
+      "aciklama": "19. yüzyılda açılan taş yapı günümüzde eğitim kurumu olarak kullanılır. Ziyareti dış mimariyi görmek üzere planlayın."
+    },
+    {
+      "baslik": "Beşdut Kaya Mezarları",
+      "resim": "cankiri-merkez/besdut_kaya_mezarlari.jpg",
+      "aciklama": "Merkez ilçedeki Beşdut yakınlarında kayalara oyulmuş tarihî mezarlardır. Şehir dışı bu durağın yol ve erişim koşullarını önceden öğrenin."
+    }
+  ],
+  "plajlar": [],
+  "muzeler": [
+    {
+      "baslik": "Ferit Akalın Radyo ve İletişim Evi",
+      "resim": "cankiri-merkez/ferit_akalin_radyo_iletisim_evi.jpg",
+      "aciklama": "Restore edilen Sarıkadı Konağı'nda radyo koleksiyonu ve iletişim tarihine ilişkin sergiler bulunur."
+    },
+    {
+      "baslik": "Tarihi Çamaşırhane Müzesi",
+      "resim": "cankiri-merkez/tarihi_camasirhane_muzesi.jpg",
+      "aciklama": "1885 tarihli çamaşırhane, restore edilerek kent yaşamındaki çamaşırhane kültürünü anlatan müzeye dönüştürülmüştür."
+    }
+  ],
+  "aktiviteler": [
+    "Yer Altı Tuz Şehri'nin galerilerini gezmek",
+    "Kale tepesinden şehir manzarasını izlemek",
+    "Tarihî medreseleri ve kültür evini ziyaret etmek",
+    "Kenbağ Tabiat Parkı'nda yürüyüş yapmak",
+    "Çankırı'nın yöresel yemeklerini denemek"
+  ],
+  "neler_yapilir": [
+    "Tuz Mağarası için ziyaret saatlerine uygun ayrı bir araçlı bölüm planla.",
+    "Çankırı Kalesi ve Taş Mescit'i gör.",
+    "Çivitçioğlu ve Buğday Pazarı medreselerini gez.",
+    "Ferit Akalın Radyo ve İletişim Evi'ni ziyaret et.",
+    "Yöresel Mutfak Kültür Evi'nde o gün çıkan yerel yemekleri sor.",
+    "Vaktin kalırsa Kenbağ Tabiat Parkı'na git."
+  ],
+  "ne_yenir": [
+    {
+      "baslik": "Yaren Güveci",
+      "aciklama": "Kuzu eti, sebzeler ve patlıcanla hazırlanan yöresel güveç."
+    },
+    {
+      "baslik": "Çankırı Kıymalısı",
+      "aciklama": "Kuru kıyma ve küpecik peyniriyle hazırlanan kapalı pide."
+    },
+    {
+      "baslik": "Sarımsaklı Et",
+      "aciklama": "Koyun eti, arpacık soğanı ve sarımsakla ağır ateşte pişirilir."
+    },
+    {
+      "baslik": "Tutmaç Çorbası",
+      "aciklama": "Kesilmiş hamur, yeşil mercimek ve yoğurtla hazırlanan çorba."
+    },
+    {
+      "baslik": "Cimcik Hamuru Çorbası",
+      "aciklama": "Küçük şekillendirilmiş hamur parçaları ve yoğurtla yapılan yöresel çorba."
+    },
+    {
+      "baslik": "Yoka Ekmeği Muskası",
+      "aciklama": "İnce yufkanın peynir ve kuru kıymayla muska biçiminde katlanıp kızartıldığı yiyecek."
+    },
+    {
+      "baslik": "Yazma Çöreği",
+      "aciklama": "İnce açılmış, yağlanmış hamur katlarıyla hazırlanan geleneksel çörek."
+    },
+    {
+      "baslik": "Höşmerim Tatlısı",
+      "aciklama": "Çankırı usulünde kavrulmuş un ve tereyağıyla hazırlanıp bal ile sunulan tatlı."
+    },
+    {
+      "baslik": "Hameyli Tatlısı",
+      "aciklama": "Cevizli, muska biçiminde katlanan şerbetli hamur tatlısı."
+    }
+  ],
+  "yemek_nerede": [
+    {
+      "baslik": "Çankırı Belediyesi Yöresel Mutfak Kültür Evi",
+      "konum": "Alibey Mahallesi, Su Deposu Caddesi No:2, Çankırı Merkez/Çankırı",
+      "aciklama": "Yöresel yemek denemek için ilk tercih. Harita kaydında güncel ziyaretçi yorumları var; çalışma gününü ve günlük menüyü önceden doğrulayın."
+    },
+    {
+      "baslik": "Kanatçı Bahattin",
+      "konum": "Yeni Mahallesi, İsfendiyar Sokak No:1, Çankırı Merkez/Çankırı",
+      "aciklama": "Merkezde yüksek puanlı bir ızgara seçeneği. Çalışma saatleri haritada belirtilmediği için açık olduğunu kontrol edin."
+    },
+    {
+      "baslik": "Köz Döner 63 Urfa Lahmacun",
+      "konum": "Atatürk Bulvarı No:39/D, Çankırı Merkez/Çankırı",
+      "aciklama": "Merkezde döner ve lahmacun seçeneği. Harita kaydında çalışma saati ve puanı bulunuyor."
+    }
+  ],
+  "rota_1_gun": [
+    {
+      "saat": "09:00",
+      "baslik": "Yer Altı Tuz Şehri",
+      "aciklama": "Güne merkez dışındaki Tuz Mağarası'nda başlayın."
+    },
+    {
+      "saat": "11:00",
+      "baslik": "Çankırı Kalesi",
+      "aciklama": "Kale alanını ve Emir Karatekin Bey Türbesi'ni görün."
+    },
+    {
+      "saat": "12:00",
+      "baslik": "Taş Mescit",
+      "aciklama": "Selçuklu yapısını inceleyin."
+    },
+    {
+      "saat": "13:00",
+      "baslik": "Yöresel Öğle Yemeği",
+      "aciklama": "Yöresel Mutfak Kültür Evi'nde o gün sunulan Çankırı yemeklerini deneyin."
+    },
+    {
+      "saat": "14:15",
+      "baslik": "Çivitçioğlu ve Buğday Pazarı Medreseleri",
+      "aciklama": "İki tarihî medreseyi ziyaret edin."
+    },
+    {
+      "saat": "15:30",
+      "baslik": "Ferit Akalın Radyo ve İletişim Evi",
+      "aciklama": "Radyo koleksiyonunu ve iletişim sergilerini gezin."
+    },
+    {
+      "saat": "16:30",
+      "baslik": "Çankırı Kültür Evi ve Saat Kulesi",
+      "aciklama": "Şehir merkezindeki son kültür duraklarıyla günü tamamlayın."
+    }
+  ],
+  "sss": [
+    {
+      "soru": "Çankırı Merkez'de en çok neresi görülür?",
+      "cevap": "Yer Altı Tuz Şehri, Çankırı Kalesi ve Taş Mescit en belirgin duraklardır."
+    },
+    {
+      "soru": "Yer Altı Tuz Şehri ne zaman açık?",
+      "cevap": "Belediyenin 1 Ekim 2026 duyurusuna göre her gün 09.00-17.00 arasında açıktır; özel günlerde güncel duyuruyu kontrol edin."
+    },
+    {
+      "soru": "Çankırı Müzesi gezilebilir mi?",
+      "cevap": "Müzenin resmî sayfasında tadilat nedeniyle kapalı olduğu belirtiliyor."
+    },
+    {
+      "soru": "Çankırı Merkez'de ne yenir?",
+      "cevap": "Yaren güveci, Çankırı kıymalısı, sarımsaklı et, tutmaç çorbası ve höşmerim denenebilir."
+    }
+  ]
+},{
+  "slug": "cankiri-atkaracalar",
+  "isim": "Atkaracalar",
+  "bolge": "Çankırı",
+  "resim": "cankiri-atkaracalar/atkaracalar_genel.jpg",
+  "aciklama": "Atkaracalar, Hoşislamlar Türbesi, Ilıpınar'daki Asker Balıkları ve Dumanlı Dağları eteklerindeki kır alanlarıyla sakin bir günübirlik gezi sunar.",
+  "onerilen_sure": "1 gün",
+  "en_iyi_donem": "İlkbahar ve yaz",
+  "one_cikan": [
+    "Hoşislamlar Türbesi",
+    "Ilıpınar Asker Balıkları",
+    "Dumanlı Dağları etekleri",
+    "Keşkek"
+  ],
+  "kimler_icin_uygun": [
+    "Sakin gezi sevenler",
+    "Doğa yürüyüşü sevenler",
+    "Yerel kültüre ilgi duyanlar"
+  ],
+  "gezilecek_yerler": [
+    {
+      "baslik": "Ilıpınar Asker Balıkları",
+      "resim": "cankiri-atkaracalar/ilipinar_asker_baliklari.jpg",
+      "aciklama": "Ilıpınar'daki ılıca havuzunda yaşayan balıklar, ilçenin en bilinen ziyaret noktalarındandır. 'Asker balıkları' adı yörede anlatılan bir halk rivayetinden gelir."
+    }
+  ],
+  "dogal_guzellikler": [
+    {
+      "baslik": "Dumanlı Dağları Etekleri",
+      "resim": "cankiri-atkaracalar/dumanli_daglari_etekleri.jpg",
+      "aciklama": "Atkaracalar'ın güneyindeki dağ eteklerinde manzara seyri ve kısa kır yürüyüşleri yapılabilir. İşaretli bir yürüyüş parkuru varsaymadan, mevcut yolları kullanın."
+    },
+    {
+      "baslik": "Hüyük Orman Alanı",
+      "resim": "cankiri-atkaracalar/huyuk_orman_alani.jpg",
+      "aciklama": "İl Tarım ve Orman Müdürlüğü raporunda yaz aylarında mesire amacıyla kullanılan alanlar arasında geçer. Gitmeden önce yol ve erişim durumunu yerel kaynaklardan kontrol edin."
+    },
+    {
+      "baslik": "Melan Çayı Kıyıları",
+      "resim": "cankiri-atkaracalar/melan_cayi.jpg",
+      "aciklama": "İlçenin kuzeyindeki çay çevresi, uygun ve erişilebilir kıyı noktalarında kısa bir doğa molası için değerlendirilebilir."
+    }
+  ],
+  "tarihi_yerler": [
+    {
+      "baslik": "Hoşislamlar Hamza Sultan Türbesi",
+      "resim": "cankiri-atkaracalar/hosislamlar_turbesi.jpg",
+      "aciklama": "İlçe merkezinin yaklaşık 3 kilometre güneyinde, Dumanlı Dağları eteklerindeki tarihî ziyaret yeridir. Hoşislamlar Şöleni de bu türbenin çevresinde düzenlenir."
+    }
+  ],
+  "plajlar": [],
+  "muzeler": [],
+  "aktiviteler": [
+    "Ilıpınar'da Asker Balıkları'nı gözlemlemek",
+    "Hoşislamlar Türbesi'ni ziyaret etmek",
+    "Dumanlı Dağları eteklerinde kısa yürüyüş yapmak",
+    "Uygun tarihe denk gelirse Hoşislamlar Şöleni'ne katılmak"
+  ],
+  "neler_yapilir": [
+    "Asker Balıkları havuzunu ve çevresini gör.",
+    "Hoşislamlar Türbesi'ni ziyaret et.",
+    "Dağ eteklerinde manzara ve fotoğraf molası ver.",
+    "Bulabilirsen yerel keşkek ve hamur işlerini dene."
+  ],
+  "ne_yenir": [
+    {
+      "baslik": "Keşkek",
+      "aciklama": "Dövülmüş buğday, et ve tereyağıyla hazırlanan; Hoşislamlar Şöleni'nde de ikram edilen yöresel yemek."
+    },
+    {
+      "baslik": "Tarhana Çorbası",
+      "aciklama": "Belediyenin yöresel mutfak kayıtlarında yer alan, göce ve ayranla hazırlanan geleneksel çorba."
+    },
+    {
+      "baslik": "Yağlı Gözleme",
+      "aciklama": "Sacda pişirilip yağlanarak sıcak servis edilen hamur işi."
+    },
+    {
+      "baslik": "Mantı",
+      "aciklama": "Yörede yapılan, sarımsaklı yoğurt ve sosla sunulan hamur yemeği."
+    },
+    {
+      "baslik": "Mıklama",
+      "aciklama": "Kıyma, soğan, tereyağı ve yumurtayla hazırlanan yöresel yemek."
+    },
+    {
+      "baslik": "Hoşmerim",
+      "aciklama": "Un, tereyağı ve şekerle hazırlanan yerel tatlı."
+    }
+  ],
+  "yemek_nerede": [
+    {
+      "baslik": "Rüyam Pide ve Kebap Salonu",
+      "konum": "Gazibey, Nevzat Ayaz Caddesi, Atkaracalar/Çankırı",
+      "aciklama": "İlçe merkezinde pide ve kebap için kayıtlı işletme."
+    },
+    {
+      "baslik": "Türkcan Otel Restaurant",
+      "konum": "Kıran, Atkaracalar/Çankırı",
+      "aciklama": "İlçe sınırlarında kayıtlı restoran."
+    },
+    {
+      "baslik": "Derman Pide Kebap Salonu",
+      "konum": "Gazibey, Nevzat Ayaz Caddesi, Atkaracalar/Çankırı",
+      "aciklama": "İlçe merkezinde kayıtlı pide ve kebap işletmesi."
+    }
+  ],
+  "rota_1_gun": [
+    {
+      "saat": "09:30",
+      "baslik": "Ilıpınar Asker Balıkları",
+      "aciklama": "Havuzu gör ve çevresinde kısa bir mola ver."
+    },
+    {
+      "saat": "11:00",
+      "baslik": "Hoşislamlar Türbesi",
+      "aciklama": "Türbeyi ziyaret et; çevredeki manzarayı izle."
+    },
+    {
+      "saat": "12:30",
+      "baslik": "Öğle yemeği",
+      "aciklama": "Atkaracalar merkezinde yemek ye. Keşkek için günlük menüyü önceden sor."
+    },
+    {
+      "saat": "14:00",
+      "baslik": "Dumanlı Dağları etekleri",
+      "aciklama": "Uygun bir noktada kısa kır yürüyüşü ve fotoğraf molası yap."
+    },
+    {
+      "saat": "16:00",
+      "baslik": "Hüyük orman alanı",
+      "aciklama": "Yol ve erişim uygunsa doğa molası ver; değilse merkezde günü tamamla."
+    }
+  ],
+  "sss": [
+    {
+      "soru": "Atkaracalar için ne kadar zaman ayırmalı?",
+      "cevap": "Başlıca duraklar için bir gün yeterlidir."
+    },
+    {
+      "soru": "Asker Balıkları ile Ilıpınar ılıcası farklı yerler mi?",
+      "cevap": "Hayır. Balıklar Ilıpınar'daki ılıca havuzunda bulunur; rotada tek durak olarak değerlendirilmelidir."
+    },
+    {
+      "soru": "Atkaracalar'da hangi yemek öne çıkıyor?",
+      "cevap": "Keşkek öne çıkar; ancak restoranların günlük menüsünde her zaman bulunmayabilir."
+    }
+  ]
+}
+]
 },
 "corum": {
     "isim": "Çorum",
